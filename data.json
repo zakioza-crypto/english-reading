@@ -15,7 +15,7 @@
           ],
           "correctIndex": 2,
           "answer": "It can give the mind time to wander and connect ideas.",
-          "explanation": "The second paragraph explains a process: no immediate focus can allow the mind to wander, and wandering can connect different ideas."
+          "explanation": "本文第2段落が根拠です。何かに集中するものがないとき、頭の中では自由な思考が始まり、過去の経験を思い出したり、別々のアイデアを結びつけたりできると説明されています。したがって、退屈には「思考や創造性を働かせる時間を与える」という利点があります。"
         },
         {
           "question": "What does the writer suggest we do?",
@@ -26,7 +26,7 @@
           ],
           "correctIndex": 1,
           "answer": "Wait before immediately using a phone.",
-          "explanation": "The final paragraph directly says to wait for a few minutes before reaching for a phone."
+          "explanation": "本文最終段落で、退屈を感じたらすぐにスマートフォンへ手を伸ばすのではなく、「数分待ってみる」ことが勧められています。したがって、正解は『すぐにスマホを使わず少し待つ』です。"
         },
         {
           "question": "What is the main idea?",
@@ -37,7 +37,7 @@
           ],
           "correctIndex": 0,
           "answer": "A small amount of boredom can sometimes create useful time for thought.",
-          "explanation": "The passage moves from avoiding boredom, to explaining its possible benefit, to giving practical advice."
+          "explanation": "本文全体では、退屈を単に悪いものとして避けるのではなく、少しの退屈が思考や創造性につながる可能性を説明しています。各段落の主張をまとめると、『少しの退屈には考えるための価値がある』が最も適切です。"
         }
       ],
       "paragraphs": [
@@ -183,8 +183,8 @@
           ]
         }
       ],
-      "slash_reading": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, / they look at their phones or search for something to watch. However, / a little boredom may actually be useful.\n\nWhen we have nothing to focus on, / our minds begin to wander. During this time, / we may remember old experiences, / connect different ideas, / or think about problems in a new way. This kind of mental wandering can support creativity.\n\nOf course, / boredom is not always pleasant. Still, / we do not need to escape from every quiet moment. The next time you feel bored, / try waiting for a few minutes before reaching for your phone.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "Many people feel uncomfortable / when they have nothing / to do. The moment they become bored, they look at their phones / or search for something / to watch. However, / a little boredom may actually be useful.\n\n/ When we have nothing / to focus on, our minds begin / to wander. During this time, / we may remember old experiences, connect different ideas, / or think about problems / in a new way. This kind of mental wandering can support creativity.\n\nOf course, / boredom is not always pleasant. Still, / we do not need / to escape from every quiet moment. The next time you feel bored, try waiting / for a few minutes / before reaching for your phone.",
+      "translation": "【内容の要約】\nMany people feel uncomfortable when they have nothing to do. The moment they become bored, they look at their phones or search for something to watch. However, a little boredom may actually be useful. When we have nothing to focus on, our minds begin to wander. During this time, we may remember old experiences, connect different ideas, or think about problems in a new way. This kind of mental wandering can support creativity. Of course, boredom is not always pleasant. Still, we do not need to escape from every quiet moment. The next time you feel bored, try waiting for a few minutes before reaching for your phone.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "boredom: 退屈",
         "wander: さまよう",
@@ -208,7 +208,7 @@
           ],
           "correctIndex": 1,
           "answer": "They can become part of a routine and require less repeated decision-making.",
-          "explanation": "The text says that once an action becomes routine, we no longer need to make the same difficult decision every day."
+          "explanation": "本文第2段落では、小さな行動は繰り返しやすく、毎日の習慣になると『毎日同じ難しい決断をしなくてよくなる』と説明されています。そのため、小さな習慣のほうが続けやすいのです。"
         },
         {
           "question": "Why do people sometimes stop too early?",
@@ -219,7 +219,7 @@
           ],
           "correctIndex": 0,
           "answer": "Because results may not be visible immediately.",
-          "explanation": "The third paragraph says the results may remain invisible for a while, and then explains that this is why people stop too early."
+          "explanation": "本文第3段落の『結果はしばらく見えないかもしれない。だから多くの人は早くやめてしまう』が直接の根拠です。効果が出ていないように見えることが、継続をやめる理由になっています。"
         },
         {
           "question": "What is the main message?",
@@ -230,7 +230,7 @@
           ],
           "correctIndex": 0,
           "answer": "Repeated small actions can create large changes over time.",
-          "explanation": "The passage consistently contrasts small present actions with larger future results."
+          "explanation": "本文は、読書・散歩・単語学習のような小さな行動でも、毎日積み重ねれば大きな変化につながると述べています。したがって、中心的なメッセージは『小さな行動の継続が時間をかけて大きな変化を生む』です。"
         }
       ],
       "paragraphs": [
@@ -252,16 +252,20 @@
       ],
       "grammar": [
         {
-          "title": "文の骨格",
-          "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+          "title": "that節",
+          "text": "that meaningful change requires a big decision は believe の目的語です。「意味のある変化には大きな決断が必要だ」という内容全体を表します。"
         },
         {
-          "title": "節の読み方",
-          "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+          "title": "Neither does ... の倒置",
+          "text": "Neither does taking a short walk ... は「短い散歩もそうではない」という意味です。Neither が文頭に来るため、does が主語の前に出ます。"
         },
         {
-          "title": "音読の準備",
-          "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+          "title": "when節",
+          "text": "When an action becomes part of a daily routine は「ある行動が毎日の習慣の一部になるとき」という副詞節で、後ろの we no longer need ... を修飾します。"
+        },
+        {
+          "title": "比較級 + than",
+          "text": "much larger than we expected は「私たちが予想したよりもずっと大きい」。much が比較級 larger を強め、than 以下が比較の基準です。"
         }
       ],
       "sentences": [
@@ -398,8 +402,8 @@
           ]
         }
       ],
-      "slash_reading": "People often believe that meaningful change requires a big decision. In reality, / many important changes begin with actions that are almost too small to notice.\n\nReading ten pages a day may not seem impressive. Neither does taking a short walk or learning five new words. Yet small actions are easier to repeat. When an action becomes part of a daily routine, / we no longer need to make the same difficult decision every day.\n\nThe results may remain invisible for a while. This is why many people stop too early. But small habits work by adding one ordinary day to another. Over time, / the difference can become much larger than we expected.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "People often believe / that meaningful change requires a big decision. In reality, / many important changes begin / with actions / that are almost too small / to notice.\n\nReading ten pages a day may not seem impressive. Neither does taking a short walk / or learning five new words. / Yet, / small actions are easier / to repeat. / When an action becomes part / of a daily routine, we no longer need / to make the same difficult decision / every day.\n\nThe results may remain invisible for a / while. This is why, / many people stop too early. / But, / small habits work by adding one ordinary day /  to another. Over time, / the difference can become much larger than we expected.",
+      "translation": "【内容の要約】\nPeople often believe that meaningful change requires a big decision. In reality, many important changes begin with actions that are almost too small to notice. Reading ten pages a day may not seem impressive. Neither does taking a short walk or learning five new words. Yet small actions are easier to repeat. When an action becomes part of a daily routine, we no longer need to make the same difficult decision every day. The results may remain invisible for a while. This is why many people stop too early. But small habits work by adding one ordinary day to another. Over time, the difference can become much larger than we expected.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "meaningful: 意味のある",
         "routine: 日課、習慣",
@@ -423,7 +427,7 @@
           ],
           "correctIndex": 0,
           "answer": "The speaker's meaning, not only the exact words.",
-          "explanation": "The key contrast is between what a person means and the exact words that person says."
+          "explanation": "本文第2段落で、良い聞き手は『相手が言った言葉だけでなく、その人が何を意味しているのか』を理解しようとすると説明されています。"
         },
         {
           "question": "Does understanding mean agreeing?",
@@ -434,7 +438,7 @@
           ],
           "correctIndex": 0,
           "answer": "No. Understanding and accepting are different.",
-          "explanation": "The third paragraph explicitly says that understanding another point of view is different from accepting it."
+          "explanation": "本文第3段落に『理解することと受け入れることは違う』と明確に書かれています。相手の意見を理解しても、必ずしも賛成する必要はありません。"
         },
         {
           "question": "Why can disagreement become productive?",
@@ -445,7 +449,7 @@
           ],
           "correctIndex": 2,
           "answer": "Because both sides can discuss ideas after feeling understood.",
-          "explanation": "The final sentence says disagreement becomes more productive when both sides feel understood."
+          "explanation": "本文の最後では、双方が『理解してもらえた』と感じると、意見の対立であってもより建設的になると説明されています。理解があることで、感情的な対立ではなく内容について話しやすくなるためです。"
         }
       ],
       "paragraphs": [
@@ -593,8 +597,8 @@
           ]
         }
       ],
-      "slash_reading": "When people talk about communication, / they often focus on speaking clearly. Speaking is important, / but listening is also an active skill.\n\nGood listeners do more than remain silent. They try to understand what another person means, / not only what that person says. They notice tone, / ask useful questions, / and sometimes check whether they understood correctly.\n\nThis does not mean that good listeners agree with everything they hear. Understanding another person's point of view is different from accepting it. In fact, / disagreement often becomes more productive when both sides feel that they have been understood.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "/ When people talk about communication, they often focus on speaking clearly. Speaking is important, / but listening is also an active skill.\n\nGood listeners do more than remain silent. They try / to understand what another person means, not only what / that person says. They notice tone, ask useful questions, / and sometimes check whether they understood correctly.\n\nThis does not mean / that good listeners agree with everything they hear. Understanding another person's point of view is different from accepting it. In fact, / disagreement often becomes more productive / when both sides feel / that they have been understood.",
+      "translation": "【内容の要約】\nWhen people talk about communication, they often focus on speaking clearly. Speaking is important, but listening is also an active skill. Good listeners do more than remain silent. They try to understand what another person means, not only what that person says. They notice tone, ask useful questions, and sometimes check whether they understood correctly. This does not mean that good listeners agree with everything they hear. Understanding another person's point of view is different from accepting it. In fact, disagreement often becomes more productive when both sides feel that they have been understood.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "communication: コミュニケーション",
         "tone: 口調",
@@ -618,7 +622,7 @@
           ],
           "correctIndex": 0,
           "answer": "Different causes require different changes.",
-          "explanation": "The second paragraph directly says that different causes require different changes."
+          "explanation": "本文第2段落では、失敗の原因が知識不足・準備不足・誤った思い込みのどれなのかによって、必要な改善策が変わると説明されています。だから原因を調べる必要があります。"
         },
         {
           "question": "Should every failure be celebrated?",
@@ -629,7 +633,7 @@
           ],
           "correctIndex": 2,
           "answer": "No. Some mistakes have serious consequences.",
-          "explanation": "The final paragraph rejects the extreme idea of celebrating every failure."
+          "explanation": "本文最終段落は『すべての失敗を祝うことが目的ではない』と述べています。失敗の中には重大な結果を生むものもあるためです。"
         },
         {
           "question": "When does a mistake become useful?",
@@ -640,7 +644,7 @@
           ],
           "correctIndex": 1,
           "answer": "When it changes what we do next.",
-          "explanation": "The last sentence states the main condition: learning must affect future action."
+          "explanation": "最後の文が直接の根拠です。同じ失敗を繰り返さず、その失敗によって次の行動を変えられたとき、失敗は学びとして役立つものになります。"
         }
       ],
       "paragraphs": [
@@ -778,8 +782,8 @@
           ]
         }
       ],
-      "slash_reading": "Most people dislike making mistakes because mistakes can be embarrassing or costly. However, / avoiding every mistake is impossible, / especially when we are learning something new.\n\nA useful response is to ask what the mistake can teach us. Was the problem caused by a lack of knowledge, / poor preparation, / or an incorrect assumption? The answer matters because different causes require different changes.\n\nThe goal is not to celebrate every failure. Some mistakes have serious consequences. The goal is to avoid repeating the same mistake without understanding it. A mistake becomes more useful when it changes what we do next.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "Most people dislike making mistakes / because mistakes can be embarrassing / or costly. However, / avoiding every mistake is impossible, especially / when we are learning something new.\n\nA useful response is / to ask what the mistake can teach us. Was the problem caused by a lack of knowledge, poor preparation, / or an incorrect assumption? The answer matters / because different causes require different changes.\n\nThe goal is not / to celebrate every failure. Some mistakes have serious consequences. The goal is / to avoid repeating the same mistake / without understanding it. A mistake becomes more useful / when it changes what we do next.",
+      "translation": "【内容の要約】\nMost people dislike making mistakes because mistakes can be embarrassing or costly. However, avoiding every mistake is impossible, especially when we are learning something new. A useful response is to ask what the mistake can teach us. Was the problem caused by a lack of knowledge, poor preparation, or an incorrect assumption? The answer matters because different causes require different changes. The goal is not to celebrate every failure. Some mistakes have serious consequences. The goal is to avoid repeating the same mistake without understanding it. A mistake becomes more useful when it changes what we do next.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "embarrassing: 恥ずかしい",
         "costly: 代償の大きい",
@@ -803,7 +807,7 @@
           ],
           "correctIndex": 2,
           "answer": "Many repeated small interruptions.",
-          "explanation": "The paragraph explains that one interruption may seem harmless, but repeated interruptions make deep work difficult."
+          "explanation": "本文第2段落では、メッセージや通知など一つ一つは小さくても、何度も繰り返されると深い作業に戻りにくくなると説明されています。つまり、多くの小さな中断が時間を奪います。"
         },
         {
           "question": "What does managing attention mean?",
@@ -814,7 +818,7 @@
           ],
           "correctIndex": 1,
           "answer": "Choosing what deserves full attention and protecting time for it.",
-          "explanation": "The final paragraph defines the idea through choosing important activities and protecting time for them."
+          "explanation": "本文最終段落では、すべての活動を予定で埋めるのではなく、『どの活動に十分な注意を向ける価値があるかを決め、その時間を守る』ことだと説明されています。"
         },
         {
           "question": "What is the main point?",
@@ -825,7 +829,7 @@
           ],
           "correctIndex": 0,
           "answer": "Using time well partly depends on managing repeated interruptions and attention.",
-          "explanation": "The passage argues that time management is also attention management."
+          "explanation": "本文は、時間そのものの量だけでなく、注意力が細かい中断によって分散されることが問題だと述べています。したがって、時間管理には注意力の管理も含まれるというのが主題です。"
         }
       ],
       "paragraphs": [
@@ -963,8 +967,8 @@
           ]
         }
       ],
-      "slash_reading": "People often say that they do not have enough time. Sometimes this is true. However, / the problem is not always the number of hours we have. It can also be the way our attention is divided.\n\nA day can disappear through many small interruptions. A message, / a notification, / or a quick search may seem harmless. But when these interruptions happen again and again, / they can make it difficult to return to deeper work.\n\nManaging time, / therefore, / is partly about managing attention. Instead of trying to fill every hour with activity, / it may be better to decide which activities deserve our full attention and protect time for them.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "People often say / that they do not have enough time. Sometimes this is true. However, / the problem is not always the number of hours we have. It can also be the way our attention is divided.\n\nA day can disappear through many small interruptions. A message, a notification, / or a quick search may seem harmless. / But, /  when these interruptions happen again / and again, they can make it difficult / to return to deeper work.\n\nManaging time, therefore, is partly about managing attention. Instead of trying / to fill every hour with activity, / it may be better / to decide / which activities deserve our full attention / and protect time for them.",
+      "translation": "【内容の要約】\nPeople often say that they do not have enough time. Sometimes this is true. However, the problem is not always the number of hours we have. It can also be the way our attention is divided. A day can disappear through many small interruptions. A message, a notification, or a quick search may seem harmless. But when these interruptions happen again and again, they can make it difficult to return to deeper work. Managing time, therefore, is partly about managing attention. Instead of trying to fill every hour with activity, it may be better to decide which activities deserve our full attention and protect time for them.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "divide: 分ける",
         "interruption: 中断",
@@ -988,7 +992,7 @@
           ],
           "correctIndex": 1,
           "answer": "When it is supported by good reasons.",
-          "explanation": "The word only limits the value of consistency: it is not automatically good."
+          "explanation": "本文第1段落では、一貫性そのものが常に良いのではなく、『良い理由と結びついているときにだけ価値がある』と説明されています。"
         },
         {
           "question": "Why might someone refuse to change?",
@@ -999,7 +1003,7 @@
           ],
           "correctIndex": 0,
           "answer": "To protect pride, even when the opinion may be wrong.",
-          "explanation": "The second paragraph contrasts protecting pride with avoiding error."
+          "explanation": "本文第2段落では、古い考えを変えないことは『自尊心を守るかもしれないが、間違っていることから守ってくれるわけではない』とあります。つまり、プライドを守るために考えを変えない場合があります。"
         },
         {
           "question": "What does the writer recommend?",
@@ -1010,7 +1014,7 @@
           ],
           "correctIndex": 0,
           "answer": "Judge new evidence carefully and update beliefs when it is strong enough.",
-          "explanation": "The final paragraph rejects both extremes: changing too easily and never changing."
+          "explanation": "本文最終段落は、何でもすぐ考え直すのもよくないが、十分に強い新しい証拠があれば判断を更新すべきだと述べています。極端な二択ではなく、証拠に基づいて考えを変える姿勢が推奨されています。"
         }
       ],
       "paragraphs": [
@@ -1150,8 +1154,8 @@
           ]
         }
       ],
-      "slash_reading": "Changing your mind is sometimes treated as a sign of weakness. People may think that a strong person should always remain consistent. Yet consistency is valuable only when it is connected to good reasons.\n\nNew information can reveal that an old belief was incomplete or mistaken. In such cases, / refusing to change may protect our pride, / but it does not protect us from being wrong.\n\nOf course, / we should not change our minds whenever we hear a new opinion. The important question is whether the new evidence is strong enough to change our judgment. A willingness to update our beliefs can be a form of intellectual strength.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "Changing your mind is sometimes treated / as a sign of weakness. People may think / that a strong person should always remain consistent. / Yet, / consistency is valuable only / when it is connected / to good reasons.\n\nNew information can reveal / that an old belief was incomplete / or mistaken. In such cases, refusing / to change may protect our pride, / but it does not protect us from being wrong.\n\nOf course, / we should not change our minds whenever we hear a new opinion. The important question is whether the new evidence is strong enough / to change our judgment. A willingness / to update our beliefs can be a form of intellectual strength.",
+      "translation": "【内容の要約】\nChanging your mind is sometimes treated as a sign of weakness. People may think that a strong person should always remain consistent. Yet consistency is valuable only when it is connected to good reasons. New information can reveal that an old belief was incomplete or mistaken. In such cases, refusing to change may protect our pride, but it does not protect us from being wrong. Of course, we should not change our minds whenever we hear a new opinion. The important question is whether the new evidence is strong enough to change our judgment. A willingness to update our beliefs can be a form of intellectual strength.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "consistency: 一貫性",
         "reveal: 明らかにする",
@@ -1175,7 +1179,7 @@
           ],
           "correctIndex": 0,
           "answer": "Because explaining requires more than recognizing familiar information.",
-          "explanation": "The passage contrasts familiarity with real understanding; explanation exposes missing links."
+          "explanation": "本文第2段落では、人に説明しようとすると、知識の『空白』が見えてくると説明されています。知っているつもりでも、なぜ重要なのか・どう働くのかを説明できない場合があるからです。"
         },
         {
           "question": "How can teaching help the teacher?",
@@ -1186,7 +1190,7 @@
           ],
           "correctIndex": 0,
           "answer": "It forces the teacher to organize information and understand it more deeply.",
-          "explanation": "The final paragraph lists the mental work required when teaching."
+          "explanation": "本文第3段落では、教えるためには情報を整理し、例を選び、別々のアイデアを結びつける必要があると述べています。その過程で教える側の理解も深まります。"
         },
         {
           "question": "What is the main lesson?",
@@ -1197,7 +1201,7 @@
           ],
           "correctIndex": 2,
           "answer": "Explaining clearly is a useful test and method of understanding.",
-          "explanation": "The entire passage develops the idea that explanation tests whether knowledge is usable."
+          "explanation": "本文全体では、『説明できること』を本当の理解の確認方法として扱っています。単に見覚えがあるだけではなく、他人に分かる形で説明できることが理解の証拠になります。"
         }
       ],
       "paragraphs": [
@@ -1341,8 +1345,8 @@
           ]
         }
       ],
-      "slash_reading": "We often think that we understand something because it feels familiar. However, / familiarity is not the same as understanding.\n\nOne simple test is to explain the idea to someone else in clear language. When we try to explain, / gaps in our knowledge often become visible. We may discover that we know a definition but cannot explain why it matters or how it works.\n\nFor this reason, / teaching can improve the teacher's own learning. Explaining forces us to organize information, / choose examples, / and connect separate ideas. If we cannot explain something simply, / we may need to understand it more deeply.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "We often think / that we understand something / because it feels familiar. However, / familiarity is not the same / as understanding.\n\nOne simple test is / to explain the idea to someone else in clear language. / When we try / to explain, gaps in our knowledge often become visible. We may discover / that we know a definition / but cannot explain why it matters / or how it works.\n\nFor this reason, / teaching can improve the teacher's own learning. Explaining forces us / to organize information, choose examples, / and connect separate ideas. / If we cannot explain something simply, we may need / to understand it more deeply.",
+      "translation": "【内容の要約】\nWe often think that we understand something because it feels familiar. However, familiarity is not the same as understanding. One simple test is to explain the idea to someone else in clear language. When we try to explain, gaps in our knowledge often become visible. We may discover that we know a definition but cannot explain why it matters or how it works. For this reason, teaching can improve the teacher's own learning. Explaining forces us to organize information, choose examples, and connect separate ideas. If we cannot explain something simply, we may need to understand it more deeply.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "familiarity: 親しみ",
         "definition: 定義",
@@ -1366,7 +1370,7 @@
           ],
           "correctIndex": 0,
           "answer": "The brain continues to process information that can help stabilize new learning.",
-          "explanation": "The second paragraph says the brain is not simply inactive and connects processing with stable learning."
+          "explanation": "本文第2段落では、睡眠中の脳は単に停止しているのではなく、新しく学んだ情報を処理し、より安定した記憶になるのを助けると説明されています。"
         },
         {
           "question": "Can sleep replace studying?",
@@ -1377,7 +1381,7 @@
           ],
           "correctIndex": 2,
           "answer": "No. Attention and practice are still necessary.",
-          "explanation": "The final paragraph explicitly rejects that misunderstanding."
+          "explanation": "本文最終段落の冒頭で『これは睡眠が勉強の代わりになるという意味ではない』と明確に否定されています。寝る前に注意して学び、練習することも必要です。"
         },
         {
           "question": "Why might cutting sleep be a bad strategy?",
@@ -1388,7 +1392,7 @@
           ],
           "correctIndex": 1,
           "answer": "Losing sleep may reduce the benefit of the extra study time.",
-          "explanation": "The final sentence presents a trade-off between extra study time and the benefits of sleep."
+          "explanation": "本文最後の文では、睡眠を削って勉強時間を増やしても、その追加した勉強時間の効果自体が下がる可能性があると説明されています。"
         }
       ],
       "paragraphs": [
@@ -1540,8 +1544,8 @@
           ]
         }
       ],
-      "slash_reading": "Studying does not end when we close a book. What happens after learning can also affect how well we remember.\n\nSleep appears to play an important role in memory. During sleep, / the brain is not simply inactive. It continues to process information in ways that can help new learning become more stable.\n\nThis does not mean that sleep can replace study. We still need to pay attention and practice before we sleep. But cutting sleep in order to study longer may sometimes reduce the benefit of the extra study time.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "Studying does not end / when we close a book. What happens / after learning can also affect how well we remember.\n\nSleep appears / to play an important role in memory. During sleep, the brain is not simply inactive. It continues / to process information in ways / that can help new learning become more stable.\n\nThis does not mean / that sleep can replace study. We still need / to pay attention / and practice / before we sleep. / But, / cutting sleep in order / to study longer may sometimes reduce the benefit of the extra study time.",
+      "translation": "【内容の要約】\nStudying does not end when we close a book. What happens after learning can also affect how well we remember. Sleep appears to play an important role in memory. During sleep, the brain is not simply inactive. It continues to process information in ways that can help new learning become more stable. This does not mean that sleep can replace study. We still need to pay attention and practice before we sleep. But cutting sleep in order to study longer may sometimes reduce the benefit of the extra study time.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "affect: 影響する",
         "appear to: 〜のように見える",
@@ -1565,7 +1569,7 @@
           ],
           "correctIndex": 2,
           "answer": "It may break quickly and need to be replaced.",
-          "explanation": "The passage contrasts a lower initial price with later replacement costs."
+          "explanation": "本文第2段落では、安い製品でもすぐ壊れて買い替えが必要になることがあると説明されています。その場合、最初の価格は安くても、長期的には価値が高いとは限りません。"
         },
         {
           "question": "What does value depend on?",
@@ -1576,7 +1580,7 @@
           ],
           "correctIndex": 1,
           "answer": "What we receive in return for what we pay.",
-          "explanation": "The first paragraph directly defines the difference between price and value."
+          "explanation": "本文第1段落が直接の根拠です。価格は『支払う金額』ですが、価値は『その支払いに対して何を受け取るか』によって決まります。"
         },
         {
           "question": "What question can lead to a better decision?",
@@ -1587,7 +1591,7 @@
           ],
           "correctIndex": 0,
           "answer": "What do I receive for the cost?",
-          "explanation": "The final paragraph recommends asking about what is received, not only about price."
+          "explanation": "本文最後で、単に『いくらかかるか』だけでなく、『その費用に対して何を得られるか』を考えると、より良い判断につながると述べています。"
         }
       ],
       "paragraphs": [
@@ -1735,8 +1739,8 @@
           ]
         }
       ],
-      "slash_reading": "A low price does not always mean good value, / and a high price does not always mean poor value. Price tells us how much we pay, / but value depends on what we receive in return.\n\nSuppose two products have different prices. The cheaper one may save money today, / but it may break quickly and need to be replaced. The more expensive one may last longer and save both time and money over several years.\n\nThis idea applies to more than products. We can also think about the value of books, / tools, / services, / and even experiences. Asking 'How much does it cost?' is useful, / but asking 'What do I receive for the cost?' can lead to a better decision.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "A low price does not always mean good value, / and a high price does not always mean poor value. Price tells us how much we pay, / but value depends on what we receive / in return.\n\nSuppose two products have different prices. The cheaper one may save money today, / but it may break quickly / and need / to be replaced. The more expensive one may last longer / and save both time / and money / over several years.\n\nThis idea applies / to more than products. We can also think about the value of books, tools, services, / and even experiences. Asking 'How much does it cost? ' is useful, / but asking 'What do I receive for the cost? ' can lead / to a better decision.",
+      "translation": "【内容の要約】\nA low price does not always mean good value, and a high price does not always mean poor value. Price tells us how much we pay, but value depends on what we receive in return. Suppose two products have different prices. The cheaper one may save money today, but it may break quickly and need to be replaced. The more expensive one may last longer and save both time and money over several years. This idea applies to more than products. We can also think about the value of books, tools, services, and even experiences. Asking 'How much does it cost?' is useful, but asking 'What do I receive for the cost?' can lead to a better decision.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "value: 価値",
         "in return: その代わりに",
@@ -1760,7 +1764,7 @@
           ],
           "correctIndex": 1,
           "answer": "Because it can guide everyday decisions.",
-          "explanation": "The second paragraph says this question can guide everyday decisions and gives keeping promises as an example."
+          "explanation": "本文第2段落では、『何をしたいか』だけでなく『どんな人になりたいか』を考えると、日常の小さな判断にも方向性が生まれると説明されています。"
         },
         {
           "question": "Must we know our complete direction immediately?",
@@ -1771,7 +1775,7 @@
           ],
           "correctIndex": 0,
           "answer": "No. Goals and values can change as we gain experience.",
-          "explanation": "The final paragraph directly says we do not need the complete answer immediately."
+          "explanation": "本文最終段落は『完全な答えをすぐ知る必要はない』と明確に述べています。経験を積むにつれて、目標や価値観が変わることもあります。"
         },
         {
           "question": "What is the main idea?",
@@ -1782,7 +1786,7 @@
           ],
           "correctIndex": 0,
           "answer": "A general direction can help choices even if it changes over time.",
-          "explanation": "The passage combines useful direction with flexibility as experience changes us."
+          "explanation": "本文は、人生の方向性を完全に固定する必要はない一方で、ある程度の方向性があると、魅力的な選択肢の中から選ぶ助けになると説明しています。"
         }
       ],
       "paragraphs": [
@@ -1932,8 +1936,8 @@
           ]
         }
       ],
-      "slash_reading": "Many decisions are easier when we know what we are trying to become. Without a direction, / even a large number of choices can leave us feeling uncertain.\n\nOne useful question is not only 'What do I want to do?' but also 'What kind of person do I want to be?' The second question can guide everyday decisions. For example, / a person who wants to become reliable may think differently about keeping promises.\n\nWe do not need to know the complete answer immediately. Our goals and values can change as we gain experience. Still, / a clear direction can help us choose between opportunities that look equally attractive in the moment.",
-      "translation": "本文は、日常的なテーマを通して、習慣・思考・学習・判断について考える内容です。各段落の因果関係と具体例を確認しながら読むことで、単語だけでなく英文全体の論理をつかむことを目指します。",
+      "slash_reading": "Many decisions are easier / when we know what we are trying / to become. Without a direction, even a large number of choices can leave us feeling uncertain.\n\nOne useful question is not only 'What do I want / to do? ' / but also 'What kind of person do I want / to be? ' The second question can guide everyday decisions. For example, / a person / who wants / to become reliable may think differently about keeping promises.\n\nWe do not need / to know the complete answer immediately. Our goals / and values can change / as we gain experience. Still, / a clear direction can help us choose between opportunities / that look equally attractive / in the moment.",
+      "translation": "【内容の要約】\nMany decisions are easier when we know what we are trying to become. Without a direction, even a large number of choices can leave us feeling uncertain. One useful question is not only 'What do I want to do?' but also 'What kind of person do I want to be?' The second question can guide everyday decisions. For example, a person who wants to become reliable may think differently about keeping promises. We do not need to know the complete answer immediately. Our goals and values can change as we gain experience. Still, a clear direction can help us choose between opportunities that look equally attractive in the moment.\n\n【読み方】\nまず英文の主張と段落ごとの役割を確認し、その後に構文を見てください。最後にスラッシュリーディングで、意味のまとまりを保ったまま全文を音読します。",
       "vocab": [
         "direction: 方向性",
         "uncertain: 確信が持てない",
