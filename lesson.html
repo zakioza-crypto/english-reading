@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lesson — READ ALOUD LAB</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="top"><div class="wrap nav"><a class="brand" href="./">READ ALOUD LAB</a><a href="./">← LESSONS</a></div></header>
+<main class="wrap lesson" id="app"></main>
+<footer class="footer"><div class="wrap">READ ALOUD LAB</div></footer>
+<script>
+const params=new URLSearchParams(location.search); const id=params.get("id");
+fetch("data.json").then(r=>r.json()).then(d=>{const x=d.lessons.find(a=>a.id===id)||d.lessons[0]; render(x);});
+function esc(s){return s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
+function render(x){
+document.title=x.title+" — READ ALOUD LAB";
+document.querySelector("#app").innerHTML=`
+<p class="eyebrow">LESSON ${x.id} · ${x.theme}</p><h1>${x.title}</h1>
+<div class="audio-box"><div><strong>Native-style read aloud</strong><p>端末の英語音声を使って読み上げます。音声はブラウザ・OSによって異なります。</p></div>
+<div class="audio-controls"><select id="voice"></select><label>速度 <input id="rate" type="range" min=".65" max="1.15" value=".88" step=".01"><b id="rateVal">0.88</b></label><button id="play">▶ 音読する</button><button id="stop" class="ghost">■ 停止</button></div></div>
+<section class="panel"><h2>01 · English</h2><div class="english">${x.english.split("\\n").map(p=>`<p>${esc(p)}</p>`).join("")}</div></section>
+<section class="panel"><h2>02 · Reading Questions</h2>${x.questions.map((q,i)=>`<details><summary>Q${i+1}. ${esc(q[0])}</summary><p class="answer">${esc(q[1])}</p></details>`).join("")}</section>
+<section class="panel"><h2>03 · 解説</h2><p>英文の内容を確認したら、文法・構文を「なぜこの意味になるのか」という視点で読み直します。まず自力で英文を音読し、その後に解説を確認してください。</p></section>
+<section class="panel"><h2>04 · Important Grammar</h2>${x.grammar.map(g=>`<div class="explain"><h3>${esc(g[0])}</h3><p>${esc(g[1])}</p></div>`).join("")}</section>
+<section class="panel"><h2>05 · 構文解説</h2>${x.syntax.map(s=>`<div class="syntax"><code>${esc(s[0])}</code><p>${esc(s[1])}</p></div>`).join("")}</section>
+<section class="panel"><h2>06 · 日本語訳</h2><div class="translation">${esc(x.translation).split("\\n\\n").map(p=>`<p>${p}</p>`).join("")}</div></section>
+<section class="panel"><h2>07 · Vocabulary</h2><div class="vocab">${x.vocab.map(v=>`<div><b>${esc(v[0])}</b><span>${esc(v[1])}</span></div>`).join("")}</div></section>
+<div class="next"><a href="./">← Lesson一覧へ</a></div>`;
+setupVoice(x.english);
+}
+function setupVoice(text){
+const voiceSel=document.querySelector("#voice"), rate=document.querySelector("#rate"), rv=document.querySelector("#rateVal");
+function load(){voiceSel.innerHTML=""; const vs=speechSynthesis.getVoices().filter(v=>/^en(-|_)/i.test(v.lang)); (vs.length?vs:speechSynthesis.getVoices()).forEach((v,i)=>{const o=document.createElement("option");o.value=i;o.textContent=v.name+" ("+v.lang+")";voiceSel.appendChild(o);});}
+load(); speechSynthesis.onvoiceschanged=load;
+rate.oninput=()=>rv.textContent=rate.value;
+document.querySelector("#play").onclick=()=>{speechSynthesis.cancel(); const vs=speechSynthesis.getVoices().filter(v=>/^en(-|_)/i.test(v.lang)); const u=new SpeechSynthesisUtterance(text); if(vs[voiceSel.value])u.voice=vs[voiceSel.value];u.lang="en-US";u.rate=Number(rate.value);speechSynthesis.speak(u);};
+document.querySelector("#stop").onclick=()=>speechSynthesis.cancel();
+}
+</script></body></html>

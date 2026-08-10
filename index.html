@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>READ ALOUD LAB — 大人のための大学受験レベル英語音読</title>
+<meta name="description" content="大学受験のやさしめレベルで、大人にも学びがある英文を音読する英語学習サイト。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="./">READ ALOUD LAB</a>
+    <span class="tag">English Reading & Shadowing</span>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero">
+    <p class="eyebrow">10 LESSONS · READING · GRAMMAR · VOCABULARY · AUDIO</p>
+    <h1>英語を「読む」だけでなく、<br><span>声に出して使える英語</span>へ。</h1>
+    <p>大学受験のやさしめレベルをベースに、大人が読んでも学びのあるテーマを10本収録。英文 → リーディング問題 → 解説 → 文法 → 構文 → 日本語訳 → 単語 → 音読、の順で学べます。</p>
+  </section>
+  <section class="controls">
+    <input id="search" type="search" placeholder="テーマ・タイトルを検索">
+    <select id="level"><option value="all">すべて</option><option value="focus">集中・習慣</option><option value="work">仕事・思考</option><option value="life">人生・生活</option></select>
+  </section>
+  <section id="cards" class="cards"></section>
+</main>
+<footer class="footer"><div class="wrap">READ ALOUD LAB · Static site on GitHub Pages</div></footer>
+<script>
+let lessons=[];
+const categoryMap={"集中力・デジタル習慣":"focus","習慣・自己管理":"focus","コミュニケーション":"work","失敗・成長":"work","時間・優先順位":"work","思考・柔軟性":"work","学習・理解":"focus","睡眠・記憶":"life","消費・価値":"life","人生・選択":"life"};
+fetch("data.json").then(r=>r.json()).then(d=>{lessons=d.lessons; render();});
+function render(){
+ const q=document.querySelector("#search").value.toLowerCase();
+ const c=document.querySelector("#level").value;
+ const list=lessons.filter(x=>(x.title+x.theme+x.english).toLowerCase().includes(q)&&(c==="all"||categoryMap[x.theme]===c));
+ document.querySelector("#cards").innerHTML=list.map(x=>`
+ <a class="card" href="lesson.html?id=${x.id}">
+   <div class="num">${x.id}</div><div><h2>${x.title}</h2><p>${x.theme}</p><span>READING · GRAMMAR · AUDIO</span></div>
+ </a>`).join("");
+}
+document.querySelector("#search").addEventListener("input",render);
+document.querySelector("#level").addEventListener("change",render);
+</script>
+</body>
+</html>
