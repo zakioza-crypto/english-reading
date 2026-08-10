@@ -1,24 +1,32 @@
 # READ ALOUD LAB
 
-大学受験の比較的やさしいレベルで、音読・読解・構文理解を一体化した英語学習サイトです。
+GitHub Pagesで公開できる英語音読教材サイトです。
 
-## 公開方法
+## 5ファイル
+- index.html
+- lesson.html
+- style.css
+- data.json
+- README.md
+
+## GitHub Pagesで公開
 1. GitHubで新しいRepositoryを作成
-2. このフォルダ内のファイルをアップロード
-3. Settings → Pages を開く
-4. Deploy from a branch を選択
-5. Branch を main / root に設定
+2. 上の4つのWebファイルをRepository直下にアップロード
+3. Settings → Pages
+4. SourceをDeploy from a branchに設定
+5. Branchをmain、Folderを/(root)に設定
+6. Save
 
-## ファイル
-- index.html : Lesson一覧
-- lesson.html : 教材ページ
-- style.css : デザイン
-- data.json : 10本の教材データ
+数分後、表示されるURLでサイトを公開できます。
 
-## 今後の改善候補
-- MP3音声を lessons/audio に追加
-- 英文の一文ずつ再生
-- S/V/O/Cを色分け
-- 単語テスト
-- 学習履歴
-- LocalStorageによる音読回数保存
+## 機能
+- 10 Lesson
+- 英文表示
+- ブラウザ英語音声
+- 読解4択問題
+- 正解・不正解表示
+- 解説表示
+- 段落ごとの読解
+- 1文ずつの構文解説
+- 全文スラッシュリーディング
+- 単語リスト

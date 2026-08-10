@@ -1,4 +1,7 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>READ ALOUD LAB</title><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="wrap"><a class="brand" href="./">READ ALOUD LAB</a><p>大学受験レベルの英文を、読解・構文・音読まで一つの流れで学ぶ。</p></div></header>
-<main class="wrap"><section class="hero"><span>10 LESSONS</span><h1>Read. Understand. Speak.</h1><p>英文を読む → 設問を解く → 根拠を確認する → 全文の構造を見る → 音読する。</p></section><div id="cards" class="cards"></div></main>
-<script>fetch('data.json').then(r=>r.json()).then(d=>{cards.innerHTML=d.lessons.map(x=>`<a class="card" href="lesson.html?id=${x.id}"><small>LESSON ${x.id}</small><h2>${x.title}</h2><p>${x.theme}</p><b>読解・構文・音読 →</b></a>`).join('')})</script></body></html>
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>READ ALOUD LAB</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><a class="brand" href="./">READ ALOUD LAB</a><p>読解・構文・音読を一つの流れで学ぶ英語教材</p></div></header>
+<main class="wrap"><section class="hero"><span>10 LESSONS</span><h1>Read. Understand. Speak.</h1><p>英文を読む → 選択問題を解く → 根拠を確認する → 構文を理解する → 全文を音読する。</p></section><div id="cards" class="cards"></div></main>
+<script>fetch('data.json').then(r=>r.json()).then(d=>cards.innerHTML=d.lessons.map(x=>`<a class="card" href="lesson.html?id=${x.id}"><small>LESSON ${x.id}</small><h2>${x.title}</h2><p>${x.theme}</p><b>Start →</b></a>`).join(''))</script>
+</body></html>
