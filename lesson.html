@@ -1,36 +1,21 @@
-<!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lesson — READ ALOUD LAB</title><link rel="stylesheet" href="style.css"></head>
-<body>
-<header class="top"><div class="wrap nav"><a class="brand" href="./">READ ALOUD LAB</a><a href="./">← LESSONS</a></div></header>
-<main class="wrap lesson" id="app"></main>
-<footer class="footer"><div class="wrap">READ ALOUD LAB</div></footer>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lesson</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap topbar"><a class="brand" href="./">READ ALOUD LAB</a><a href="./">← Lessons</a></div></header><main class="wrap lesson" id="app"></main>
 <script>
-const params=new URLSearchParams(location.search); const id=params.get("id");
-fetch("data.json").then(r=>r.json()).then(d=>{const x=d.lessons.find(a=>a.id===id)||d.lessons[0]; render(x);});
-function esc(s){return s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
+const id=new URLSearchParams(location.search).get('id');
+fetch('data.json').then(r=>r.json()).then(d=>render(d.lessons.find(x=>x.id===id)||d.lessons[0]));
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 function render(x){
-document.title=x.title+" — READ ALOUD LAB";
-document.querySelector("#app").innerHTML=`
-<p class="eyebrow">LESSON ${x.id} · ${x.theme}</p><h1>${x.title}</h1>
-<div class="audio-box"><div><strong>Native-style read aloud</strong><p>端末の英語音声を使って読み上げます。音声はブラウザ・OSによって異なります。</p></div>
-<div class="audio-controls"><select id="voice"></select><label>速度 <input id="rate" type="range" min=".65" max="1.15" value=".88" step=".01"><b id="rateVal">0.88</b></label><button id="play">▶ 音読する</button><button id="stop" class="ghost">■ 停止</button></div></div>
-<section class="panel"><h2>01 · English</h2><div class="english">${x.english.split("\\n").map(p=>`<p>${esc(p)}</p>`).join("")}</div></section>
-<section class="panel"><h2>02 · Reading Questions</h2>${x.questions.map((q,i)=>`<details><summary>Q${i+1}. ${esc(q[0])}</summary><p class="answer">${esc(q[1])}</p></details>`).join("")}</section>
-<section class="panel"><h2>03 · 解説</h2><p>英文の内容を確認したら、文法・構文を「なぜこの意味になるのか」という視点で読み直します。まず自力で英文を音読し、その後に解説を確認してください。</p></section>
-<section class="panel"><h2>04 · Important Grammar</h2>${x.grammar.map(g=>`<div class="explain"><h3>${esc(g[0])}</h3><p>${esc(g[1])}</p></div>`).join("")}</section>
-<section class="panel"><h2>05 · 構文解説</h2>${x.syntax.map(s=>`<div class="syntax"><code>${esc(s[0])}</code><p>${esc(s[1])}</p></div>`).join("")}</section>
-<section class="panel"><h2>06 · 日本語訳</h2><div class="translation">${esc(x.translation).split("\\n\\n").map(p=>`<p>${p}</p>`).join("")}</div></section>
-<section class="panel"><h2>07 · Vocabulary</h2><div class="vocab">${x.vocab.map(v=>`<div><b>${esc(v[0])}</b><span>${esc(v[1])}</span></div>`).join("")}</div></section>
-<div class="next"><a href="./">← Lesson一覧へ</a></div>`;
+document.title=x.title+' | READ ALOUD LAB';
+app.innerHTML=`<p class="eyebrow">LESSON ${x.id} · ${esc(x.theme)}</p><h1>${esc(x.title)}</h1>
+<section class="panel"><h2>01 · English</h2><div class="english">${x.english.split('\n\n').map(p=>'<p>'+esc(p)+'</p>').join('')}</div></section>
+<section class="panel audio"><h2>Listen & Read Aloud</h2><p>端末の英語音声を利用します。まずゆっくり聞き、その後に自分でも音読してください。</p><select id="voice"></select><input id="rate" type="range" min=".65" max="1.15" value=".85" step=".05"><span id="rv">0.85</span><button id="play">▶ 再生</button><button id="stop">■ 停止</button></section>
+<section class="panel"><h2>02 · Reading Questions</h2>${x.questions.map((q,i)=>`<article class="question"><h3>Q${i+1}. ${esc(q.question)}</h3><p class="answer"><b>Answer:</b> ${esc(q.answer)}</p><p><b>なぜこの答えになるのか：</b>${esc(q.explanation)}</p></article>`).join('')}</section>
+<section class="panel"><h2>03 · 段落ごとの読解</h2>${x.paragraphs.map(p=>`<article class="guide"><h3>Paragraph ${p.paragraph}</h3><p><b>役割：</b>${esc(p.role)}</p><p><b>本文：</b>${esc(p.text)}</p></article>`).join('')}</section>
+<section class="panel"><h2>04 · Important Grammar</h2>${x.grammar.map(g=>`<article class="guide"><h3>${esc(g.title)}</h3><p>${esc(g.text)}</p></article>`).join('')}</section>
+<section class="panel"><h2>05 · 全文構文解説（音読用）</h2><p class="lead">すべての文について、文の骨格と修飾関係を確認します。音読ではチャンクごとに意味を取りながら読んでください。</p>${x.sentences.map(s=>`<details class="sentence"><summary><b>${s.no}.</b> ${esc(s.sentence)}</summary><div class="inside"><div class="chunk"><b>音読チャンク</b><br>${esc(s.chunk)}</div>${s.structure.map(z=>`<div class="note"><b>${esc(z[0])}</b><br>${esc(z[1])}</div>`).join('')}</div></details>`).join('')}</section>
+<section class="panel"><h2>06 · 日本語訳</h2><p>${esc(x.translation)}</p></section>
+<section class="panel"><h2>07 · Vocabulary</h2><div class="vocab">${x.vocab.map(v=>'<div>'+esc(v)+'</div>').join('')}</div></section>`;
 setupVoice(x.english);
 }
-function setupVoice(text){
-const voiceSel=document.querySelector("#voice"), rate=document.querySelector("#rate"), rv=document.querySelector("#rateVal");
-function load(){voiceSel.innerHTML=""; const vs=speechSynthesis.getVoices().filter(v=>/^en(-|_)/i.test(v.lang)); (vs.length?vs:speechSynthesis.getVoices()).forEach((v,i)=>{const o=document.createElement("option");o.value=i;o.textContent=v.name+" ("+v.lang+")";voiceSel.appendChild(o);});}
-load(); speechSynthesis.onvoiceschanged=load;
-rate.oninput=()=>rv.textContent=rate.value;
-document.querySelector("#play").onclick=()=>{speechSynthesis.cancel(); const vs=speechSynthesis.getVoices().filter(v=>/^en(-|_)/i.test(v.lang)); const u=new SpeechSynthesisUtterance(text); if(vs[voiceSel.value])u.voice=vs[voiceSel.value];u.lang="en-US";u.rate=Number(rate.value);speechSynthesis.speak(u);};
-document.querySelector("#stop").onclick=()=>speechSynthesis.cancel();
-}
+function setupVoice(text){let voices=[];const sel=document.querySelector('#voice');function load(){voices=speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang));sel.innerHTML=voices.map((v,i)=>`<option value="${i}">${v.name} (${v.lang})</option>`).join('')}load();speechSynthesis.onvoiceschanged=load;rate.oninput=()=>rv.textContent=rate.value;play.onclick=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.voice=voices[sel.value];u.lang='en-US';u.rate=+rate.value;speechSynthesis.speak(u)};stop.onclick=()=>speechSynthesis.cancel();}
 </script></body></html>

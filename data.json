@@ -3,875 +3,1972 @@
     {
       "id": "01",
       "title": "The Value of Boredom",
-      "theme": "集中力・デジタル習慣",
-      "english": "Many people try to fill every quiet moment with something to do. They check their phones while waiting for a train, listen to music while walking, and watch videos before going to bed. These habits are not necessarily bad, but they leave little room for boredom. Surprisingly, boredom can be useful.\n\nWhen we have nothing to focus on, our minds begin to wander. We may remember an old problem, notice an interesting idea, or simply think about what we really want to do. Some researchers suggest that this kind of mental wandering can help us make connections between different ideas.\n\nThis does not mean that we should avoid technology. Phones and computers are valuable tools, and entertainment is an important part of life. The point is to create small spaces in which we are not constantly receiving information. A ten-minute walk without a phone, for example, can be a simple experiment.\n\nAt first, such moments may feel uncomfortable. We may reach for our phones automatically. However, if we become comfortable with a little boredom, we may discover that our minds are more active than we expected. In a world full of information, the ability to spend time with our own thoughts may become an increasingly valuable skill.",
+      "theme": "Focus and creativity",
+      "english": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, they look at their phones or search for something to watch. However, a little boredom may actually be useful.\n\nWhen we have nothing to focus on, our minds begin to wander. During this time, we may remember old experiences, connect different ideas, or think about problems in a new way. Some researchers believe that this kind of mental wandering can support creativity.\n\nOf course, boredom is not always pleasant. Still, we do not need to escape from every quiet moment. The next time you feel bored, try waiting for a few minutes before reaching for your phone. Your mind may have something interesting to do on its own.",
       "questions": [
-        [
-          "According to the passage, why can boredom be useful?",
-          "It gives our minds a chance to wander and make connections between different ideas."
-        ],
-        [
-          "What does the writer suggest doing?",
-          "Creating small periods in which we are not constantly receiving information."
-        ],
-        [
-          "Why might a ten-minute walk without a phone be useful?",
-          "It can give us a chance to spend time with our own thoughts."
-        ]
+        {
+          "question": "Why can boredom sometimes be useful?",
+          "answer": "It can give the mind time to wander and connect different ideas.",
+          "explanation": "The answer comes mainly from the second paragraph. The text does not say that boredom itself magically creates good ideas. Instead, it explains a process: when there is no immediate object of attention, the mind begins to wander; during that wandering, different ideas and experiences may become connected. Therefore, the useful point is the mental activity that boredom can allow."
+        },
+        {
+          "question": "What does the writer suggest we do when we feel bored?",
+          "answer": "Wait for a few minutes before immediately using a phone or other entertainment.",
+          "explanation": "The final paragraph gives the writer's concrete suggestion: 'try waiting for a few minutes before reaching for your phone.' The key word is 'before.' The writer is not telling us to stop using phones forever. The point is to avoid escaping from every quiet moment immediately."
+        },
+        {
+          "question": "Which statement best describes the main idea?",
+          "answer": "A small amount of boredom can sometimes create useful time for thought.",
+          "explanation": "This is the best summary because it covers the whole passage. The first paragraph introduces the problem of avoiding boredom, the second explains how mental wandering may help, and the third gives practical advice. Choices such as 'phones are bad' or 'boredom is always good' would be too strong."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, they look at their phones or search for something to watch. However, a little boredom may actually be useful."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "When we have nothing to focus on, our minds begin to wander. During this time, we may remember old experiences, connect different ideas, or think about problems in a new way. Some researchers believe that this kind of mental wandering can support creativity."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "Of course, boredom is not always pleasant. Still, we do not need to escape from every quiet moment. The next time you feel bored, try waiting for a few minutes before reaching for your phone. Your mind may have something interesting to do on its own."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "Many people feel uncomfortable when they have nothing to do. ",
+          "chunk": "Many people feel uncomfortable / when they have nothing / to do.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "The moment they become bored, they look at their phones or search for something to watch. ",
+          "chunk": "The moment they become bored, / they look at their phones or search for something / to watch.",
+          "structure": [
+            [
+              "時を表す名詞節",
+              "the moment S+V は「Sが〜した瞬間に」。時間を表し、後ろの出来事につながります。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "However, a little boredom may actually be useful. ",
+          "chunk": "However, / a little boredom may actually be useful.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "When we have nothing to focus on, our minds begin to wander. ",
+          "chunk": "/ When we have nothing / to focus on, / our minds begin / to wander.",
+          "structure": [
+            [
+              "副詞節",
+              "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "During this time, we may remember old experiences, connect different ideas, or think about problems in a new way. ",
+          "chunk": "During this time, / we may remember old experiences, / connect different ideas, / or think about problems in a new way.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "Some researchers believe that this kind of mental wandering can support creativity. ",
+          "chunk": "Some researchers believe / that this kind of mental wandering can support creativity.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "Of course, boredom is not always pleasant. ",
+          "chunk": "Of course, / boredom is not always pleasant.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "Still, we do not need to escape from every quiet moment. ",
+          "chunk": "Still, / we do not need / to escape from every quiet moment.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 9,
+          "sentence": "The next time you feel bored, try waiting for a few minutes before reaching for your phone. ",
+          "chunk": "The next time you feel bored, / try waiting for a few minutes before reaching for your phone.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 10,
+          "sentence": "Your mind may have something interesting to do on its own.",
+          "chunk": "Your mind may have something interesting / to do on its own.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "not necessarily + 形容詞",
-          "「必ずしも〜とは限らない」。necessarily は not とともに部分否定を作ります。"
-        ],
-        [
-          "little + 不可算名詞",
-          "little room は「ほとんど余地がない」。a little なら「少しある」という肯定的な意味になります。"
-        ],
-        [
-          "if + 現在形, will / may ...",
-          "条件を表す if 節。ここでは「もし〜すれば、〜かもしれない」。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "When we have nothing to focus on, / our minds begin to wander.",
-          "When 以下が副詞節。「集中する対象が何もないとき、私たちの心はさまよい始める」。"
-        ],
-        [
-          "the ability / to spend time with our own thoughts / may become ...",
-          "to spend は ability を説明する不定詞。「自分自身の考えと時間を過ごす能力」。"
-        ]
-      ],
-      "translation": "多くの人は、静かな時間があると、何かをしてその時間を埋めようとします。電車を待ちながらスマートフォンを確認し、歩きながら音楽を聴き、寝る前には動画を見るのです。こうした習慣が必ずしも悪いわけではありません。しかし、そのために「退屈する」余地がほとんどなくなっています。意外にも、退屈は役に立つことがあります。\n\n集中する対象が何もないと、私たちの心はさまよい始めます。昔の問題を思い出したり、面白い考えに気づいたり、本当は何をしたいのかを考えたりすることがあります。研究者の中には、このような心のさまよいが、異なる考えを結びつける助けになると考える人もいます。\n\nこれは、テクノロジーを避けるべきだという意味ではありません。スマートフォンやコンピューターは便利な道具ですし、娯楽も人生の大切な一部です。大切なのは、常に情報を受け取っているわけではない小さな時間を作ることです。例えば、スマートフォンを持たずに10分歩いてみるのも一つの実験です。\n\n最初は、そのような時間が不快に感じられるかもしれません。しかし、少しの退屈に慣れると、自分の心が思っていた以上に活発であることに気づくかもしれません。情報にあふれた世界では、自分自身の考えと時間を過ごす能力は、ますます価値のある技能になるでしょう。",
+      "translation": "退屈を感じると、多くの人はすぐにスマートフォンなどに注意を向ける。しかし、少しの退屈は、心を自由に働かせ、異なる経験や考えを結びつける時間になることがある。だからこそ、すべての静かな時間からすぐに逃げる必要はない、という内容。",
       "vocab": [
-        [
-          "fill",
-          "満たす、埋める"
-        ],
-        [
-          "quiet",
-          "静かな"
-        ],
-        [
-          "necessarily",
-          "必ずしも"
-        ],
-        [
-          "boredom",
-          "退屈"
-        ],
-        [
-          "wander",
-          "さまよう"
-        ],
-        [
-          "connection",
-          "つながり"
-        ],
-        [
-          "valuable",
-          "価値のある"
-        ],
-        [
-          "constantly",
-          "絶えず"
-        ],
-        [
-          "automatically",
-          "自動的に"
-        ],
-        [
-          "increasingly",
-          "ますます"
-        ]
+        "boredom: 退屈",
+        "uncomfortable: 居心地が悪い、不快な",
+        "reach for: 手を伸ばす",
+        "wander: さまよう",
+        "connect: 結びつける",
+        "creativity: 創造性",
+        "on its own: それ自身で、自然に"
       ]
     },
     {
       "id": "02",
       "title": "Why Small Habits Matter",
-      "theme": "習慣・自己管理",
-      "english": "When people decide to improve their lives, they often make ambitious plans. They promise to exercise every day, read fifty books a year, or study for several hours each night. Such goals can be motivating, but they are sometimes too large to continue for a long time.\n\nA different approach is to start with a very small habit. Instead of saying, “I will study for two hours every day,” a person might decide to study for ten minutes after breakfast. The first goal is not to achieve a dramatic result. It is to make the behavior easy enough to repeat.\n\nSmall habits are powerful because repetition reduces the amount of effort required to begin. After a behavior becomes familiar, we do not have to make the same decision every time. For example, someone who always puts a book beside the bed may naturally read a few pages before sleeping.\n\nThis does not mean that small habits are always sufficient. Some goals require serious effort, and progress may be slow. However, a small action can be the first step toward a larger change. Once a habit becomes stable, it can gradually be expanded.\n\nThe important question, then, is not only “How much can I do today?” It is also “What can I do repeatedly?” A modest action that continues for months may be more useful than an impressive action that lasts for only three days.",
+      "theme": "Change and consistency",
+      "english": "People often believe that meaningful change requires a big decision. In reality, however, many important changes begin with actions that are almost too small to notice.\n\nReading ten pages a day may not seem impressive. Neither does taking a short walk or learning five new words. Yet small actions are easier to repeat. When an action becomes part of a daily routine, we no longer need to make the same difficult decision every day.\n\nThe results may remain invisible for a while. This is why many people stop too early. But small habits work by adding one ordinary day to another. Over time, the difference can become much larger than we expected.",
       "questions": [
-        [
-          "What problem do ambitious plans sometimes have?",
-          "They can be too large to continue for a long time."
-        ],
-        [
-          "Why are small habits powerful?",
-          "Repetition reduces the effort required to begin."
-        ],
-        [
-          "What question does the writer say we should also ask?",
-          "“What can I do repeatedly?”"
-        ]
+        {
+          "question": "Why are small habits easier to continue?",
+          "answer": "Because they can become part of a routine and require less repeated decision-making.",
+          "explanation": "The second paragraph first says that small actions are easier to repeat. It then explains why: once an action becomes part of a daily routine, we do not have to make the difficult choice again every day. The second sentence gives the reason for the first."
+        },
+        {
+          "question": "Why might people stop a useful habit too early?",
+          "answer": "Because they cannot see the results immediately.",
+          "explanation": "The third paragraph states this directly: 'The results may remain invisible for a while. This is why many people stop too early.' 'This' refers to the fact that the results are not yet visible."
+        },
+        {
+          "question": "What is the main message?",
+          "answer": "Repeated small actions can create large changes over time.",
+          "explanation": "The passage repeatedly contrasts small present actions with larger future results. The key idea is not that every small action is important by itself, but that consistency allows small actions to accumulate."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "People often believe that meaningful change requires a big decision. In reality, however, many important changes begin with actions that are almost too small to notice."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "Reading ten pages a day may not seem impressive. Neither does taking a short walk or learning five new words. Yet small actions are easier to repeat. When an action becomes part of a daily routine, we no longer need to make the same difficult decision every day."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "The results may remain invisible for a while. This is why many people stop too early. But small habits work by adding one ordinary day to another. Over time, the difference can become much larger than we expected."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "People often believe that meaningful change requires a big decision. ",
+          "chunk": "People often believe / that meaningful change requires a big decision.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "In reality, however, many important changes begin with actions that are almost too small to notice. ",
+          "chunk": "In reality, / however, / many important changes begin with actions / that are almost too small / to notice.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "Reading ten pages a day may not seem impressive. ",
+          "chunk": "Reading ten pages a day may not seem impressive.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "Neither does taking a short walk or learning five new words. ",
+          "chunk": "Neither does taking a short walk or learning five new words.",
+          "structure": [
+            [
+              "倒置",
+              "Neither does 〜 は「〜もまた…しない」。Neither が文頭に来るため、助動詞 do/does/did が主語の前に出ます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "Yet small actions are easier to repeat. ",
+          "chunk": "/ Yet small actions are easier / to repeat.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "When an action becomes part of a daily routine, we no longer need to make the same difficult decision every day. ",
+          "chunk": "/ When an action becomes part of a daily routine, / we no longer need / to make the same difficult decision every day.",
+          "structure": [
+            [
+              "副詞節",
+              "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "The results may remain invisible for a while. ",
+          "chunk": "The results may remain invisible for a while.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "This is why many people stop too early. ",
+          "chunk": "This is why many people stop too early.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 9,
+          "sentence": "But small habits work by adding one ordinary day to another. ",
+          "chunk": "/ But small habits work by adding one ordinary day / to another.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 10,
+          "sentence": "Over time, the difference can become much larger than we expected.",
+          "chunk": "Over time, / the difference can become much larger than we expected.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "instead of + 動名詞",
-          "「〜する代わりに」。instead of saying は「言う代わりに」。"
-        ],
-        [
-          "become + 形容詞",
-          "become familiar は「慣れた状態になる」。"
-        ],
-        [
-          "Once + S + V",
-          "「いったん〜すると」。時間・条件を表す接続詞。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "Small habits are powerful / because repetition reduces the amount of effort / required to begin.",
-          "because 以下が理由。required to begin は effort を後ろから修飾する過去分詞句。"
-        ],
-        [
-          "The important question, then, / is not only A. / It is also B.",
-          "not only A but also B に近い考え方。「AだけでなくBも」。"
-        ]
-      ],
-      "translation": "生活を改善しようと決めると、人は大きな計画を立てがちです。しかし、大きすぎる目標は長く続かないことがあります。\n\n別の方法は、とても小さな習慣から始めることです。「毎日2時間勉強する」と決める代わりに、朝食後に10分勉強すると決めてもよいでしょう。最初の目標は劇的な結果を出すことではなく、繰り返せるほど簡単な行動にすることです。\n\n小さな習慣が強力なのは、繰り返すことで始めるために必要な努力が減るからです。行動が慣れたものになれば、毎回同じ決断をする必要がなくなります。\n\nもちろん、小さな習慣だけで十分とは限りません。大きな努力が必要な目標もあります。それでも、小さな行動は大きな変化への最初の一歩になります。\n\n大切なのは「今日どれだけできるか」だけではなく、「何を繰り返せるか」です。数か月続く控えめな行動は、3日しか続かない印象的な行動より役立つかもしれません。",
+      "translation": "大きな変化は大きな決断から始まるとは限らない。小さな行動は繰り返しやすく、習慣になると毎日意思決定をする必要も減る。すぐに結果が見えなくても、積み重ねることで大きな差になるという内容。",
       "vocab": [
-        [
-          "ambitious",
-          "意欲的な、大きな"
-        ],
-        [
-          "promise",
-          "約束する"
-        ],
-        [
-          "motivating",
-          "やる気を起こさせる"
-        ],
-        [
-          "approach",
-          "方法、取り組み方"
-        ],
-        [
-          "repeat",
-          "繰り返す"
-        ],
-        [
-          "effort",
-          "努力"
-        ],
-        [
-          "familiar",
-          "よく知っている、慣れた"
-        ],
-        [
-          "sufficient",
-          "十分な"
-        ],
-        [
-          "gradually",
-          "徐々に"
-        ],
-        [
-          "modest",
-          "控えめな"
-        ]
+        "meaningful: 意味のある",
+        "require: 必要とする",
+        "routine: 日課、習慣",
+        "invisible: 目に見えない",
+        "repeat: 繰り返す",
+        "over time: 時間をかけて",
+        "accumulate: 蓄積する"
       ]
     },
     {
       "id": "03",
       "title": "The Skill of Listening",
-      "theme": "コミュニケーション",
-      "english": "Good communication is often described as the ability to speak clearly. However, speaking is only half of the process. The ability to listen carefully is just as important, especially when people disagree.\n\nWhen we listen to someone, we may be tempted to prepare our own answer while the other person is talking. We may think about how to defend our opinion or how to prove that the other person is wrong. As a result, we sometimes hear the words without understanding the idea behind them.\n\nOne useful habit is to ask a simple question before giving an answer: “What does this person really mean?” This question changes our attention. Instead of judging the speaker immediately, we try to understand the reason for the speaker’s opinion.\n\nListening does not require us to agree. In fact, we can understand an argument and still disagree with it. The goal is not to win every conversation. It is to understand another person well enough to respond to what they actually said.\n\nThis skill is useful not only at work but also in friendships and family relationships. People often feel respected when they know that someone has made a real effort to understand them. Sometimes, careful listening can solve a problem before a solution has even been discussed.",
+      "theme": "Communication",
+      "english": "When people talk about communication, they often focus on speaking clearly. Speaking is important, but listening is also an active skill.\n\nGood listeners do more than remain silent. They try to understand what another person means, not only what that person says. They notice tone, ask useful questions, and sometimes check whether they understood correctly.\n\nThis does not mean that good listeners agree with everything they hear. Understanding another person's point of view is different from accepting it. In fact, disagreement often becomes more productive when both sides feel that they have been understood.",
       "questions": [
-        [
-          "Why do people sometimes fail to understand others?",
-          "They prepare their own answers instead of focusing on the other person's ideas."
-        ],
-        [
-          "Does listening mean agreeing?",
-          "No. We can understand an argument and still disagree."
-        ],
-        [
-          "What can careful listening sometimes do?",
-          "It can solve a problem before a solution is even discussed."
-        ]
+        {
+          "question": "What do good listeners try to understand?",
+          "answer": "The speaker's meaning, not only the exact words.",
+          "explanation": "The key contrast is 'what another person means, not only what that person says.' The passage distinguishes literal words from the intended meaning behind them."
+        },
+        {
+          "question": "Does understanding someone mean agreeing with them?",
+          "answer": "No. The passage says that understanding and accepting are different.",
+          "explanation": "The third paragraph directly corrects a common misunderstanding. 'This does not mean...' introduces the idea that good listening is not the same as agreement."
+        },
+        {
+          "question": "Why can disagreement become more productive?",
+          "answer": "Because both sides can discuss ideas after feeling understood.",
+          "explanation": "The final sentence gives the condition: disagreement often becomes more productive 'when both sides feel that they have been understood.' Feeling understood can reduce the need to spend the whole conversation proving that one has been heard."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "When people talk about communication, they often focus on speaking clearly. Speaking is important, but listening is also an active skill."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "Good listeners do more than remain silent. They try to understand what another person means, not only what that person says. They notice tone, ask useful questions, and sometimes check whether they understood correctly."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "This does not mean that good listeners agree with everything they hear. Understanding another person's point of view is different from accepting it. In fact, disagreement often becomes more productive when both sides feel that they have been understood."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "When people talk about communication, they often focus on speaking clearly. ",
+          "chunk": "/ When people talk about communication, / they often focus on speaking clearly.",
+          "structure": [
+            [
+              "副詞節",
+              "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "Speaking is important, but listening is also an active skill. ",
+          "chunk": "Speaking is important, / / but listening is also an active skill.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "Good listeners do more than remain silent. ",
+          "chunk": "Good listeners do more than remain silent.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "They try to understand what another person means, not only what that person says. ",
+          "chunk": "They try / to understand what another person means, / not only what / that person says.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "They notice tone, ask useful questions, and sometimes check whether they understood correctly. ",
+          "chunk": "They notice tone, / ask useful questions, / / and sometimes check whether they understood correctly.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "This does not mean that good listeners agree with everything they hear. ",
+          "chunk": "This does not mean / that good listeners agree with everything they hear.",
+          "structure": [
+            [
+              "SVC",
+              "This = S、does not mean = V、後ろの that 節や to不定詞の内容が「意味する内容」です。直前の説明を誤解しないための重要表現です。"
+            ],
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "Understanding another person's point of view is different from accepting it. ",
+          "chunk": "Understanding another person's point of view is different from accepting it.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "In fact, disagreement often becomes more productive when both sides feel that they have been understood.",
+          "chunk": "In fact, / disagreement often becomes more productive / when both sides feel / that they have been understood.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "be tempted to + 動詞",
-          "「〜したくなる、〜したい衝動にかられる」。"
-        ],
-        [
-          "instead of + 動名詞",
-          "「〜する代わりに」。"
-        ],
-        [
-          "not only A but also B",
-          "「AだけでなくBも」。ここでは work と friendships/family relationships を対比。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "The ability to listen carefully / is just as important, / especially when people disagree.",
-          "just as + 形容詞 + as 〜。「〜と同じくらい…」。"
-        ],
-        [
-          "People often feel respected / when they know / that someone has made a real effort to understand them.",
-          "when 節の中に that 節が入る構造。「誰かが理解しようと本当に努力したと分かると」。"
-        ]
-      ],
-      "translation": "よいコミュニケーションは、明確に話す能力だと説明されることが多いでしょう。しかし、話すことは過程の半分にすぎません。特に意見が対立するとき、注意深く聞く能力も同じくらい重要です。\n\n人の話を聞いているとき、相手が話している間に自分の答えを準備したくなることがあります。自分の意見を守る方法や、相手が間違っていることを証明する方法を考えてしまうのです。その結果、言葉は聞いていても、その背後にある考えを理解していないことがあります。\n\n役立つ習慣の一つは、答える前に「この人は本当は何を意味しているのだろう」と尋ねることです。この質問によって注意の向け方が変わります。すぐに相手を判断するのではなく、なぜその意見を持っているのかを理解しようとするのです。\n\n聞くことは、同意することではありません。議論の内容を理解したうえで、それでも反対することはできます。目的はすべての会話に勝つことではありません。相手が実際に言ったことに答えられるほど、相手を理解することです。\n\nこの技能は仕事だけでなく、友人関係や家族関係でも役立ちます。自分を理解しようと本当に努力してくれたと分かると、人は尊重されていると感じることが多いものです。",
+      "translation": "コミュニケーションでは話す力だけでなく、聞く力も積極的な技術である。良い聞き手は、言葉そのものだけでなく相手が何を意味しているかを理解しようとする。理解することと同意することは別であり、理解があることで意見の対立もより建設的になるという内容。",
       "vocab": [
-        [
-          "communication",
-          "意思疎通、コミュニケーション"
-        ],
-        [
-          "clearly",
-          "明確に"
-        ],
-        [
-          "disagree",
-          "意見が異なる"
-        ],
-        [
-          "tempt",
-          "誘惑する、したくさせる"
-        ],
-        [
-          "defend",
-          "守る、擁護する"
-        ],
-        [
-          "opinion",
-          "意見"
-        ],
-        [
-          "judge",
-          "判断する"
-        ],
-        [
-          "argument",
-          "議論、主張"
-        ],
-        [
-          "respect",
-          "尊重する"
-        ],
-        [
-          "effort",
-          "努力"
-        ]
+        "communication: コミュニケーション",
+        "active: 積極的な",
+        "tone: 口調、調子",
+        "correctly: 正しく",
+        "point of view: 視点、考え方",
+        "accept: 受け入れる",
+        "productive: 生産的な"
       ]
     },
     {
       "id": "04",
       "title": "Learning from Mistakes",
-      "theme": "失敗・成長",
-      "english": "People often say that mistakes are useful because they teach us something. Yet making a mistake does not automatically lead to learning. What matters is what we do after the mistake.\n\nImagine a student who gets a low score on a test. If the student simply feels disappointed and moves on, the same mistake may happen again. But if the student checks which questions were difficult and asks why the answers were wrong, the result can become useful information.\n\nThe same idea applies to adults. At work, a project may fail because a deadline was unrealistic, communication was poor, or an important risk was ignored. It is easy to blame someone when this happens. However, blame alone rarely prevents the same problem in the future.\n\nA better response is to examine the process. What did we expect to happen? What actually happened? Which assumption was incorrect? These questions do not remove the pain of failure, but they can turn an unpleasant experience into a lesson.\n\nOf course, not every failure has a simple lesson. Sometimes events are affected by factors that we cannot control. Even then, reflecting on what was and was not under our control can help us make better decisions next time.\n\nA mistake is not automatically a teacher. We have to become the student.",
+      "theme": "Growth",
+      "english": "Most people dislike making mistakes because mistakes can be embarrassing or costly. However, avoiding every mistake is impossible, especially when we are learning something new.\n\nA useful response is to ask what the mistake can teach us. Was the problem caused by a lack of knowledge, poor preparation, or an incorrect assumption? The answer matters because different causes require different changes.\n\nThe goal is not to celebrate every failure. Some mistakes have serious consequences. The goal is to avoid repeating the same mistake without understanding it. A mistake becomes more useful when it changes what we do next.",
       "questions": [
-        [
-          "Does making a mistake automatically lead to learning?",
-          "No. What matters is what we do after the mistake."
-        ],
-        [
-          "Why is blame alone not enough?",
-          "It rarely prevents the same problem in the future."
-        ],
-        [
-          "What can reflection help us do?",
-          "It can help us make better decisions next time."
-        ]
+        {
+          "question": "Why should we examine the cause of a mistake?",
+          "answer": "Because different causes require different changes.",
+          "explanation": "The second paragraph asks several questions about possible causes and then explains why the answer matters. If the cause is different, the response should also be different."
+        },
+        {
+          "question": "Does the writer say that every failure should be celebrated?",
+          "answer": "No. The writer says that some mistakes have serious consequences.",
+          "explanation": "The first sentence of the final paragraph explicitly rejects that extreme interpretation. The writer supports learning from mistakes, not treating all failures as positive."
+        },
+        {
+          "question": "When does a mistake become more useful?",
+          "answer": "When it helps change our future actions.",
+          "explanation": "The final sentence gives the central answer. Understanding is valuable only if it affects what we do next."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "Most people dislike making mistakes because mistakes can be embarrassing or costly. However, avoiding every mistake is impossible, especially when we are learning something new."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "A useful response is to ask what the mistake can teach us. Was the problem caused by a lack of knowledge, poor preparation, or an incorrect assumption? The answer matters because different causes require different changes."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "The goal is not to celebrate every failure. Some mistakes have serious consequences. The goal is to avoid repeating the same mistake without understanding it. A mistake becomes more useful when it changes what we do next."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "Most people dislike making mistakes because mistakes can be embarrassing or costly. ",
+          "chunk": "Most people dislike making mistakes because mistakes can be embarrassing or costly.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "However, avoiding every mistake is impossible, especially when we are learning something new. ",
+          "chunk": "However, / avoiding every mistake is impossible, / especially / when we are learning something new.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "A useful response is to ask what the mistake can teach us. ",
+          "chunk": "A useful response is / to ask what the mistake can teach us.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "Was the problem caused by a lack of knowledge, poor preparation, or an incorrect assumption? ",
+          "chunk": "Was the problem caused by a lack of knowledge, / poor preparation, / or an incorrect assumption?",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "The answer matters because different causes require different changes. ",
+          "chunk": "The answer matters because different causes require different changes.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "The goal is not to celebrate every failure. ",
+          "chunk": "The goal is not / to celebrate every failure.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "Some mistakes have serious consequences. ",
+          "chunk": "Some mistakes have serious consequences.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "The goal is to avoid repeating the same mistake without understanding it. ",
+          "chunk": "The goal is / to avoid repeating the same mistake without understanding it.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 9,
+          "sentence": "A mistake becomes more useful when it changes what we do next.",
+          "chunk": "A mistake becomes more useful / when it changes what we do next.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "What matters is ...",
-          "what は「〜すること／もの」を表す名詞節。what matters = 大切なこと。"
-        ],
-        [
-          "if + S + 過去形",
-          "仮定的な条件を表す。ここでは「もし〜なら」。"
-        ],
-        [
-          "what was and was not under our control",
-          "what 以下が名詞節。「自分でコントロールできたこと／できなかったこと」。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "What matters / is what we do / after the mistake.",
-          "What matters が主語。「大切なのは、失敗の後に何をするかだ」。"
-        ],
-        [
-          "It is easy to blame someone / when this happens.",
-          "It は形式主語、to blame 以下が真主語。「このようなことが起きると、人を責めるのは簡単だ」。"
-        ]
-      ],
-      "translation": "人はよく、失敗は何かを教えてくれるので役立つと言います。しかし、失敗するだけで自動的に学べるわけではありません。重要なのは、失敗の後に何をするかです。\n\nテストで低い点を取った生徒を考えてみましょう。ただ落ち込んで先に進めば、同じ間違いが再び起こるかもしれません。しかし、どの問題が難しかったのかを確認し、なぜ答えを間違えたのかを考えれば、その結果は役立つ情報になります。\n\n同じことは大人にも当てはまります。仕事では、非現実的な締切、悪いコミュニケーション、重要なリスクの見落としなどによってプロジェクトが失敗することがあります。そのとき誰かを責めるのは簡単です。しかし、責めるだけでは、将来同じ問題が起こるのを防げないことが多いのです。\n\nよりよい対応は、過程を調べることです。何が起こると予想していたか。実際には何が起きたか。どの前提が間違っていたか。こうした問いは失敗の痛みを消しませんが、不快な経験を教訓に変えることができます。\n\nすべての失敗に簡単な教訓があるわけではありません。それでも、自分でコントロールできたこととできなかったことを振り返れば、次によりよい判断をする助けになります。失敗は自動的に教師になるわけではありません。私たちが生徒にならなければならないのです。",
+      "translation": "失敗を完全に避けることはできない。大切なのは失敗を無条件に肯定することではなく、原因を調べ、次の行動を変えることである。同じ失敗を理解しないまま繰り返さないことが重要だという内容。",
       "vocab": [
-        [
-          "automatically",
-          "自動的に"
-        ],
-        [
-          "disappointed",
-          "失望した"
-        ],
-        [
-          "deadline",
-          "締切"
-        ],
-        [
-          "unrealistic",
-          "非現実的な"
-        ],
-        [
-          "risk",
-          "危険、リスク"
-        ],
-        [
-          "blame",
-          "責める"
-        ],
-        [
-          "prevent",
-          "防ぐ"
-        ],
-        [
-          "assumption",
-          "前提、思い込み"
-        ],
-        [
-          "reflect",
-          "振り返る"
-        ],
-        [
-          "factor",
-          "要因"
-        ]
+        "embarrassing: 恥ずかしい",
+        "costly: 大きな代償を伴う",
+        "assumption: 思い込み、仮定",
+        "consequence: 結果、影響",
+        "celebrate: 称賛する",
+        "repeat: 繰り返す",
+        "failure: 失敗"
       ]
     },
     {
       "id": "05",
       "title": "A Better Way to Use Time",
-      "theme": "時間・優先順位",
-      "english": "Many people believe that being busy means being productive. A full schedule can certainly look impressive, but activity and progress are not always the same thing. Sometimes, the most useful question is not “How can I do more?” but “What is worth doing?”\n\nEvery task has an opportunity cost. When we spend an hour on one activity, we cannot spend that same hour on another. This does not mean that we should calculate the value of every minute. It simply means that our time is limited, so our choices matter.\n\nOne practical method is to separate important tasks from urgent tasks. An urgent task demands attention now, while an important task contributes to a larger goal. These two categories often overlap, but not always. Answering every message immediately may feel urgent, for example, while reading a book for an important project may not.\n\nIf we spend all our time reacting to urgent requests, important work can be pushed into the future again and again. A better approach is to protect some time for activities that matter in the long term.\n\nGood time management is therefore not about filling every empty space. It is about deciding what deserves our attention. Once we understand that time is a limited resource, saying “no” to some activities becomes easier. We are not wasting time; we are choosing where to use it.",
+      "theme": "Attention and priorities",
+      "english": "People often say that they do not have enough time. Sometimes this is true. However, the problem is not always the number of hours we have. It can also be the way our attention is divided.\n\nA day can disappear through many small interruptions. A message, a notification, or a quick search may seem harmless. But when these interruptions happen again and again, they can make it difficult to return to deeper work.\n\nManaging time, therefore, is partly about managing attention. Instead of trying to fill every hour with activity, it may be better to decide which activities deserve our full attention and protect time for them.",
       "questions": [
-        [
-          "Are being busy and being productive always the same?",
-          "No. Activity and progress are not always the same."
-        ],
-        [
-          "What is an opportunity cost?",
-          "When we spend time on one activity, we give up the chance to spend it on another."
-        ],
-        [
-          "What does good time management involve?",
-          "Deciding what deserves our attention."
-        ]
+        {
+          "question": "What can make a day seem to disappear?",
+          "answer": "Many small interruptions that repeatedly divide our attention.",
+          "explanation": "The second paragraph gives examples and then explains their combined effect. One interruption may seem harmless, but repetition makes it difficult to return to deeper work."
+        },
+        {
+          "question": "What does the writer mean by 'managing attention'?",
+          "answer": "Choosing what deserves full attention and protecting time for it.",
+          "explanation": "The last paragraph defines the idea through practical advice. The writer contrasts filling every hour with activity with deliberately protecting time for important work."
+        },
+        {
+          "question": "What is the main point?",
+          "answer": "Using time well depends partly on controlling repeated interruptions and attention.",
+          "explanation": "The passage is not simply about making a busy schedule. Its main argument is that attention is a limited resource, so time management also involves deciding where attention goes."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "People often say that they do not have enough time. Sometimes this is true. However, the problem is not always the number of hours we have. It can also be the way our attention is divided."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "A day can disappear through many small interruptions. A message, a notification, or a quick search may seem harmless. But when these interruptions happen again and again, they can make it difficult to return to deeper work."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "Managing time, therefore, is partly about managing attention. Instead of trying to fill every hour with activity, it may be better to decide which activities deserve our full attention and protect time for them."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "People often say that they do not have enough time. ",
+          "chunk": "People often say / that they do not have enough time.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "Sometimes this is true. ",
+          "chunk": "Sometimes this is true.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "However, the problem is not always the number of hours we have. ",
+          "chunk": "However, / the problem is not always the number of hours we have.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "It can also be the way our attention is divided. ",
+          "chunk": "It can also be the way our attention is divided.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "A day can disappear through many small interruptions. ",
+          "chunk": "A day can disappear through many small interruptions.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "A message, a notification, or a quick search may seem harmless. ",
+          "chunk": "A message, / a notification, / or a quick search may seem harmless.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "But when these interruptions happen again and again, they can make it difficult to return to deeper work. ",
+          "chunk": "/ But / when these interruptions happen again / and again, / they can make it difficult / to return / to deeper work.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "Managing time, therefore, is partly about managing attention. ",
+          "chunk": "Managing time, / therefore, / is partly about managing attention.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 9,
+          "sentence": "Instead of trying to fill every hour with activity, it may be better to decide which activities deserve our full attention and protect time for them.",
+          "chunk": "Instead of trying / to fill every hour with activity, / it may be better / to decide / which activities deserve our full attention / and protect time for them.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "be worth + 動名詞",
-          "「〜する価値がある」。worth doing の形で使う。"
-        ],
-        [
-          "while + S + V",
-          "「〜する一方で／〜している間に」。ここでは対比。"
-        ],
-        [
-          "again and again",
-          "「何度も、繰り返し」。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "When we spend an hour on one activity, / we cannot spend that same hour on another.",
-          "When 節が条件・時間を表す。「1つの活動に1時間使えば、その同じ1時間を別のことには使えない」。"
-        ],
-        [
-          "Once we understand / that time is a limited resource, / saying “no” ... becomes easier.",
-          "Once 節の中に that 節。「時間が限られた資源だと理解すると、〜しやすくなる」。"
-        ]
-      ],
-      "translation": "多くの人は、忙しいことは生産的であることだと考えています。予定がいっぱいだと確かに立派に見えますが、活動量と進歩はいつも同じではありません。「どうすればもっとできるか」ではなく、「何をする価値があるか」と問うほうが役立つ場合があります。\n\nすべての仕事には機会費用があります。ある活動に1時間使えば、その同じ1時間を別のことには使えません。だからといって毎分の価値を計算すべきだという意味ではありません。時間には限りがあるので、選択が重要だということです。\n\n実践的な方法の一つは、重要な仕事と緊急の仕事を分けることです。緊急な仕事は今すぐ注意を要求します。一方、重要な仕事は大きな目標に貢献します。この2つは重なることもありますが、いつもそうとは限りません。\n\n緊急な依頼に反応することにすべての時間を使うと、重要な仕事が何度も未来へ先送りされます。よりよい方法は、長期的に重要な活動のための時間を守ることです。\n\nしたがって、よい時間管理とは空いた時間をすべて埋めることではありません。何に注意を向ける価値があるかを決めることです。時間が限られた資源だと理解すれば、いくつかの活動に「ノー」と言いやすくなります。時間を無駄にしているのではなく、どこで使うかを選んでいるのです。",
+      "translation": "時間が足りないと感じる原因は、時間そのものの量だけではない。小さな通知や中断が注意力を何度も分断すると、深い作業に戻りにくくなる。時間管理は、何に注意を向けるかを管理することでもあるという内容。",
       "vocab": [
-        [
-          "productive",
-          "生産的な"
-        ],
-        [
-          "activity",
-          "活動"
-        ],
-        [
-          "progress",
-          "進歩"
-        ],
-        [
-          "opportunity cost",
-          "機会費用"
-        ],
-        [
-          "limited",
-          "限られた"
-        ],
-        [
-          "urgent",
-          "緊急の"
-        ],
-        [
-          "contribute",
-          "貢献する"
-        ],
-        [
-          "overlap",
-          "重なる"
-        ],
-        [
-          "react",
-          "反応する"
-        ],
-        [
-          "resource",
-          "資源"
-        ]
+        "divide: 分ける",
+        "interruption: 中断、邪魔",
+        "notification: 通知",
+        "harmless: 害のない",
+        "repeatedly: 繰り返し",
+        "deserve: 値する",
+        "protect: 守る、確保する"
       ]
     },
     {
       "id": "06",
       "title": "Why We Change Our Minds",
-      "theme": "思考・柔軟性",
-      "english": "Changing your mind is sometimes seen as a sign of weakness. People may think that a confident person should defend the same opinion from beginning to end. But changing an opinion can actually be a sign that someone has learned something new.\n\nOur beliefs are based on the information we have at a particular time. If new evidence appears, it is reasonable to reconsider what we thought before. Of course, this does not mean that we should accept every new claim without checking it. Good thinking requires both openness and careful judgment.\n\nOne useful question is, “What evidence would make me change my mind?” If the answer is “nothing,” we may not be testing our belief at all. We may simply be protecting it.\n\nThis is especially important when we discuss difficult topics with other people. If we enter a conversation only to win, we may ignore information that challenges us. If we enter it with some curiosity, however, disagreement can become an opportunity to learn.\n\nBeing willing to change your mind does not mean having no principles. It means recognizing the difference between a value and a belief about facts. Our values may remain stable while our understanding of the world changes.\n\nIn a complicated world, intellectual flexibility is not weakness. It is a form of strength.",
+      "theme": "Thinking",
+      "english": "Changing your mind is sometimes treated as a sign of weakness. People may think that a strong person should always remain consistent. Yet consistency is valuable only when it is connected to good reasons.\n\nNew information can reveal that an old belief was incomplete or mistaken. In such cases, refusing to change may protect our pride, but it does not protect us from being wrong.\n\nOf course, we should not change our minds whenever we hear a new opinion. The important question is whether the new evidence is strong enough to change our judgment. A willingness to update our beliefs can be a form of intellectual strength.",
       "questions": [
-        [
-          "Why can changing an opinion be a sign of learning?",
-          "Because it can show that a person has responded to new information."
-        ],
-        [
-          "What question can help us test our beliefs?",
-          "What evidence would make me change my mind?"
-        ],
-        [
-          "What is intellectual flexibility?",
-          "The willingness to reconsider beliefs when new information appears."
-        ]
+        {
+          "question": "When is consistency valuable according to the passage?",
+          "answer": "When it is supported by good reasons.",
+          "explanation": "The first paragraph limits the value of consistency. The word 'only' is important: consistency is not automatically good."
+        },
+        {
+          "question": "Why might someone refuse to change an opinion?",
+          "answer": "To protect pride, even when the opinion may be wrong.",
+          "explanation": "The second paragraph directly contrasts protecting pride with avoiding error. Refusing to change can make a person feel consistent without making the belief more accurate."
+        },
+        {
+          "question": "What does the writer recommend?",
+          "answer": "Judging new evidence carefully and updating beliefs when the evidence is strong enough.",
+          "explanation": "The final paragraph avoids two extremes: changing too easily and never changing. The standard is the strength of the evidence."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "Changing your mind is sometimes treated as a sign of weakness. People may think that a strong person should always remain consistent. Yet consistency is valuable only when it is connected to good reasons."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "New information can reveal that an old belief was incomplete or mistaken. In such cases, refusing to change may protect our pride, but it does not protect us from being wrong."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "Of course, we should not change our minds whenever we hear a new opinion. The important question is whether the new evidence is strong enough to change our judgment. A willingness to update our beliefs can be a form of intellectual strength."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "Changing your mind is sometimes treated as a sign of weakness. ",
+          "chunk": "Changing your mind is sometimes treated as a sign of weakness.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "People may think that a strong person should always remain consistent. ",
+          "chunk": "People may think / that a strong person should always remain consistent.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "Yet consistency is valuable only when it is connected to good reasons. ",
+          "chunk": "/ Yet consistency is valuable only / when it is connected / to good reasons.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "New information can reveal that an old belief was incomplete or mistaken. ",
+          "chunk": "New information can reveal / that an old belief was incomplete or mistaken.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "In such cases, refusing to change may protect our pride, but it does not protect us from being wrong. ",
+          "chunk": "In such cases, / refusing / to change may protect our pride, / / but it does not protect us from being wrong.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "Of course, we should not change our minds whenever we hear a new opinion. ",
+          "chunk": "Of course, / we should not change our minds whenever we hear a new opinion.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "The important question is whether the new evidence is strong enough to change our judgment. ",
+          "chunk": "The important question is whether the new evidence is strong enough / to change our judgment.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "A willingness to update our beliefs can be a form of intellectual strength.",
+          "chunk": "A willingness / to update our beliefs can be a form of intellectual strength.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "be willing to + 動詞",
-          "「進んで〜する、〜する意思がある」。"
-        ],
-        [
-          "If + 現在形, 主節",
-          "条件文。「もし新しい証拠が現れれば、再考するのは合理的だ」。"
-        ],
-        [
-          "the difference between A and B",
-          "「AとBの違い」。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "If new evidence appears, / it is reasonable / to reconsider what we thought before.",
-          "it は形式主語。to reconsider が真主語、what we thought before が reconsider の目的語。"
-        ],
-        [
-          "If we enter it with some curiosity, / disagreement can become an opportunity to learn.",
-          "with some curiosity は「少し好奇心を持って」。can become は「〜になり得る」。"
-        ]
-      ],
-      "translation": "考えを変えることは、弱さのしるしだと見なされることがあります。しかし、意見を変えることは、実際には新しいことを学んだ証拠かもしれません。\n\n私たちの信念は、ある時点で持っている情報に基づいています。新しい証拠が現れれば、以前に考えていたことを再検討するのは合理的です。ただし、新しい主張を何でも確認せずに受け入れるべきだという意味ではありません。よく考えるには、開かれた姿勢と慎重な判断の両方が必要です。\n\n役立つ質問の一つは、「何が証拠として示されたら、自分は考えを変えるだろうか」です。答えが「何もない」なら、私たちは自分の信念を検証していないのかもしれません。ただ守っているだけかもしれないのです。\n\n難しい話題を他人と話すとき、これは特に重要です。勝つことだけを目的に会話へ入れば、自分にとって都合の悪い情報を無視するかもしれません。一方、好奇心を持って入れば、意見の対立は学ぶ機会になります。\n\n考えを変える意思があることは、原則がないという意味ではありません。価値観と事実についての信念を区別することです。世界についての理解が変化しても、価値観は安定していることがあります。\n\n複雑な世界では、知的な柔軟性は弱さではありません。それは一つの強さなのです。",
+      "translation": "考えを変えることは必ずしも弱さではない。一貫性は理由に支えられている場合に価値があり、新しい証拠が十分に強いなら信念を更新することは知的な強さでもある、という内容。",
       "vocab": [
-        [
-          "weakness",
-          "弱さ"
-        ],
-        [
-          "defend",
-          "守る、擁護する"
-        ],
-        [
-          "evidence",
-          "証拠"
-        ],
-        [
-          "reasonable",
-          "合理的な"
-        ],
-        [
-          "reconsider",
-          "再考する"
-        ],
-        [
-          "claim",
-          "主張"
-        ],
-        [
-          "openness",
-          "開放性、受け入れる姿勢"
-        ],
-        [
-          "curiosity",
-          "好奇心"
-        ],
-        [
-          "principle",
-          "原則"
-        ],
-        [
-          "flexibility",
-          "柔軟性"
-        ]
+        "consistency: 一貫性",
+        "reveal: 明らかにする",
+        "incomplete: 不完全な",
+        "refuse: 拒む",
+        "pride: プライド、自尊心",
+        "evidence: 証拠、根拠",
+        "judgment: 判断"
       ]
     },
     {
       "id": "07",
       "title": "The Power of Explaining",
-      "theme": "学習・理解",
-      "english": "One of the best ways to discover whether you understand something is to explain it to another person. This may sound strange. After all, teaching seems to require more knowledge than learning. In reality, explaining can reveal gaps in our own understanding.\n\nSuppose you have read an article about how a new technology works. While reading, everything seems clear. But when you try to explain the technology without looking at the article, you may suddenly notice that you cannot describe one important step. The problem was not that you forgot a detail. You may never have understood the connection between the ideas.\n\nThis is why explaining is useful. It forces us to organize information and decide what is essential. If we cannot explain an idea in simple words, we may need to study it again.\n\nExplaining also benefits the listener. When we try to make an idea clear, we often use examples and comparisons. These can make difficult information easier to remember.\n\nThe person listening does not need to be a student. You can explain an idea to a friend, a family member, or even to yourself aloud. The goal is not to sound intelligent. The goal is to make the structure of the idea clear.\n\nLearning is sometimes thought to be about collecting information. But real understanding begins when we can use that information, connect it to other ideas, and explain it in our own words.",
+      "theme": "Learning",
+      "english": "We often think that we understand something because it feels familiar. However, familiarity is not the same as understanding.\n\nOne simple test is to explain the idea to someone else in clear language. When we try to explain, gaps in our knowledge often become visible. We may discover that we know a definition but cannot explain why it matters or how it works.\n\nFor this reason, teaching can improve the teacher's own learning. Explaining forces us to organize information, choose examples, and connect separate ideas. If we cannot explain something simply, we may need to understand it more deeply.",
       "questions": [
-        [
-          "What can explaining reveal?",
-          "Gaps in our own understanding."
-        ],
-        [
-          "Why does explaining force us to think?",
-          "It makes us organize information and decide what is essential."
-        ],
-        [
-          "What is the goal of explaining?",
-          "To make the structure of an idea clear, not simply to sound intelligent."
-        ]
+        {
+          "question": "Why can explaining reveal gaps in knowledge?",
+          "answer": "Because trying to explain requires more than recognizing familiar information.",
+          "explanation": "The passage contrasts 'familiarity' with real understanding. During explanation, a person must organize and connect ideas, which can reveal missing links."
+        },
+        {
+          "question": "How can teaching help the teacher?",
+          "answer": "It forces the teacher to organize information and understand it more deeply.",
+          "explanation": "The final paragraph lists the mental work involved in explanation. Teaching is useful not only for the learner but also for the person doing the teaching."
+        },
+        {
+          "question": "What is the main lesson?",
+          "answer": "Being able to explain an idea clearly is a useful test and method of understanding.",
+          "explanation": "The whole passage develops this one idea: recognition can feel like understanding, but explanation tests whether the knowledge is actually organized and usable."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "We often think that we understand something because it feels familiar. However, familiarity is not the same as understanding."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "One simple test is to explain the idea to someone else in clear language. When we try to explain, gaps in our knowledge often become visible. We may discover that we know a definition but cannot explain why it matters or how it works."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "For this reason, teaching can improve the teacher's own learning. Explaining forces us to organize information, choose examples, and connect separate ideas. If we cannot explain something simply, we may need to understand it more deeply."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "We often think that we understand something because it feels familiar. ",
+          "chunk": "We often think / that we understand something because it feels familiar.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "However, familiarity is not the same as understanding. ",
+          "chunk": "However, / familiarity is not the same as understanding.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "One simple test is to explain the idea to someone else in clear language. ",
+          "chunk": "One simple test is / to explain the idea / to someone else in clear language.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "When we try to explain, gaps in our knowledge often become visible. ",
+          "chunk": "/ When we try / to explain, / gaps in our knowledge often become visible.",
+          "structure": [
+            [
+              "副詞節",
+              "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "We may discover that we know a definition but cannot explain why it matters or how it works. ",
+          "chunk": "We may discover / that we know a definition / but cannot explain why it matters or how it works.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "For this reason, teaching can improve the teacher's own learning. ",
+          "chunk": "For this reason, / teaching can improve the teacher's own learning.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "Explaining forces us to organize information, choose examples, and connect separate ideas. ",
+          "chunk": "Explaining forces us / to organize information, / choose examples, / / and connect separate ideas.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "If we cannot explain something simply, we may need to understand it more deeply.",
+          "chunk": "If we cannot explain something simply, / we may need / to understand it more deeply.",
+          "structure": [
+            [
+              "条件節",
+              "If 〜 は「もし〜なら」。後ろの主節に対する条件を示します。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "whether + S + V",
-          "「〜かどうか」。whether you understand something = 何かを理解しているかどうか。"
-        ],
-        [
-          "without + 動名詞",
-          "「〜せずに」。without looking at ... = 〜を見ずに。"
-        ],
-        [
-          "not A but B",
-          "「AではなくB」。not to sound intelligent but to make ..."
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "One of the best ways / to discover whether you understand something / is to explain it ...",
-          "One of the + 最上級 + 複数名詞。「最もよい方法の一つ」。to discover は ways を修飾。"
-        ],
-        [
-          "The problem was not that you forgot a detail. / You may never have understood ...",
-          "not that ... は「〜ということではない」。後半は may + 完了形で「〜だったのかもしれない」。"
-        ]
-      ],
-      "translation": "何かを理解しているかどうかを知る最もよい方法の一つは、それを他の人に説明することです。これは奇妙に聞こえるかもしれません。教えるには学ぶより多くの知識が必要に思えるからです。しかし実際には、説明することで自分自身の理解の穴が見えてきます。\n\n新しい技術がどのように動くかについての記事を読んだとしましょう。読んでいる間はすべて明確に思えます。しかし記事を見ずに説明しようとすると、重要な一つの段階を説明できないことに突然気づくかもしれません。それは単に細部を忘れたのではなく、考え同士のつながりを理解していなかったのかもしれません。\n\nだから説明することが役立ちます。情報を整理し、何が重要なのかを決めざるを得なくなるからです。簡単な言葉で説明できないなら、もう一度学ぶ必要があるかもしれません。\n\n説明は聞く人にも役立ちます。考えを明確にしようとすると、例や比較を使うことが多くなります。それによって難しい情報が覚えやすくなります。\n\n聞く相手は学生でなくても構いません。友人、家族、あるいは声に出して自分自身に説明してもよいのです。目的は賢く聞こえることではありません。考えの構造を明確にすることです。\n\n学習は情報を集めることだと考えられがちです。しかし、本当の理解は、その情報を使い、他の考えと結びつけ、自分の言葉で説明できるようになったときに始まります。",
+      "translation": "知っているように感じることと、本当に理解していることは同じではない。誰かに説明しようとすると、知識の不足やつながっていない部分が見えてくる。教えることは、教える側の理解も深めるという内容。",
       "vocab": [
-        [
-          "discover",
-          "発見する、気づく"
-        ],
-        [
-          "explain",
-          "説明する"
-        ],
-        [
-          "gap",
-          "すき間、理解の不足"
-        ],
-        [
-          "technology",
-          "技術"
-        ],
-        [
-          "detail",
-          "細部"
-        ],
-        [
-          "connection",
-          "つながり"
-        ],
-        [
-          "essential",
-          "不可欠な、重要な"
-        ],
-        [
-          "comparison",
-          "比較"
-        ],
-        [
-          "structure",
-          "構造"
-        ],
-        [
-          "collect",
-          "集める"
-        ]
+        "familiarity: 親しみ、見慣れていること",
+        "definition: 定義",
+        "gap: 欠けている部分",
+        "organize: 整理する",
+        "separate: 別々の",
+        "deeply: 深く",
+        "force A to do: Aに〜することを強いる"
       ]
     },
     {
       "id": "08",
       "title": "Why Sleep Helps Memory",
-      "theme": "睡眠・記憶",
-      "english": "When we study, we usually focus on the time we spend looking at books or solving problems. However, learning does not stop when we close the book. Sleep also plays an important role in memory.\n\nDuring sleep, the brain continues to process information from the day. Researchers have found that sleep can help stabilize some memories, making them easier to recall later. This is one reason why studying late into the night is not always the best strategy.\n\nImagine two students who study for the same amount of time. One studies until three in the morning and sleeps for only a few hours. The other stops studying earlier and gets enough sleep. The first student may feel that more work was done, but the second student may be better prepared to remember the material the next day.\n\nOf course, sleep cannot replace study. We still need to read, practice, and make mistakes. But learning and sleep should not be treated as enemies. They are parts of the same process.\n\nA useful habit is to review important information before sleeping and then give the brain enough time to rest. The next morning, a short review can help strengthen the memory again.\n\nGood learning is not simply about adding more hours. It is about using our hours wisely, including the hours when we are not studying.",
+      "theme": "Memory",
+      "english": "Studying does not end when we close a book. What happens after learning can also affect how well we remember.\n\nSleep appears to play an important role in memory. During sleep, the brain is not simply inactive. It continues to process information in ways that can help new learning become more stable.\n\nThis does not mean that sleep can replace study. We still need to pay attention and practice before we sleep. But cutting sleep in order to study longer may sometimes reduce the benefit of the extra study time.",
       "questions": [
-        [
-          "What role does sleep play in learning?",
-          "It helps process information and stabilize some memories."
-        ],
-        [
-          "Why might studying until three in the morning be a bad strategy?",
-          "It may reduce sleep and make it harder to remember material the next day."
-        ],
-        [
-          "What does the writer recommend?",
-          "Review important information before sleep and get enough rest."
-        ]
+        {
+          "question": "What does the passage say happens during sleep?",
+          "answer": "The brain continues to process information, which can help stabilize new learning.",
+          "explanation": "The second paragraph explains that the brain is not simply inactive. The important idea is the relationship between processing during sleep and the stability of newly learned information."
+        },
+        {
+          "question": "Can sleep replace studying?",
+          "answer": "No. Attention and practice are still necessary before sleep.",
+          "explanation": "The final paragraph explicitly rejects that misunderstanding. Sleep supports learning; it does not remove the need to study."
+        },
+        {
+          "question": "Why might studying longer by cutting sleep be a bad strategy?",
+          "answer": "Because losing sleep may reduce the benefit gained from the extra study time.",
+          "explanation": "The final sentence gives a trade-off. More time spent awake does not automatically mean better learning if sleep helps consolidate what was studied."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "Studying does not end when we close a book. What happens after learning can also affect how well we remember."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "Sleep appears to play an important role in memory. During sleep, the brain is not simply inactive. It continues to process information in ways that can help new learning become more stable."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "This does not mean that sleep can replace study. We still need to pay attention and practice before we sleep. But cutting sleep in order to study longer may sometimes reduce the benefit of the extra study time."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "Studying does not end when we close a book. ",
+          "chunk": "Studying does not end / when we close a book.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "What happens after learning can also affect how well we remember. ",
+          "chunk": "What happens after learning can also affect how well we remember.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "Sleep appears to play an important role in memory. ",
+          "chunk": "Sleep appears / to play an important role in memory.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "During sleep, the brain is not simply inactive. ",
+          "chunk": "During sleep, / the brain is not simply inactive.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "It continues to process information in ways that can help new learning become more stable. ",
+          "chunk": "It continues / to process information in ways / that can help new learning become more stable.",
+          "structure": [
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "This does not mean that sleep can replace study. ",
+          "chunk": "This does not mean / that sleep can replace study.",
+          "structure": [
+            [
+              "SVC",
+              "This = S、does not mean = V、後ろの that 節や to不定詞の内容が「意味する内容」です。直前の説明を誤解しないための重要表現です。"
+            ],
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "We still need to pay attention and practice before we sleep. ",
+          "chunk": "We still need / to pay attention / and practice before we sleep.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "But cutting sleep in order to study longer may sometimes reduce the benefit of the extra study time.",
+          "chunk": "/ But cutting sleep in order / to study longer may sometimes reduce the benefit of the extra study time.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "when + S + V",
-          "「〜するとき」。when we close the book = 本を閉じたとき。"
-        ],
-        [
-          "make + O + C",
-          "make them easier は「それらをより容易にする」。them = memories, easier = 補語。"
-        ],
-        [
-          "not simply A. It is B.",
-          "「単にAではない。Bなのだ」という対比。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "Researchers have found / that sleep can help stabilize some memories, / making them easier to recall later.",
-          "that 節が found の目的語。making 以下は分詞構文で結果・付帯状況を表す。"
-        ],
-        [
-          "One studies ... / The other ...",
-          "one ... the other ... は「一方は…もう一方は…」。"
-        ]
-      ],
-      "translation": "勉強するとき、私たちは本を見たり問題を解いたりする時間に注目しがちです。しかし、学習は本を閉じたときに終わるわけではありません。睡眠も記憶に重要な役割を果たします。\n\n睡眠中、脳はその日に得た情報を処理し続けます。研究によれば、睡眠は一部の記憶を安定させ、後で思い出しやすくするのに役立ちます。だから、夜遅くまで勉強することが必ずしも最善の方法とは限りません。\n\n同じ時間勉強する2人の生徒を想像してみましょう。一人は午前3時まで勉強し、数時間しか眠りません。もう一人は早めに勉強をやめ、十分な睡眠を取ります。前者はより多く勉強したと感じるかもしれませんが、翌日、後者のほうが教材を覚える準備ができているかもしれません。\n\nもちろん、睡眠だけで勉強の代わりにはなりません。それでも、学習と睡眠を敵同士として扱うべきではありません。両方とも同じ学習過程の一部です。\n\n役立つ習慣は、寝る前に重要な情報を復習し、その後、脳に十分休む時間を与えることです。翌朝、短い復習をすれば、記憶をさらに強めることができます。\n\nよい学習とは、単純に勉強時間を増やすことではありません。勉強していない時間も含め、自分の時間を賢く使うことなのです。",
+      "translation": "学習は本を閉じた時点で終わるわけではない。睡眠中にも脳は情報を処理し、新しく学んだことをより安定させる働きをする可能性がある。ただし睡眠は勉強の代わりではなく、勉強と睡眠の両方が重要だという内容。",
       "vocab": [
-        [
-          "memory",
-          "記憶"
-        ],
-        [
-          "process",
-          "処理する"
-        ],
-        [
-          "stabilize",
-          "安定させる"
-        ],
-        [
-          "recall",
-          "思い出す"
-        ],
-        [
-          "strategy",
-          "戦略、方法"
-        ],
-        [
-          "material",
-          "教材、資料"
-        ],
-        [
-          "replace",
-          "置き換える"
-        ],
-        [
-          "review",
-          "復習する"
-        ],
-        [
-          "strengthen",
-          "強める"
-        ],
-        [
-          "wisely",
-          "賢く"
-        ]
+        "affect: 影響する",
+        "appear to: 〜のように見える",
+        "inactive: 活動していない",
+        "process: 処理する",
+        "stable: 安定した",
+        "replace: 置き換える",
+        "cut: 減らす"
       ]
     },
     {
       "id": "09",
       "title": "The Difference Between Cheap and Valuable",
-      "theme": "消費・価値",
-      "english": "When we buy something, price is often the first thing we notice. A lower price can feel like a better deal, especially when two products look similar. But the cheapest choice is not always the most valuable one.\n\nConsider a pair of shoes. One pair is inexpensive but wears out after a few months. Another pair costs twice as much but lasts for several years. If we only compare the prices at the moment of purchase, the first pair looks better. If we consider how long each pair lasts, the difference becomes smaller.\n\nValue is also connected to time and attention. A free app may cost no money, but it may encourage us to spend an hour every day looking at advertisements. A book may cost money, but if it changes the way we think, its value may be much greater than its price.\n\nThis does not mean that expensive products are always better. Price can be high for many reasons, and some cheap products are excellent. The important point is to ask what we are really paying for.\n\nBefore buying something, we can ask three questions: Will I use it often? Will it last? Will it make my life better in a meaningful way? These questions do not guarantee a perfect decision, but they can move our attention from price alone to value.\n\nIn the end, spending less money and spending less are not necessarily the same thing.",
+      "theme": "Value",
+      "english": "A low price does not always mean good value, and a high price does not always mean poor value. Price tells us how much we pay, but value depends on what we receive in return.\n\nSuppose two products have different prices. The cheaper one may save money today, but it may break quickly and need to be replaced. The more expensive one may last longer and save both time and money over several years.\n\nThis idea applies to more than products. We can also think about the value of books, tools, services, and even experiences. Asking 'How much does it cost?' is useful, but asking 'What do I receive for the cost?' can lead to a better decision.",
       "questions": [
-        [
-          "Why is the cheapest choice not always the best?",
-          "Because value also depends on durability, time, attention, and usefulness."
-        ],
-        [
-          "What example shows that a free product can still have a cost?",
-          "A free app may make us spend time looking at advertisements."
-        ],
-        [
-          "What does the writer suggest asking before buying?",
-          "Whether we will use it often, whether it will last, and whether it will meaningfully improve our lives."
-        ]
+        {
+          "question": "Why might the cheaper product not provide better value?",
+          "answer": "Because it may break quickly and need to be replaced.",
+          "explanation": "The passage distinguishes price from value. A lower initial price can lead to additional costs later."
+        },
+        {
+          "question": "What does value depend on according to the passage?",
+          "answer": "On what we receive in return for what we pay.",
+          "explanation": "The first paragraph defines the contrast directly: price is the amount paid, while value includes the benefit received."
+        },
+        {
+          "question": "What question can lead to a better decision?",
+          "answer": "What do I receive for the cost?",
+          "explanation": "The final paragraph presents this question as a useful complement to asking only about price. It encourages a broader comparison of cost and benefit."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "A low price does not always mean good value, and a high price does not always mean poor value. Price tells us how much we pay, but value depends on what we receive in return."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "Suppose two products have different prices. The cheaper one may save money today, but it may break quickly and need to be replaced. The more expensive one may last longer and save both time and money over several years."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "This idea applies to more than products. We can also think about the value of books, tools, services, and even experiences. Asking 'How much does it cost?' is useful, but asking 'What do I receive for the cost?' can lead to a better decision."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "A low price does not always mean good value, and a high price does not always mean poor value. ",
+          "chunk": "A low price does not always mean good value, / / and a high price does not always mean poor value.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "Price tells us how much we pay, but value depends on what we receive in return. ",
+          "chunk": "Price tells us how much we pay, / / but value depends on what we receive in return.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "Suppose two products have different prices. ",
+          "chunk": "Suppose two products have different prices.",
+          "structure": [
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "The cheaper one may save money today, but it may break quickly and need to be replaced. ",
+          "chunk": "The cheaper one may save money today, / / but it may break quickly / and need / to be replaced.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "The more expensive one may last longer and save both time and money over several years. ",
+          "chunk": "The more expensive one may last longer / and save both time / and money over several years.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "This idea applies to more than products. ",
+          "chunk": "This idea applies / to more than products.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "We can also think about the value of books, tools, services, and even experiences. ",
+          "chunk": "We can also think about the value of books, / tools, / services, / / and even experiences.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 8,
+          "sentence": "Asking 'How much does it cost?' is useful, but asking 'What do I receive for the cost?' can lead to a better decision.",
+          "chunk": "Asking 'How much does it cost?' is useful, / / but asking 'What do I receive for the cost?' can lead / to a better decision.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "not always + 形容詞",
-          "「いつも〜とは限らない」。部分否定。"
-        ],
-        [
-          "if + S + V",
-          "「もし〜なら」。ここでは条件によって評価が変わることを示す。"
-        ],
-        [
-          "what + S + V",
-          "名詞節。「what we are really paying for」= 私たちが本当にお金を払っているもの。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "If we consider how long each pair lasts, / the difference becomes smaller.",
-          "if 節内の how long は「どれくらい長く」。how + 形容詞 + S + V の間接疑問。"
-        ],
-        [
-          "The important point / is to ask / what we are really paying for.",
-          "to ask が補語。what 節が ask の目的語。「重要なのは、本当に何にお金を払っているのかを考えること」。"
-        ]
-      ],
-      "translation": "何かを買うとき、値段は最初に目に入ることが多いものです。価格が低いほうがよい買い物に感じられます。しかし、最も安い選択がいつも最も価値のある選択とは限りません。\n\n靴を考えてみましょう。一足は安いものの、数か月で壊れます。もう一足は2倍の値段ですが、数年間使えます。購入時の価格だけを比べれば、前者のほうがよく見えます。しかし、それぞれがどれだけ長持ちするかを考えれば、差は小さくなります。\n\n価値は時間や注意とも関係します。無料のアプリはお金がかからなくても、毎日1時間広告を見ることを促すかもしれません。本はお金がかかりますが、考え方を変えるなら、その価値は価格よりずっと大きいかもしれません。\n\n高い商品がいつもよいという意味ではありません。価格が高い理由はいろいろありますし、安くても優れた商品はあります。重要なのは、自分が本当は何にお金を払っているのかを考えることです。\n\n何かを買う前に、「よく使うか」「長持ちするか」「意味のある形で生活をよくしてくれるか」の3つを考えてみましょう。完璧な判断を保証するわけではありませんが、価格だけでなく価値へ注意を向ける助けになります。\n\n結局のところ、「使うお金を減らすこと」と「使う量を減らすこと」は必ずしも同じではありません。",
+      "translation": "安いことと価値が高いことは同じではない。値段は支払う額を示すが、価値はその支払いに対して何を得られるかで決まる。短期的な価格だけでなく、長期的な費用や利益を見るべきだという内容。",
       "vocab": [
-        [
-          "price",
-          "価格"
-        ],
-        [
-          "deal",
-          "取引、買い得なもの"
-        ],
-        [
-          "inexpensive",
-          "安価な"
-        ],
-        [
-          "wear out",
-          "使い古してだめになる"
-        ],
-        [
-          "durability",
-          "耐久性"
-        ],
-        [
-          "attention",
-          "注意、関心"
-        ],
-        [
-          "advertisement",
-          "広告"
-        ],
-        [
-          "meaningful",
-          "意味のある"
-        ],
-        [
-          "guarantee",
-          "保証する"
-        ],
-        [
-          "valuable",
-          "価値のある"
-        ]
+        "value: 価値",
+        "in return: その代わりに",
+        "suppose: 仮に〜とする",
+        "replace: 取り替える",
+        "apply to: 〜に当てはまる",
+        "cost: 費用",
+        "benefit: 利益"
       ]
     },
     {
       "id": "10",
       "title": "A Question Worth Asking",
-      "theme": "人生・選択",
-      "english": "When people make important decisions, they often ask, “What should I choose?” This is a natural question, but there is another question that can be just as useful: “What kind of person do I want to become?”\n\nImagine someone deciding whether to accept a difficult job. The first question may lead to a comparison of salary, working hours, and location. These factors are important. But the second question adds another perspective. Will this job help the person become more patient, more skilled, or more responsible? Will it bring the person closer to the kind of life they value?\n\nThis way of thinking does not provide an easy answer. In fact, it may make a decision more complicated. A choice can have both good and bad effects. Sometimes we have to accept a short-term difficulty because it supports a long-term goal.\n\nThe question is useful because our lives are shaped not only by individual decisions but also by repeated actions. What we do every day gradually becomes part of who we are. If we repeatedly choose convenience over learning, for example, we may become less willing to face difficult tasks.\n\nWe do not need to make every decision perfectly. Nobody can know exactly what the future will look like. But when we connect our choices with the person we want to become, even an ordinary decision can become more meaningful.\n\nPerhaps the goal is not to choose a perfect life. It is to choose, again and again, the direction in which we want to grow.",
+      "theme": "Life and choices",
+      "english": "Many decisions are easier when we know what we are trying to become. Without a direction, even a large number of choices can leave us feeling uncertain.\n\nOne useful question is not only 'What do I want to do?' but also 'What kind of person do I want to be?' The second question can guide everyday decisions. For example, a person who wants to become reliable may think differently about keeping promises.\n\nWe do not need to know the complete answer immediately. Our goals and values can change as we gain experience. Still, a clear direction can help us choose between opportunities that look equally attractive in the moment.",
       "questions": [
-        [
-          "What question does the writer add to “What should I choose?”",
-          "“What kind of person do I want to become?”"
-        ],
-        [
-          "Why can a decision become more complicated?",
-          "A choice can have both good and bad effects, and short-term difficulty may support a long-term goal."
-        ],
-        [
-          "How are our lives shaped?",
-          "By individual decisions and repeated actions."
-        ]
+        {
+          "question": "Why can knowing the kind of person we want to be be useful?",
+          "answer": "Because it can guide everyday decisions.",
+          "explanation": "The second paragraph explains that an image of the person we want to become can act as a standard for smaller choices, such as whether to keep promises."
+        },
+        {
+          "question": "Does the writer say we must know our complete direction immediately?",
+          "answer": "No. Goals and values can change as we gain experience.",
+          "explanation": "The final paragraph clearly says that the complete answer is not necessary at once. The writer supports direction without demanding perfect certainty."
+        },
+        {
+          "question": "What is the main idea?",
+          "answer": "A general sense of the person we want to become can help us make choices, even if that direction changes over time.",
+          "explanation": "This answer combines the two major points of the passage: direction is useful, but it does not have to be fixed forever."
+        }
+      ],
+      "paragraphs": [
+        {
+          "paragraph": 1,
+          "role": "導入：身近な問題やテーマを提示する段落です。",
+          "text": "Many decisions are easier when we know what we are trying to become. Without a direction, even a large number of choices can leave us feeling uncertain."
+        },
+        {
+          "paragraph": 2,
+          "role": "展開：理由・具体例・仕組みを説明し、中心主張を支えます。",
+          "text": "One useful question is not only 'What do I want to do?' but also 'What kind of person do I want to be?' The second question can guide everyday decisions. For example, a person who wants to become reliable may think differently about keeping promises."
+        },
+        {
+          "paragraph": 3,
+          "role": "まとめ：本文の結論や実践的な提案を示します。",
+          "text": "We do not need to know the complete answer immediately. Our goals and values can change as we gain experience. Still, a clear direction can help us choose between opportunities that look equally attractive in the moment."
+        }
+      ],
+      "sentences": [
+        {
+          "no": 1,
+          "sentence": "Many decisions are easier when we know what we are trying to become. ",
+          "chunk": "Many decisions are easier / when we know what we are trying / to become.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 2,
+          "sentence": "Without a direction, even a large number of choices can leave us feeling uncertain. ",
+          "chunk": "Without a direction, / even a large number of choices can leave us feeling uncertain.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 3,
+          "sentence": "One useful question is not only 'What do I want to do?' but also 'What kind of person do I want to be?' The second question can guide everyday decisions. ",
+          "chunk": "One useful question is not only 'What do I want / to do?' / but also 'What kind of person do I want / to be?' The second question can guide everyday decisions.",
+          "structure": [
+            [
+              "相関構文",
+              "not only A but also B は「AだけでなくBも」。AとBは文法的に同じ種類の要素が並びます。"
+            ],
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 4,
+          "sentence": "For example, a person who wants to become reliable may think differently about keeping promises. ",
+          "chunk": "For example, / a person / who wants / to become reliable may think differently about keeping promises.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 5,
+          "sentence": "We do not need to know the complete answer immediately. ",
+          "chunk": "We do not need / to know the complete answer immediately.",
+          "structure": [
+            [
+              "to不定詞",
+              "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語とのつながりを確認します。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 6,
+          "sentence": "Our goals and values can change as we gain experience. ",
+          "chunk": "Our goals / and values can change as we gain experience.",
+          "structure": [
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        },
+        {
+          "no": 7,
+          "sentence": "Still, a clear direction can help us choose between opportunities that look equally attractive in the moment.",
+          "chunk": "Still, / a clear direction can help us choose between opportunities / that look equally attractive in the moment.",
+          "structure": [
+            [
+              "時を表す名詞節",
+              "the moment S+V は「Sが〜した瞬間に」。時間を表し、後ろの出来事につながります。"
+            ],
+            [
+              "that節",
+              "that 以下は、動詞の目的語や内容を表す名詞節、または前の名詞を説明する関係詞節の可能性があります。実際の位置を確認して読みます。"
+            ],
+            [
+              "助動詞",
+              "助動詞 + 動詞の原形で、可能・推量・意志などの意味を加えます。"
+            ],
+            [
+              "音読のポイント",
+              "まず文の中心となる S と V を探し、次に目的語・補語を確認します。その後、前置詞句や副詞節などの修飾部分を付け足して意味を広げます。"
+            ]
+          ]
+        }
       ],
       "grammar": [
-        [
-          "whether + to do",
-          "「〜するかどうか」。whether to accept = 受け入れるかどうか。"
-        ],
-        [
-          "help + O + 動詞",
-          "help the person become ... は「その人が〜になるのを助ける」。to は省略可能。"
-        ],
-        [
-          "not only A but also B",
-          "「AだけでなくBも」。"
-        ]
+        {
+          "title": "読解の基本",
+          "text": "まず「文の骨格」を取ります。修飾語を一度外して S＋V を見つけ、その後に O・C・節・句を付け足します。"
+        },
+        {
+          "title": "接続詞と節",
+          "text": "when / if / because / although などで始まる部分は、主節に追加情報を与える節です。節だけを先に日本語に固定せず、何を修飾するか確認します。"
+        },
+        {
+          "title": "to不定詞",
+          "text": "to + 動詞の原形は、名詞を説明する・動詞の内容を表す・目的を表すなど複数の役割があります。前の語との関係を見ることが重要です。"
+        }
       ],
-      "syntax": [
-        [
-          "Will this job help the person / become more patient, more skilled, or more responsible?",
-          "help + O + 動詞原形。「この仕事は、その人が〜になる助けになるか」。"
-        ],
-        [
-          "What we do every day / gradually becomes part of who we are.",
-          "What we do every day が主語。「毎日することが徐々に自分たちの一部になる」。"
-        ],
-        [
-          "when we connect our choices / with the person we want to become",
-          "the person we want to become は関係代名詞が省略された形。「自分がなりたい人」。"
-        ]
-      ],
-      "translation": "重要な決断をするとき、人は「何を選ぶべきだろう」と考えます。自然な問いですが、もう一つ同じくらい役立つ質問があります。「自分はどんな人になりたいのだろう」です。\n\n難しい仕事を受けるかどうか迷っている人を想像してみましょう。最初の質問なら、給料、勤務時間、勤務地などを比較するでしょう。これらは重要です。しかし2つ目の質問をすると、別の視点が加わります。その仕事は、その人がより忍耐強く、より熟練し、より責任感のある人になる助けになるでしょうか。自分が大切にする人生に近づけてくれるでしょうか。\n\nこの考え方は簡単な答えを与えてくれるわけではありません。むしろ決断を複雑にするかもしれません。一つの選択には良い影響も悪い影響もあります。長期的な目標を支えるために、短期的な困難を受け入れなければならないこともあります。\n\nこの質問が役立つのは、人生が個々の決断だけでなく、繰り返す行動によっても形作られるからです。毎日することは徐々に自分自身の一部になります。例えば、学ぶことより便利さを繰り返し選べば、難しい課題に向き合おうとしない人になっていくかもしれません。\n\nすべての決断を完璧にする必要はありません。未来が正確にどうなるかを知ることは誰にもできません。しかし、自分の選択を「なりたい自分」と結びつければ、普通の決断さえ意味のあるものになります。\n\nおそらく目標は、完璧な人生を選ぶことではありません。自分が成長したい方向を、何度も何度も選ぶことなのです。",
+      "translation": "自分が何をしたいかだけでなく、どんな人になりたいかを考えることは、日常の小さな選択の基準になる。ただし人生の方向性を最初から完全に決める必要はなく、経験によって変わってよいという内容。",
       "vocab": [
-        [
-          "decision",
-          "決断"
-        ],
-        [
-          "natural",
-          "自然な、当然の"
-        ],
-        [
-          "perspective",
-          "視点"
-        ],
-        [
-          "factor",
-          "要因"
-        ],
-        [
-          "patient",
-          "忍耐強い"
-        ],
-        [
-          "responsible",
-          "責任感のある"
-        ],
-        [
-          "complicated",
-          "複雑な"
-        ],
-        [
-          "individual",
-          "個々の"
-        ],
-        [
-          "gradually",
-          "徐々に"
-        ],
-        [
-          "direction",
-          "方向"
-        ]
+        "direction: 方向性",
+        "uncertain: 確信が持てない",
+        "guide: 導く",
+        "reliable: 信頼できる",
+        "promise: 約束",
+        "complete: 完全な",
+        "equally: 同じように"
       ]
     }
   ]
