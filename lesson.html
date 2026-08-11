@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Lesson | READ ALOUD LAB</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,145 +14,232 @@
 
   <header>
     <div class="wrap topbar">
-      <a class="brand" href="./">READ ALOUD LAB</a>
-      <a href="./">← Lessons</a>
+      <a class="brand" href="./">
+        READ ALOUD LAB
+      </a>
+
+      <a href="./">
+        ← Lessons
+      </a>
     </div>
   </header>
 
+
   <main class="wrap lesson" id="app">
+
     <!-- Lesson content will be inserted here -->
+
   </main>
+
 
   <script>
 
     /*
-     * URLからLesson IDを取得
-     *
-     * 例：
-     * lesson.html?id=01
+     * =========================================================
+     * 基本設定
+     * =========================================================
      */
-    const id = new URLSearchParams(location.search).get('id');
+
+    const id =
+      new URLSearchParams(location.search).get('id');
 
 
     /*
      * HTMLに安全に文字列を表示するためのエスケープ処理
      */
+
     function esc(value) {
-      return String(value).replace(/[&<>"]/g, character => ({
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        '"': '&quot;'
-      }[character]));
+
+      return String(value).replace(
+        /[&<>"]/g,
+        character => ({
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          '"': '&quot;'
+        }[character])
+      );
+
     }
 
 
     /*
-     * Lessonを読み込む
+     * =========================================================
+     * Lesson読み込み
+     * =========================================================
      *
-     * ① data/lessons.json からLessonの管理情報を取得
+     * ① lessons.jsonを読み込む
      * ② URLのidに対応するLessonを探す
-     * ③ lesson01.jsonなど、該当するLesson JSONを取得
-     * ④ render()で画面に表示
+     * ③ lesson01.jsonなどのLesson本体を読み込む
+     * ④ render()で表示
+     *
      */
+
     async function loadLesson() {
 
       try {
 
-        // Lesson管理JSONを読み込む
-        const response = await fetch('data/lessons.json');
+        /*
+         * Lesson管理JSON
+         */
+
+        const response =
+          await fetch('data/lessons.json');
+
 
         if (!response.ok) {
-          throw new Error('lessons.json could not be loaded.');
+          throw new Error(
+            'lessons.json could not be loaded.'
+          );
         }
 
-        const lessons = await response.json();
+
+        const lessons =
+          await response.json();
 
 
-        // URLのidに対応するLessonを探す
-        const lessonInfo = lessons.find(
-          lesson => lesson.id === id
-        );
+        /*
+         * URLのidに対応するLessonを検索
+         */
+
+        const lessonInfo =
+          lessons.find(
+            lesson => lesson.id === id
+          );
 
 
-        // Lessonが存在しない場合
+        /*
+         * Lessonが存在しない場合
+         */
+
         if (!lessonInfo) {
 
           document.querySelector('#app').innerHTML = `
+
             <div class="panel">
+
               <h2>Lesson not found</h2>
-              <p>指定されたLessonが見つかりません。</p>
+
               <p>
-                <a href="./">← Lesson一覧に戻る</a>
+                指定されたLessonが見つかりません。
               </p>
+
+              <p>
+                <a href="./">
+                  ← Lesson一覧に戻る
+                </a>
+              </p>
+
             </div>
+
           `;
 
           return;
+
         }
 
 
         /*
-         * Lesson本体のJSONを読み込む
+         * Lesson本体JSON
          *
          * 例：
          * data/lessons/lesson01.json
          */
-        const lessonResponse = await fetch(
-          `data/lessons/${lessonInfo.file}`
-        );
+
+        const lessonResponse =
+          await fetch(
+            `data/lessons/${lessonInfo.file}`
+          );
+
 
         if (!lessonResponse.ok) {
+
           throw new Error(
             `${lessonInfo.file} could not be loaded.`
           );
+
         }
 
-        const lesson = await lessonResponse.json();
+
+        const lesson =
+          await lessonResponse.json();
 
 
-        // Lessonを画面に表示
+        /*
+         * Lessonを表示
+         */
+
         render(lesson);
 
-      } catch (error) {
+      }
+
+
+      catch (error) {
 
         console.error(error);
 
+
         document.querySelector('#app').innerHTML = `
+
           <div class="panel">
-            <h2>Lessonを読み込めませんでした</h2>
+
+            <h2>
+              Lessonを読み込めませんでした
+            </h2>
+
             <p>
-              Lessonデータの読み込み中にエラーが発生しました。
+              Lessonデータの読み込み中に
+              エラーが発生しました。
             </p>
+
             <p>
-              <a href="./">← Lesson一覧に戻る</a>
+              <a href="./">
+                ← Lesson一覧に戻る
+              </a>
             </p>
+
           </div>
+
         `;
+
       }
+
     }
 
 
     /*
-     * Lesson本体をHTMLとして表示
+     * =========================================================
+     * Lesson表示
+     * =========================================================
      */
+
     function render(x) {
 
-      // 現在表示しているLessonを保存
-      window.currentLesson = x;
+      /*
+       * 現在のLessonを保存
+       */
 
-      // ブラウザのタイトルを変更
-      document.title = `${x.title} | READ ALOUD LAB`;
+      window.currentLesson = x;
 
 
       /*
-       * Lessonページ本体
+       * ブラウザのタイトル
        */
-      const app = document.querySelector('#app');
+
+      document.title =
+        `${x.title} | READ ALOUD LAB`;
+
+
+      const app =
+        document.querySelector('#app');
+
 
       app.innerHTML = `
 
-        <!-- Lesson Header -->
+        <!-- =================================================
+             Lesson Header
+        ================================================== -->
+
         <p class="eyebrow">
           LESSON ${esc(x.id)} · ${esc(x.theme)}
         </p>
@@ -160,17 +249,24 @@
         </h1>
 
 
-        <!-- 01 English -->
+        <!-- =================================================
+             01 · English
+        ================================================== -->
+
         <section class="panel">
 
-          <h2>01 · English</h2>
+          <h2>
+            01 · English
+          </h2>
 
           <div class="english">
 
             ${x.english
               .split('\\n\\n')
               .map(paragraph => `
-                <p>${esc(paragraph)}</p>
+                <p>
+                  ${esc(paragraph)}
+                </p>
               `)
               .join('')
             }
@@ -180,47 +276,83 @@
         </section>
 
 
-        <!-- Audio -->
+        <!-- =================================================
+             Audio
+        ================================================== -->
+
         <section class="panel audio">
 
-          <h2>Listen & Read Aloud</h2>
+          <h2>
+            Listen & Read Aloud
+          </h2>
 
           <p>
-            ブラウザの英語音声を利用します。
+            英語音声を選択して、英文を音読してみましょう。
           </p>
 
-          <select id="voice"></select>
 
-          <input
-            id="rate"
-            type="range"
-            min="0.65"
-            max="1.15"
-            value="0.85"
-            step="0.05"
-          >
+          <label for="voice">
+            Voice
+          </label>
 
-          <span id="rv">0.85</span>
+          <select id="voice">
+            <option>
+              音声を読み込んでいます...
+            </option>
+          </select>
 
-          <button id="play">
-            ▶ 再生
-          </button>
 
-          <button id="stop">
-            ■ 停止
-          </button>
+          <div class="speed-control">
+
+            <label for="rate">
+              Speed
+            </label>
+
+            <input
+              id="rate"
+              type="range"
+              min="0.65"
+              max="1.15"
+              value="0.85"
+              step="0.05"
+            >
+
+            <span id="rv">
+              0.85
+            </span>
+
+          </div>
+
+
+          <div class="audio-buttons">
+
+            <button id="play">
+              ▶ 再生
+            </button>
+
+            <button id="stop">
+              ■ 停止
+            </button>
+
+          </div>
 
         </section>
 
 
-        <!-- 02 Reading Questions -->
+        <!-- =================================================
+             02 · Reading Questions
+        ================================================== -->
+
         <section class="panel">
 
-          <h2>02 · Reading Questions</h2>
+          <h2>
+            02 · Reading Questions
+          </h2>
 
           <p class="lead">
             選択肢を選ぶと、正解・不正解と解説が表示されます。
           </p>
+
 
           ${x.questions
             .map((question, questionIndex) => `
@@ -243,13 +375,17 @@
 
                       <button
                         class="option"
-                        onclick="answer(
-                          ${questionIndex},
-                          ${optionIndex}
-                        )"
+                        onclick="
+                          answer(
+                            ${questionIndex},
+                            ${optionIndex}
+                          )
+                        "
                       >
 
-                        ${String.fromCharCode(65 + optionIndex)}.
+                        ${String.fromCharCode(
+                          65 + optionIndex
+                        )}.
                         ${esc(option)}
 
                       </button>
@@ -275,10 +411,16 @@
         </section>
 
 
-        <!-- 03 Paragraph Reading -->
+        <!-- =================================================
+             03 · Paragraph Reading
+        ================================================== -->
+
         <section class="panel">
 
-          <h2>03 · 段落ごとの読解</h2>
+          <h2>
+            03 · 段落ごとの読解
+          </h2>
+
 
           ${x.paragraphs
             .map(paragraph => `
@@ -307,10 +449,16 @@
         </section>
 
 
-        <!-- 04 Important Grammar -->
+        <!-- =================================================
+             04 · Important Grammar
+        ================================================== -->
+
         <section class="panel">
 
-          <h2>04 · Important Grammar</h2>
+          <h2>
+            04 · Important Grammar
+          </h2>
+
 
           ${x.grammar
             .map(grammar => `
@@ -334,10 +482,15 @@
         </section>
 
 
-        <!-- 05 Sentence Structure -->
+        <!-- =================================================
+             05 · Sentence Structure
+        ================================================== -->
+
         <section class="panel">
 
-          <h2>05 · 1文ずつの構文解説</h2>
+          <h2>
+            05 · 1文ずつの構文解説
+          </h2>
 
           <p class="lead">
             スラッシュはここでは使いません。
@@ -351,8 +504,13 @@
               <details class="sentence">
 
                 <summary>
-                  <b>${sentence.no}.</b>
+
+                  <b>
+                    ${sentence.no}.
+                  </b>
+
                   ${esc(sentence.sentence)}
+
                 </summary>
 
 
@@ -388,7 +546,10 @@
         </section>
 
 
-        <!-- 06 Slash Reading -->
+        <!-- =================================================
+             06 · Slash Reading
+        ================================================== -->
+
         <section class="panel slash-panel">
 
           <h2>
@@ -412,17 +573,32 @@
         </section>
 
 
-        <!-- 07 Translation -->
+        <!-- =================================================
+             07 · Translation
+        ================================================== -->
+
         <section class="panel">
 
-          <h2>07 · 日本語訳</h2>
+          <h2>
+            07 · 日本語訳
+          </h2>
+
 
           <div class="translation">
 
             ${esc(x.translation)
-              .replace(/\n\n/g, '</p><p>')
-              .replace(/^/, '<p>')
-              .replace(/$/, '</p>')
+              .replace(
+                /\n\n/g,
+                '</p><p>'
+              )
+              .replace(
+                /^/,
+                '<p>'
+              )
+              .replace(
+                /$/,
+                '</p>'
+              )
             }
 
           </div>
@@ -430,10 +606,16 @@
         </section>
 
 
-        <!-- 08 Vocabulary -->
+        <!-- =================================================
+             08 · Vocabulary
+        ================================================== -->
+
         <section class="panel">
 
-          <h2>08 · Vocabulary</h2>
+          <h2>
+            08 · Vocabulary
+          </h2>
+
 
           <div class="vocab">
 
@@ -456,23 +638,34 @@
       /*
        * 音声機能を初期化
        */
+
       setupVoice(x.english);
 
     }
 
 
     /*
-     * 読解問題の回答処理
+     * =========================================================
+     * 読解問題
+     * =========================================================
      */
-    function answer(questionIndex, selectedIndex) {
+
+    function answer(
+      questionIndex,
+      selectedIndex
+    ) {
 
       const question =
-        window.currentLesson.questions[questionIndex];
+        window.currentLesson.questions[
+          questionIndex
+        ];
+
 
       const quiz =
         document.querySelector(
           `#quiz-${questionIndex}`
         );
+
 
       const result =
         document.querySelector(
@@ -483,37 +676,58 @@
       /*
        * 選択肢を無効化
        */
+
       quiz
         .querySelectorAll('.option')
-        .forEach((button, index) => {
+        .forEach(
+          (button, index) => {
 
-          button.disabled = true;
+            button.disabled = true;
 
 
-          // 正解
-          if (index === question.correctIndex) {
-            button.classList.add('correct');
+            /*
+             * 正解
+             */
+
+            if (
+              index === question.correctIndex
+            ) {
+
+              button.classList.add(
+                'correct'
+              );
+
+            }
+
+
+            /*
+             * 選択した答えが不正解
+             */
+
+            if (
+              index === selectedIndex &&
+              index !== question.correctIndex
+            ) {
+
+              button.classList.add(
+                'wrong'
+              );
+
+            }
+
           }
-
-
-          // 選択した答えが不正解だった場合
-          if (
-            index === selectedIndex &&
-            index !== question.correctIndex
-          ) {
-            button.classList.add('wrong');
-          }
-
-        });
+        );
 
 
       const isCorrect =
-        selectedIndex === question.correctIndex;
+        selectedIndex ===
+        question.correctIndex;
 
 
       /*
        * 結果表示
        */
+
       result.className =
         `result ${isCorrect ? 'ok' : 'ng'}`;
 
@@ -521,143 +735,514 @@
       result.innerHTML = `
 
         <h4>
-          ${isCorrect
-            ? '✓ 正解です！'
-            : '✕ 不正解です'
+
+          ${
+            isCorrect
+              ? '✓ 正解です！'
+              : '✕ 不正解です'
           }
+
         </h4>
 
 
-        ${isCorrect
-          ? ''
-          : `
-            <p>
-              <b>正解：</b>
-              ${String.fromCharCode(
-                65 + question.correctIndex
-              )}.
-              ${esc(question.answer)}
-            </p>
-          `
+        ${
+          isCorrect
+            ? ''
+            : `
+              <p>
+
+                <b>
+                  正解：
+                </b>
+
+                ${String.fromCharCode(
+                  65 + question.correctIndex
+                )}.
+
+                ${esc(
+                  question.answer ||
+                  question.options[
+                    question.correctIndex
+                  ]
+                )}
+
+              </p>
+            `
         }
 
 
         <p>
-          <b>解説：</b>
-          ${esc(question.explanation)}
+
+          <b>
+            解説：
+          </b>
+
+          ${esc(
+            question.explanation
+          )}
+
         </p>
 
       `;
+
     }
 
 
     /*
+     * =========================================================
      * 音声機能
+     * =========================================================
+     *
+     * 英語音声を品質順・おすすめ順に取得して選べるようにする
+     *
      */
+
     function setupVoice(text) {
 
+      /*
+       * 現在利用可能なVoice
+       */
+
       let voices = [];
+
 
       const voiceSelect =
         document.querySelector('#voice');
 
 
-      /*
-       * 英語音声だけ取得
-       */
-      function loadVoices() {
-
-        voices =
-          speechSynthesis
-            .getVoices()
-            .filter(voice => /^en/i.test(voice.lang));
+      const playButton =
+        document.querySelector('#play');
 
 
-        voiceSelect.innerHTML =
-          voices
-            .map((voice, index) => `
-              <option value="${index}">
-                ${voice.name} (${voice.lang})
-              </option>
-            `)
-            .join('');
-      }
+      const stopButton =
+        document.querySelector('#stop');
 
 
-      loadVoices();
-
-      speechSynthesis.onvoiceschanged =
-        loadVoices;
-
-
-      /*
-       * 再生速度
-       */
       const rate =
         document.querySelector('#rate');
+
 
       const rateValue =
         document.querySelector('#rv');
 
 
-      rate.addEventListener('input', () => {
+      /*
+       * ---------------------------------------------------------
+       * Voiceのスコアリング
+       * ---------------------------------------------------------
+       */
 
-        rateValue.textContent =
-          rate.value;
+      function getVoiceScore(voice) {
 
-      });
+        let score = 0;
+
+
+        const name =
+          voice.name || '';
+
+
+        const lang =
+          voice.lang || '';
+
+
+        /*
+         * 高品質系キーワード
+         */
+
+        if (
+          /enhanced|premium|natural|siri/i.test(
+            name
+          )
+        ) {
+
+          score += 10;
+
+        }
+
+
+        /*
+         * 英語圏の主要言語
+         */
+
+        if (
+          /en[-_]US/i.test(lang)
+        ) {
+
+          score += 5;
+
+        }
+
+
+        if (
+          /en[-_]GB/i.test(lang)
+        ) {
+
+          score += 5;
+
+        }
+
+
+        /*
+         * ローカル音声
+         *
+         * localServiceがtrueなら、
+         * 端末にインストールされた音声。
+         */
+
+        if (
+          voice.localService
+        ) {
+
+          score += 2;
+
+        }
+
+
+        /*
+         * デフォルト音声
+         */
+
+        if (
+          voice.default
+        ) {
+
+          score += 1;
+
+        }
+
+
+        return score;
+
+      }
 
 
       /*
-       * 再生
+       * ---------------------------------------------------------
+       * Voice一覧を読み込む
+       * ---------------------------------------------------------
        */
-      document
-        .querySelector('#play')
-        .addEventListener('click', () => {
+
+      function loadVoices() {
+
+        const rawVoices =
+          speechSynthesis.getVoices();
+
+
+        /*
+         * 英語音声のみ抽出
+         *
+         * en-US
+         * en-GB
+         * en-AU
+         * en-IN
+         * etc.
+         */
+
+        let englishVoices =
+          rawVoices.filter(
+            voice =>
+              /^en/i.test(
+                voice.lang
+              ) ||
+              /English/i.test(
+                voice.name
+              )
+          );
+
+
+        /*
+         * 品質・おすすめ順に並び替え
+         */
+
+        englishVoices.sort(
+          (a, b) =>
+            getVoiceScore(b) -
+            getVoiceScore(a)
+        );
+
+
+        voices =
+          englishVoices;
+
+
+        /*
+         * 英語音声が取得できなかった場合
+         *
+         * 念のため全Voiceへフォールバック
+         */
+
+        if (
+          voices.length === 0
+        ) {
+
+          voices =
+            rawVoices;
+
+        }
+
+
+        /*
+         * Voice一覧を画面に表示
+         */
+
+        voiceSelect.innerHTML =
+          voices
+            .map(
+              (voice, index) => {
+
+                let displayName =
+                  voice.name;
+
+
+                /*
+                 * 高品質系Voiceには
+                 * ⭐を付ける
+                 */
+
+                if (
+                  /enhanced|premium|natural|siri/i.test(
+                    voice.name
+                  )
+                ) {
+
+                  displayName +=
+                    ' ⭐ (高音質)';
+
+                }
+
+
+                /*
+                 * local / remoteを表示
+                 *
+                 * Voiceの違いを確認するための
+                 * 情報として表示
+                 */
+
+                if (
+                  voice.localService
+                ) {
+
+                  displayName +=
+                    ' · Local';
+
+                }
+                else {
+
+                  displayName +=
+                    ' · Remote';
+
+                }
+
+
+                return `
+
+                  <option value="${index}">
+
+                    ${esc(displayName)}
+                    (${esc(voice.lang)})
+
+                  </option>
+
+                `;
+
+              }
+            )
+            .join('');
+
+
+        /*
+         * Voiceが存在する場合、
+         * 最初のVoiceを選択
+         */
+
+        if (
+          voices.length > 0
+        ) {
+
+          voiceSelect.value = '0';
+
+        }
+
+      }
+
+
+      /*
+       * Voice読み込み
+       */
+
+      loadVoices();
+
+
+      /*
+       * iPhone / Safariなどでは
+       * 非同期でVoiceが追加される場合がある。
+       */
+
+      if (
+        'onvoiceschanged' in speechSynthesis
+      ) {
+
+        speechSynthesis.onvoiceschanged =
+          loadVoices;
+
+      }
+
+
+      /*
+       * ---------------------------------------------------------
+       * 再生速度
+       * ---------------------------------------------------------
+       */
+
+      rate.addEventListener(
+        'input',
+        () => {
+
+          rateValue.textContent =
+            rate.value;
+
+        }
+      );
+
+
+      /*
+       * ---------------------------------------------------------
+       * 再生
+       * ---------------------------------------------------------
+       */
+
+      playButton.addEventListener(
+        'click',
+        () => {
+
+          /*
+           * 現在の読み上げを停止
+           */
 
           speechSynthesis.cancel();
 
 
-          const utterance =
-            new SpeechSynthesisUtterance(text);
+          /*
+           * Voice一覧がまだ取得できていない場合、
+           * もう一度取得する
+           */
 
+          if (
+            voices.length === 0
+          ) {
 
-          if (voices.length > 0) {
-            utterance.voice =
-              voices[voiceSelect.value];
+            loadVoices();
+
           }
 
 
-          utterance.lang = 'en-US';
+          /*
+           * 読み上げオブジェクト
+           */
+
+          const utterance =
+            new SpeechSynthesisUtterance(
+              text
+            );
+
+
+          /*
+           * 選択されたVoice
+           */
+
+          const selectedVoice =
+            voices[
+              Number(
+                voiceSelect.value
+              )
+            ];
+
+
+          if (
+            selectedVoice
+          ) {
+
+            /*
+             * 選択されたVoiceを指定
+             */
+
+            utterance.voice =
+              selectedVoice;
+
+
+            /*
+             * Voiceの言語コードを使用
+             */
+
+            utterance.lang =
+              selectedVoice.lang;
+
+          }
+          else {
+
+            /*
+             * フォールバック
+             */
+
+            utterance.lang =
+              'en-US';
+
+          }
+
+
+          /*
+           * 再生速度
+           */
 
           utterance.rate =
-            Number(rate.value);
+            Number(
+              rate.value
+            );
 
+
+          /*
+           * 英語音声として読み上げ
+           */
+
+          utterance.pitch = 1.0;
+
+
+          /*
+           * 読み上げ開始
+           */
 
           speechSynthesis.speak(
             utterance
           );
 
-        });
+        }
+      );
 
 
       /*
+       * ---------------------------------------------------------
        * 停止
+       * ---------------------------------------------------------
        */
-      document
-        .querySelector('#stop')
-        .addEventListener('click', () => {
+
+      stopButton.addEventListener(
+        'click',
+        () => {
 
           speechSynthesis.cancel();
 
-        });
+        }
+      );
 
     }
 
 
     /*
+     * =========================================================
      * Lesson読み込み開始
+     * =========================================================
      */
+
     loadLesson();
 
   </script>
