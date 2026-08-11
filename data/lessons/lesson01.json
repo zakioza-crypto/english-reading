@@ -1,193 +1,426 @@
 {
-  "id": "01",
-  "title": "The Value of Boredom",
-  "theme": "Focus and creativity",
-  "english": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, they look at their phones or search for something to watch. However, a little boredom may actually be useful.\n\nWhen we have nothing to focus on, our minds begin to wander. During this time, we may remember old experiences, connect different ideas, or think about problems in a new way. This kind of mental wandering can support creativity.\n\nOf course, boredom is not always pleasant. Still, we do not need to escape from every quiet moment. The next time you feel bored, try waiting for a few minutes before reaching for your phone.",
-  "questions": [
-    {
-      "question": "Why can boredom be useful?",
-      "options": [
-        "Wait before immediately using a phone.",
-        "A small amount of boredom can sometimes create useful time for thought.",
-        "It can give the mind time to wander and connect ideas."
-      ],
-      "correctIndex": 2,
-      "answer": "It can give the mind time to wander and connect ideas.",
-      "explanation": "本文第2段落が根拠です。何かに集中するものがないとき、頭の中では自由な思考が始まり、過去の経験を思い出したり、別々のアイデアを結びつけたりできると説明されています。したがって、退屈には「思考や創造性を働かせる時間を与える」という利点があります。"
-    },
-    {
-      "question": "What does the writer suggest we do?",
-      "options": [
-        "A small amount of boredom can sometimes create useful time for thought.",
-        "Wait before immediately using a phone.",
-        "It can give the mind time to wander and connect ideas."
-      ],
-      "correctIndex": 1,
-      "answer": "Wait before immediately using a phone.",
-      "explanation": "本文最終段落で、退屈を感じたらすぐにスマートフォンへ手を伸ばすのではなく、「数分待ってみる」ことが勧められています。したがって、正解は『すぐにスマホを使わず少し待つ』です。"
-    },
-    {
-      "question": "What is the main idea?",
-      "options": [
-        "A small amount of boredom can sometimes create useful time for thought.",
-        "It can give the mind time to wander and connect ideas.",
-        "Wait before immediately using a phone."
-      ],
-      "correctIndex": 0,
-      "answer": "A small amount of boredom can sometimes create useful time for thought.",
-      "explanation": "本文全体では、退屈を単に悪いものとして避けるのではなく、少しの退屈が思考や創造性につながる可能性を説明しています。各段落の主張をまとめると、『少しの退屈には考えるための価値がある』が最も適切です。"
-    }
-  ],
-  "paragraphs": [
-    {
-      "paragraph": 1,
-      "role": "導入：テーマや問題を提示します。",
-      "text": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, they look at their phones or search for something to watch. However, a little boredom may actually be useful."
-    },
-    {
-      "paragraph": 2,
-      "role": "展開：理由・具体例・仕組みを説明します。",
-      "text": "When we have nothing to focus on, our minds begin to wander. During this time, we may remember old experiences, connect different ideas, or think about problems in a new way. This kind of mental wandering can support creativity."
-    },
-    {
-      "paragraph": 3,
-      "role": "まとめ：結論や実践的な考えを示します。",
-      "text": "Of course, boredom is not always pleasant. Still, we do not need to escape from every quiet moment. The next time you feel bored, try waiting for a few minutes before reaching for your phone."
-    }
-  ],
-  "grammar": [
-    {
-      "title": "文の骨格",
-      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
-    },
-    {
-      "title": "節の読み方",
-      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
-    },
-    {
-      "title": "音読の準備",
-      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
-    }
-  ],
-  "sentences": [
-    {
-      "no": 1,
-      "sentence": "Many people feel uncomfortable when they have nothing to do.",
-      "structure_items": [
-        [
-          "to不定詞",
-          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
-        ],
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    },
-    {
-      "no": 2,
-      "sentence": "The moment they become bored, they look at their phones or search for something to watch.",
-      "structure_items": [
-        [
-          "to不定詞",
-          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
-        ],
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    },
-    {
-      "no": 3,
-      "sentence": "However, a little boredom may actually be useful.",
-      "structure_items": [
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    },
-    {
-      "no": 4,
-      "sentence": "When we have nothing to focus on, our minds begin to wander.",
-      "structure_items": [
-        [
-          "副詞節",
-          "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
-        ],
-        [
-          "to不定詞",
-          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
-        ],
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    },
-    {
-      "no": 5,
-      "sentence": "During this time, we may remember old experiences, connect different ideas, or think about problems in a new way.",
-      "structure_items": [
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    },
-    {
-      "no": 6,
-      "sentence": "This kind of mental wandering can support creativity.",
-      "structure_items": [
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    },
-    {
-      "no": 7,
-      "sentence": "Of course, boredom is not always pleasant.",
-      "structure_items": [
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    },
-    {
-      "no": 8,
-      "sentence": "Still, we do not need to escape from every quiet moment.",
-      "structure_items": [
-        [
-          "to不定詞",
-          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
-        ],
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    },
-    {
-      "no": 9,
-      "sentence": "The next time you feel bored, try waiting for a few minutes before reaching for your phone.",
-      "structure_items": [
-        [
-          "読み方",
-          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
-        ]
-      ]
-    }
-  ],
-  "slash_reading": "Many people feel uncomfortable / when they have nothing to do. / The moment they become bored, / they look at their phones / or search for something to watch. / However, / a little boredom may actually be useful.\n\nWhen we have nothing to focus on, / our minds begin to wander. / During this time, / we may remember old experiences, / connect different ideas, / or think about problems in a new way. / This kind of mental wandering / can support creativity.\n\nOf course, / boredom is not always pleasant. / Still, / we do not need to escape / from every quiet moment. / The next time you feel bored, / try waiting for a few minutes / before reaching for your phone.",
-  "translation": "多くの人は、何もすることがないと落ち着かない気分になります。退屈を感じた途端、スマートフォンを手に取ったり、何か見るものを探したりしがちです。しかし、実は「退屈」な時間も役に立つことがあるのです。何かに集中していないとき、私たちの心はあちこちへとさまよい始めます。その間に、過去の経験を思い出したり、異なるアイデアを結びつけたり、あるいは問題について新しい視点から考えたりすることがあります。こうした心の「さまよい」が、創造性を高める助けになるのです。もちろん、退屈な時間が常に快適なわけではありません。それでも、静かな時間をすべて避けようとする必要はないのです。次に退屈だと感じたら、すぐにスマートフォンに手を伸ばすのではなく、数分間そのまま待ってみてください。",
-  "vocab": [
-    "boredom: 退屈",
-    "wander: さまよう",
-    "creativity: 創造性",
-    "reach for: 手を伸ばす",
-    "on its own: 自然に"
-  ]
+"id": "01",
+"title": "The Value of Boredom",
+"theme": "Focus and creativity",
+"english": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, they often reach for their phones, check social media, or search for something to watch. Modern technology makes it easy to fill every quiet moment with information and entertainment. As a result, we rarely have to experience boredom for very long. However, a little boredom may actually be useful.\n\nWhen we have nothing to focus on, our minds begin to wander. At first, this may seem like a waste of time. We may simply sit and stare out of a window, or think about things that have nothing to do with what we were doing before. Yet this kind of mental wandering can serve an important purpose. Without a constant flow of information from our phones or computers, our minds have more freedom to move from one idea to another.\n\nDuring these quiet moments, we may remember old experiences, connect different ideas, or look at familiar problems in a new way. For example, a person who is trying to solve a difficult problem may suddenly think of a possible solution while taking a walk or waiting for a train. The person was not actively trying to solve the problem at that moment. Instead, the mind had time to make connections in the background. Although boredom itself does not automatically make us more creative, periods of quiet can give our minds the space they need to develop new ideas.\n\nOf course, this does not mean that we should spend our entire day doing nothing. Boredom can be unpleasant, and sometimes we need entertainment or information for good reasons. The important point is that we do not need to escape from every quiet moment. If we always fill our free time with digital stimulation, we may lose opportunities to think without being directed by something outside us.\n\nThe next time you are waiting for someone or have a few minutes with nothing to do, try leaving your phone in your pocket. You may feel uncomfortable at first. But if you allow yourself to remain bored for a while, your mind may begin to wander. You might remember something interesting, make a new connection, or simply notice an idea that you would have missed if you had immediately reached for your phone.",
+"questions": [
+{
+"question": "Why can periods of boredom be useful?",
+"options": [
+"They allow people to avoid using technology completely.",
+"They give the mind time to make connections and develop new ideas.",
+"They make difficult problems disappear without any effort.",
+"They provide people with more information than social media does."
+],
+"correctIndex": 1,
+"answer": "They give the mind time to make connections and develop new ideas.",
+"explanation": "第2・3段落が根拠です。外部から絶えず情報を与えられない静かな時間には、心が一つの考えから別の考えへ自由に動くことができます。その間に過去の経験を思い出したり、異なるアイデアを結びつけたりすることで、新しい考えが生まれる可能性があります。"
+},
+{
+"question": "What does the example of a person waiting for a train illustrate?",
+"options": [
+"People can solve every problem simply by taking a train.",
+"People often need to receive information before they can think clearly.",
+"The mind may continue making connections even when a person is not actively working on a problem.",
+"People should avoid thinking about difficult problems during their free time."
+],
+"correctIndex": 2,
+"answer": "The mind may continue making connections even when a person is not actively working on a problem.",
+"explanation": "第3段落では、難しい問題を解こうとしている人が、散歩中や電車を待っているときに突然解決策を思いつく例が示されています。その人はその瞬間に積極的に問題を解こうとしていたわけではなく、静かな時間の中で心が無意識に情報を結びつけていたと説明されています。"
+},
+{
+"question": "What does the writer mean by saying that we may 'lose opportunities to think'?",
+"options": [
+"We may become unable to remember information from the past.",
+"We may have fewer chances to think freely when we constantly consume digital information.",
+"We may stop using technology because we become bored with it.",
+"We may spend too much time solving difficult academic problems."
+],
+"correctIndex": 1,
+"answer": "We may have fewer chances to think freely when we constantly consume digital information.",
+"explanation": "第4段落では、自由時間を常にデジタルな刺激で埋めてしまうと、「自分の外側にある何かによって方向づけられずに考える機会」を失う可能性があると述べています。つまり、スマートフォンなどから絶えず情報を受け取ることで、自分の頭の中で自由に考える時間が減るということです。"
+},
+{
+"question": "What does the writer recommend at the end of the passage?",
+"options": [
+"Use your phone whenever you have free time.",
+"Avoid all forms of entertainment during the day.",
+"Try spending a few quiet minutes without immediately using your phone.",
+"Solve difficult problems whenever you are waiting for a train."
+],
+"correctIndex": 2,
+"answer": "Try spending a few quiet minutes without immediately using your phone.",
+"explanation": "最終段落で、待ち時間などにスマートフォンをすぐ取り出すのではなく、ポケットに入れたまま少し退屈してみることが提案されています。最初は不快に感じるかもしれませんが、そのまま静かな時間を過ごすことで、新しい考えや気づきが生まれる可能性があります。"
+},
+{
+"question": "What is the main idea of the passage?",
+"options": [
+"Modern technology is harmful and should never be used.",
+"Boredom is always necessary for creative people.",
+"Quiet moments can give our minds valuable opportunities to wander and make new connections.",
+"People can become more productive by avoiding entertainment completely."
+],
+"correctIndex": 2,
+"answer": "Quiet moments can give our minds valuable opportunities to wander and make new connections.",
+"explanation": "本文全体では、現代人がスマートフォンなどで退屈をすぐに埋めてしまうことを指摘したうえで、静かな時間には心が自由に動き、過去の経験や異なるアイデアを結びつけられるという利点が説明されています。ただし、退屈そのものが必ず創造性を高めるという主張ではなく、「刺激のない時間を完全に避ける必要はない」というのが筆者の中心的な主張です。"
+}
+],
+"paragraphs": [
+{
+"paragraph": 1,
+"role": "導入：現代人が退屈をすぐに避ける傾向と、退屈の意外な価値を提示します。",
+"text": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, they often reach for their phones, check social media, or search for something to watch. Modern technology makes it easy to fill every quiet moment with information and entertainment. As a result, we rarely have to experience boredom for very long. However, a little boredom may actually be useful."
+},
+{
+"paragraph": 2,
+"role": "展開：刺激がないときに心がさまようことと、その意味を説明します。",
+"text": "When we have nothing to focus on, our minds begin to wander. At first, this may seem like a waste of time. We may simply sit and stare out of a window, or think about things that have nothing to do with what we were doing before. Yet this kind of mental wandering can serve an important purpose. Without a constant flow of information from our phones or computers, our minds have more freedom to move from one idea to another."
+},
+{
+"paragraph": 3,
+"role": "具体化：静かな時間が創造的な思考につながる仕組みを例を使って説明します。",
+"text": "During these quiet moments, we may remember old experiences, connect different ideas, or look at familiar problems in a new way. For example, a person who is trying to solve a difficult problem may suddenly think of a possible solution while taking a walk or waiting for a train. The person was not actively trying to solve the problem at that moment. Instead, the mind had time to make connections in the background. Although boredom itself does not automatically make us more creative, periods of quiet can give our minds the space they need to develop new ideas."
+},
+{
+"paragraph": 4,
+"role": "注意・限定：退屈を無条件に肯定するのではなく、静かな時間の重要性を示します。",
+"text": "Of course, this does not mean that we should spend our entire day doing nothing. Boredom can be unpleasant, and sometimes we need entertainment or information for good reasons. The important point is that we do not need to escape from every quiet moment. If we always fill our free time with digital stimulation, we may lose opportunities to think without being directed by something outside us."
+},
+{
+"paragraph": 5,
+"role": "結論：日常生活で実践できる具体的な行動を提案します。",
+"text": "The next time you are waiting for someone or have a few minutes with nothing to do, try leaving your phone in your pocket. You may feel uncomfortable at first. But if you allow yourself to remain bored for a while, your mind may begin to wander. You might remember something interesting, make a new connection, or simply notice an idea that you would have missed if you had immediately reached for your phone."
+}
+],
+"grammar": [
+{
+"title": "when節：〜するとき",
+"text": "when + S + V は「SがVするとき」という時間を表す副詞節です。本文の「when they have nothing to do」では、主節の「Many people feel uncomfortable」がどんな状況で起こるのかを説明しています。"
+},
+{
+"title": "The moment S + V：〜するとすぐに",
+"text": "The moment + S + V は「SがVするとすぐに」という意味を表す表現です。本文の「The moment they become bored, they often reach for their phones」は「退屈になるとすぐに、彼らはスマートフォンに手を伸ばす」という意味です。"
+},
+{
+"title": "make it + 形容詞 + to do：〜することを可能にする",
+"text": "「make it easy to fill every quiet moment」の it は形式目的語で、to fill every quiet moment が本当の目的語です。「make it easy to do」で「〜することを容易にする」という重要表現になります。"
+},
+{
+"title": "nothing to do / something to watch：名詞 + to不定詞",
+"text": "nothing to do や something to watch のように、名詞や代名詞の後ろに to不定詞を置いて、その内容を説明できます。「nothing to do」は「することが何もない」、「something to watch」は「見るもの」という意味です。形容詞的用法の to不定詞です。"
+},
+{
+"title": "begin to do：〜し始める",
+"text": "begin to + 動詞の原形は「〜し始める」という意味です。本文の「our minds begin to wander」は「私たちの心がさまよい始める」という意味です。begin wandering のように動名詞を使うこともできます。"
+},
+{
+"title": "have nothing to do with ～：〜とは関係がない",
+"text": "「have nothing to do with ～」は「〜とは何の関係もない」という重要表現です。本文の「things that have nothing to do with what we were doing before」では、「それまでしていたこととは何の関係もないこと」を表しています。"
+},
+{
+"title": "関係代名詞 that：名詞を後ろから説明する",
+"text": "「a person who is trying to solve a difficult problem」では、who 以下が a person を説明しています。また、「an idea that you would have missed」では、that 以下が an idea を説明しています。名詞の後ろから説明する関係代名詞は長文読解で非常に重要です。"
+},
+{
+"title": "while + -ing：〜している間に",
+"text": "「while taking a walk or waiting for a train」では、while の後ろに現在分詞を置いて「散歩をしたり電車を待ったりしている間に」という意味を表しています。主節と主語が同じ場合、while + S + V を while + -ing に省略できます。"
+},
+{
+"title": "Although S + V：〜だけれども",
+"text": "Although + S + V は「SがVするけれども」という譲歩を表す副詞節です。本文の「Although boredom itself does not automatically make us more creative」は、「退屈そのものが自動的に私たちをより創造的にするわけではないが」という意味です。"
+},
+{
+"title": "give A B：AにBを与える",
+"text": "「give our minds the space they need to develop new ideas」は「私たちの心に、新しい考えを発展させるために必要な余地を与える」という意味です。give A B は「AにBを与える」という第4文型の重要表現です。"
+},
+{
+"title": "do not need to do：〜する必要がない",
+"text": "「we do not need to escape」は「私たちは逃げる必要がない」という意味です。need to do は「〜する必要がある」、その否定形 do not need to do は「〜する必要がない」です。「〜してはいけない」という禁止とは異なります。"
+},
+{
+"title": "If S + V, S may ～：もし〜なら、〜かもしれない",
+"text": "「If we always fill our free time with digital stimulation, we may lose opportunities to think」は条件を表す if節を使った文です。「もし自由時間をいつもデジタル刺激で満たしてしまうなら、考える機会を失うかもしれない」という意味です。"
+},
+{
+"title": "try + -ing：試しに〜してみる",
+"text": "「try leaving your phone in your pocket」は「スマートフォンをポケットに入れたままにしてみる」という意味です。try + 動名詞は「試しに〜してみる」を表します。try to do の「〜しようとする」と区別しましょう。"
+},
+{
+"title": "if you allow yourself to do：自分に〜することを許す",
+"text": "「if you allow yourself to remain bored for a while」は「もし自分をしばらく退屈な状態のままにしておけば」という意味です。allow A to do は「Aが〜することを許す」という重要な構文です。"
+},
+{
+"title": "would have missed：過去の事実に反する仮定",
+"text": "「an idea that you would have missed if you had immediately reached for your phone」は「もしすぐスマートフォンに手を伸ばしていたら、気づかなかったであろうアイデア」という意味です。if + had + 過去分詞に対して would have + 過去分詞を使う仮定法過去完了の形が含まれています。"
+}
+],
+"sentences": [
+{
+"no": 1,
+"sentence": "Many people feel uncomfortable when they have nothing to do.",
+"structure_items": [
+[
+"第2文型（SVC）",
+"Many people が主語（S）、feel が動詞（V）、uncomfortable が補語（C）です。「feel + 形容詞」で「〜と感じる」という第2文型になっています。"
+],
+[
+"when節",
+"when they have nothing to do は「何もすることがないとき」という副詞節です。主節の feel uncomfortable が「いつ起こるのか」を説明しています。"
+],
+[
+"nothing to do",
+"nothing の後ろに to do が続き、「することが何もない」という意味です。to do は nothing の内容を説明する形容詞的用法の不定詞です。"
+]
+]
+},
+{
+"no": 2,
+"sentence": "The moment they become bored, they often reach for their phones, check social media, or search for something to watch.",
+"structure_items": [
+[
+"The moment S + V",
+"The moment they become bored は「退屈するとすぐに」という意味の副詞節です。the moment はここでは接続詞的に使われています。"
+],
+[
+"become + 形容詞",
+"become bored は「退屈になる」という意味です。become は後ろに形容詞を置いて「〜になる」という第2文型を作ります。"
+],
+[
+"動詞の並列",
+"reach for their phones、check social media、search for something to watch の3つの動詞句が並列されています。主語 they を3つの動作で共有しています。"
+],
+[
+"something to watch",
+"something の後ろに to watch が続き、「見るもの」という意味になります。to watch は something の内容を説明する形容詞的用法です。"
+]
+]
+},
+{
+"no": 3,
+"sentence": "Modern technology makes it easy to fill every quiet moment with information and entertainment.",
+"structure_items": [
+[
+"make it + 形容詞 + to do",
+"makes it easy to fill ～ で「〜を満たすことを容易にする」という意味です。it は形式目的語で、to fill every quiet moment が真の目的語です。"
+],
+[
+"fill A with B",
+"fill every quiet moment with information and entertainment は「静かな時間のすべてを情報や娯楽で満たす」という意味です。fill A with B は「AをBで満たす」という重要表現です。"
+],
+[
+"第5文型（SVOC）",
+"Modern technology が S、makes が V、it が O、easy が C です。make O C で「OをCにする」という第5文型を作っています。"
+]
+]
+},
+{
+"no": 4,
+"sentence": "When we have nothing to focus on, our minds begin to wander.",
+"structure_items": [
+[
+"When節",
+"When we have nothing to focus on は「集中するものが何もないとき」という副詞節です。文頭の when節が後ろの主節が起こる状況を示しています。"
+],
+[
+"nothing to focus on",
+"nothing の後ろに to focus on が続き、「集中するものが何もない」という意味です。focus on ～ という句動詞の on が文末に残っています。"
+],
+[
+"begin to do",
+"begin to wander は「さまよい始める」という意味です。begin の後ろに to不定詞を置いて「〜し始める」と表現しています。"
+]
+]
+},
+{
+"no": 5,
+"sentence": "We may simply sit and stare out of a window, or think about things that have nothing to do with what we were doing before.",
+"structure_items": [
+[
+"may + 動詞の原形",
+"may simply sit は「ただ座っていることがある」という意味です。may の後ろに sit と stare が並び、可能性を表しています。"
+],
+[
+"sit and stare の並列",
+"sit and stare は「座ってじっと見る」という2つの動作を and で結んでいます。may は2つの動詞に共通しています。"
+],
+[
+"関係代名詞 that",
+"things that have nothing to do with ～ の that は関係代名詞で、that 以下が things を後ろから説明しています。「〜とは関係のないこと」という意味です。"
+],
+[
+"have nothing to do with ～",
+"have nothing to do with ～ は「〜とは何の関係もない」という重要表現です。"
+],
+[
+"what we were doing",
+"what は「〜すること・もの」を表す関係代名詞で、what we were doing 全体で「私たちがそれまでしていたこと」という名詞節になっています。"
+]
+]
+},
+{
+"no": 6,
+"sentence": "For example, a person who is trying to solve a difficult problem may suddenly think of a possible solution while taking a walk or waiting for a train.",
+"structure_items": [
+[
+"who is trying to ～",
+"who 以下が a person を説明する関係代名詞節です。「難しい問題を解こうとしている人」という意味になります。"
+],
+[
+"try to do",
+"trying to solve は「解こうとしている」という意味です。try to do は「〜しようとする」という意味で、try -ing の「試しに〜してみる」と区別します。"
+],
+[
+"may suddenly think of ～",
+"may は可能性を表し、「突然〜を思いつくことがある」という意味です。think of ～ は「〜を思いつく、〜を考える」という表現です。"
+],
+[
+"while + -ing",
+"while taking a walk or waiting for a train は「散歩をしたり電車を待ったりしている間に」という意味です。主語が主節と同じため、while + S + V を while + -ing に省略しています。"
+]
+]
+},
+{
+"no": 7,
+"sentence": "Although boredom itself does not automatically make us more creative, periods of quiet can give our minds the space they need to develop new ideas.",
+"structure_items": [
+[
+"Although節",
+"Although boredom itself does not automatically make us more creative は「退屈そのものが自動的に私たちをより創造的にするわけではないが」という譲歩の副詞節です。"
+],
+[
+"make A B",
+"make us more creative は「私たちをより創造的にする」という第5文型です。us が目的語、more creative が補語です。"
+],
+[
+"give A B",
+"give our minds the space は「私たちの心にその余地を与える」という第4文型です。our minds が間接目的語、the space が直接目的語です。"
+],
+[
+"the space they need to develop new ideas",
+"they need が the space を後ろから説明しています。また、to develop new ideas は「新しいアイデアを発展させるための」という意味で space を説明しています。"
+]
+]
+},
+{
+"no": 8,
+"sentence": "If we always fill our free time with digital stimulation, we may lose opportunities to think without being directed by something outside us.",
+"structure_items": [
+[
+"If節",
+"If we always fill ～ は「もし私たちがいつも〜で満たしてしまうなら」という条件を表す副詞節です。"
+],
+[
+"may lose",
+"主節の we may lose は「〜を失うかもしれない」という可能性を表しています。if節と組み合わせて「もし〜なら、〜かもしれない」という意味になります。"
+],
+[
+"opportunities to think",
+"opportunities の後ろに to think が続き、「考える機会」という意味になります。to think は opportunities の内容を説明する形容詞的用法です。"
+],
+[
+"without + -ing",
+"without being directed by something outside us は「自分の外側にあるものによって方向づけられることなく」という意味です。without の後ろに動名詞が置かれています。"
+],
+[
+"受動態",
+"being directed は「方向づけられる」という受動態です。be directed by ～ で「〜によって方向づけられる」という意味になります。"
+]
+]
+},
+{
+"no": 9,
+"sentence": "The next time you are waiting for someone or have a few minutes with nothing to do, try leaving your phone in your pocket.",
+"structure_items": [
+[
+"The next time S + V",
+"The next time you are waiting for someone or have a few minutes with nothing to do は「次に誰かを待っていたり、何もすることがない数分間があったりするとき」という時間表現です。"
+],
+[
+"orによる並列",
+"are waiting for someone と have a few minutes with nothing to do が or で並列されています。どちらの場合にも try leaving your phone ～ が続きます。"
+],
+[
+"try + -ing",
+"try leaving your phone in your pocket は「スマートフォンをポケットに入れたままにしてみる」という意味です。try + 動名詞は「試しに〜してみる」です。"
+],
+[
+"leave A + 場所",
+"leave your phone in your pocket は「スマートフォンをポケットに入れたままにしておく」という意味です。leave A + 場所で「Aをその場所に置いたままにする」という意味になります。"
+]
+]
+},
+{
+"no": 10,
+"sentence": "But if you allow yourself to remain bored for a while, your mind may begin to wander.",
+"structure_items": [
+[
+"if節",
+"if you allow yourself to remain bored for a while は「もし自分をしばらく退屈な状態のままにしておけば」という条件を表しています。"
+],
+[
+"allow A to do",
+"allow yourself to remain bored は「自分自身が退屈な状態でいることを許す」という意味です。allow A to do は「Aが〜することを許す」という重要構文です。"
+],
+[
+"remain + 形容詞",
+"remain bored は「退屈な状態のままでいる」という意味です。remain は「〜のままである」という意味で、後ろに形容詞を置くことができます。"
+],
+[
+"may begin to do",
+"may begin to wander は「さまよい始めるかもしれない」という意味です。may と begin to do が組み合わされています。"
+]
+]
+},
+{
+"no": 11,
+"sentence": "You might remember something interesting, make a new connection, or simply notice an idea that you would have missed if you had immediately reached for your phone.",
+"structure_items": [
+[
+"might + 動詞の原形",
+"might は may よりも控えめな可能性を表し、「〜するかもしれない」という意味です。本文では読者に起こり得る結果を控えめに述べています。"
+],
+[
+"動詞の並列",
+"remember、make、notice の3つの動詞が並列されています。might は3つすべてに共通しています。"
+],
+[
+"関係代名詞 that",
+"an idea that you would have missed の that 以下が an idea を説明しています。「もし〜していたら見逃していたであろうアイデア」という意味です。"
+],
+[
+"仮定法過去完了",
+"if you had immediately reached for your phone は「もしすぐにスマートフォンに手を伸ばしていたなら」という過去の事実に反する仮定です。主節の would have missed と組み合わせて「もし〜していたら、見逃していただろう」という意味になります。"
+]
+]
+}
+],
+"slash_reading": "Many people feel uncomfortable / when they have nothing to do. / The moment they become bored, / they often reach for their phones, / check social media, / or search for something to watch. / Modern technology makes it easy / to fill every quiet moment / with information and entertainment. / As a result, / we rarely have to experience boredom / for very long. / However, / a little boredom may actually be useful.\n\nWhen we have nothing to focus on, / our minds begin to wander. / At first, / this may seem like a waste of time. / We may simply sit and stare out of a window, / or think about things / that have nothing to do with what we were doing before. / Yet this kind of mental wandering / can serve an important purpose. / Without a constant flow of information / from our phones or computers, / our minds have more freedom / to move from one idea to another.\n\nDuring these quiet moments, / we may remember old experiences, / connect different ideas, / or look at familiar problems / in a new way. / For example, / a person who is trying to solve a difficult problem / may suddenly think of a possible solution / while taking a walk / or waiting for a train. / The person was not actively trying to solve the problem / at that moment. / Instead, / the mind had time to make connections / in the background. / Although boredom itself / does not automatically make us more creative, / periods of quiet can give our minds the space / they need to develop new ideas.\n\nOf course, / this does not mean / that we should spend our entire day / doing nothing. / Boredom can be unpleasant, / and sometimes we need entertainment or information / for good reasons. / The important point is that / we do not need to escape / from every quiet moment. / If we always fill our free time / with digital stimulation, / we may lose opportunities to think / without being directed / by something outside us.\n\nThe next time you are waiting for someone / or have a few minutes with nothing to do, / try leaving your phone / in your pocket. / You may feel uncomfortable at first. / But if you allow yourself / to remain bored for a while, / your mind may begin to wander. / You might remember something interesting, / make a new connection, / or simply notice an idea / that you would have missed / if you had immediately reached for your phone.",
+"translation": "多くの人は、何もすることがないと落ち着かない気分になります。退屈を感じるとすぐに、スマートフォンに手を伸ばしたり、SNSをチェックしたり、何か見るものを探したりすることがよくあります。現代のテクノロジーによって、静かな時間を情報や娯楽で簡単に埋められるようになりました。その結果、私たちは長い間退屈を経験しなければならないことがほとんどありません。しかし、少しの退屈は実際には役に立つことがあります。\n\n何か集中するものがないとき、私たちの心はさまよい始めます。最初は、これは時間の無駄のように思えるかもしれません。私たちはただ窓の外をぼんやり眺めたり、それまでしていたこととは何の関係もないことを考えたりするかもしれません。しかし、このような心のさまよいには重要な役割があります。スマートフォンやコンピューターから絶え間なく情報が流れ込んでこなければ、私たちの心には、一つの考えから別の考えへと自由に移っていく余地が生まれます。\n\nこうした静かな時間には、過去の経験を思い出したり、異なるアイデアを結びつけたり、身近な問題を新しい方法で見たりすることがあります。例えば、難しい問題を解こうとしている人が、散歩をしているときや電車を待っているときに、突然ある解決策を思いつくことがあります。その人は、その瞬間に積極的に問題を解こうとしていたわけではありません。むしろ、心が無意識のうちに情報を結びつける時間があったのです。退屈そのものが自動的に私たちをより創造的にするわけではありませんが、静かな時間は、新しいアイデアを生み出すために必要な余地を心に与えてくれます。\n\nもちろん、これは一日中何もしないで過ごすべきだという意味ではありません。退屈は不快なこともありますし、娯楽や情報が必要な場合もあります。重要なのは、静かな時間をすべて避ける必要はないということです。もし私たちが自由時間をいつもデジタルな刺激で満たしてしまえば、自分の外側にある何かによって方向づけられることなく、自由に考える機会を失ってしまうかもしれません。\n\n次に誰かを待っているときや、何もすることがない数分間ができたときには、スマートフォンをポケットに入れたままにしてみてください。最初は不快に感じるかもしれません。しかし、しばらく退屈な状態を受け入れてみれば、あなたの心はさまよい始めるかもしれません。何か面白いことを思い出したり、新しいつながりを見つけたり、あるいは、すぐにスマートフォンに手を伸ばしていたら見逃していたであろうアイデアに気づいたりするかもしれません。",
+"vocab": [
+"boredom: 退屈",
+"uncomfortable: 居心地の悪い、不快な",
+"reach for: 〜に手を伸ばす",
+"entertainment: 娯楽",
+"as a result: その結果",
+"wander: さまよう",
+"mental: 心の、精神的な",
+"serve: 役立つ、果たす",
+"constant: 絶え間ない、一定の",
+"flow: 流れ",
+"experience: 経験する",
+"connect: 結びつける",
+"familiar: よく知られた、身近な",
+"solution: 解決策",
+"actively: 積極的に",
+"in the background: 背後で、無意識のうちに",
+"automatically: 自動的に",
+"creative: 創造的な",
+"opportunity: 機会",
+"digital stimulation: デジタルによる刺激",
+"allow: 許す",
+"remain: 〜のままでいる",
+"connection: つながり、関連",
+"notice: 気づく",
+"miss: 見逃す"
+]
 }
