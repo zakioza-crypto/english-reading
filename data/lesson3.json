@@ -1,0 +1,195 @@
+{
+  "id": "03",
+  "title": "The Skill of Listening",
+  "theme": "Communication",
+  "english": "When people talk about communication, they often focus on speaking clearly. Speaking is important, but listening is also an active skill.\n\nGood listeners do more than remain silent. They try to understand what another person means, not only what that person says. They notice tone, ask useful questions, and sometimes check whether they understood correctly.\n\nThis does not mean that good listeners agree with everything they hear. Understanding another person's point of view is different from accepting it. In fact, disagreement often becomes more productive when both sides feel that they have been understood.",
+  "questions": [
+    {
+      "question": "What do good listeners try to understand?",
+      "options": [
+        "The speaker's meaning, not only the exact words.",
+        "No. Understanding and accepting are different.",
+        "Because both sides can discuss ideas after feeling understood."
+      ],
+      "correctIndex": 0,
+      "answer": "The speaker's meaning, not only the exact words.",
+      "explanation": "本文第2段落で、良い聞き手は『相手が言った言葉だけでなく、その人が何を意味しているのか』を理解しようとすると説明されています。"
+    },
+    {
+      "question": "Does understanding mean agreeing?",
+      "options": [
+        "No. Understanding and accepting are different.",
+        "The speaker's meaning, not only the exact words.",
+        "Because both sides can discuss ideas after feeling understood."
+      ],
+      "correctIndex": 0,
+      "answer": "No. Understanding and accepting are different.",
+      "explanation": "本文第3段落に『理解することと受け入れることは違う』と明確に書かれています。相手の意見を理解しても、必ずしも賛成する必要はありません。"
+    },
+    {
+      "question": "Why can disagreement become productive?",
+      "options": [
+        "The speaker's meaning, not only the exact words.",
+        "No. Understanding and accepting are different.",
+        "Because both sides can discuss ideas after feeling understood."
+      ],
+      "correctIndex": 2,
+      "answer": "Because both sides can discuss ideas after feeling understood.",
+      "explanation": "本文の最後では、双方が『理解してもらえた』と感じると、意見の対立であってもより建設的になると説明されています。理解があることで、感情的な対立ではなく内容について話しやすくなるためです。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "When people talk about communication, they often focus on speaking clearly. Speaking is important, but listening is also an active skill."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "Good listeners do more than remain silent. They try to understand what another person means, not only what that person says. They notice tone, ask useful questions, and sometimes check whether they understood correctly."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "This does not mean that good listeners agree with everything they hear. Understanding another person's point of view is different from accepting it. In fact, disagreement often becomes more productive when both sides feel that they have been understood."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "When people talk about communication, they often focus on speaking clearly.",
+      "structure_items": [
+        [
+          "副詞節",
+          "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "Speaking is important, but listening is also an active skill.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "Good listeners do more than remain silent.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "They try to understand what another person means, not only what that person says.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "They notice tone, ask useful questions, and sometimes check whether they understood correctly.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "This does not mean that good listeners agree with everything they hear.",
+      "structure_items": [
+        [
+          "S",
+          "This"
+        ],
+        [
+          "V",
+          "does not mean"
+        ],
+        [
+          "内容",
+          "that 以下や後ろの内容。「これが〜を意味するわけではない」と読みます。"
+        ],
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "Understanding another person's point of view is different from accepting it.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "In fact, disagreement often becomes more productive when both sides feel that they have been understood.",
+      "structure_items": [
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "When people talk about communication, / they often focus on speaking clearly. / Speaking is important, / but listening is also an active skill.\n\nGood listeners do more / than remain silent. / They try to understand / what another person means, / not only what that person says. / They notice tone, / ask useful questions, / and sometimes check / whether they understood correctly.\n\nThis does not mean / that good listeners agree / with everything they hear. / Understanding another person's point of view / is different from accepting it. / In fact, / disagreement often becomes more productive / when both sides feel / that they have been understood.",
+  "translation": "コミュニケーションについて語る際、人は往々にして「明確に話すこと」に重点を置きがちです。話すことは確かに重要ですが、聞くこともまた、能動的なスキルなのです。優れた聞き手は、ただ黙って聞いているだけではありません。相手が口にした言葉そのものだけでなく、その言葉に込められた真意を理解しようと努めます。彼らは相手の口調に注意を払い、有益な質問を投げかけ、時には自分の理解が正しいかどうかを確認することもあります。だからといって、優れた聞き手が耳にしたすべての内容に同意するわけではありません。相手の視点を理解することと、それを受け入れることは別物だからです。実際、互いに「自分のことを理解してもらえた」と感じていれば、意見の対立が生じた場合でも、より建設的な話し合いができることがよくあります。",
+  "vocab": [
+    "communication: コミュニケーション",
+    "tone: 口調",
+    "point of view: 視点",
+    "accept: 受け入れる",
+    "productive: 建設的な"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "05",
+  "title": "A Better Way to Use Time",
+  "theme": "Attention and priorities",
+  "english": "People often say that they do not have enough time. Sometimes this is true. However, the problem is not always the number of hours we have. It can also be the way our attention is divided.\n\nA day can disappear through many small interruptions. A message, a notification, or a quick search may seem harmless. But when these interruptions happen again and again, they can make it difficult to return to deeper work.\n\nManaging time, therefore, is partly about managing attention. Instead of trying to fill every hour with activity, it may be better to decide which activities deserve our full attention and protect time for them.",
+  "questions": [
+    {
+      "question": "What can make a day seem to disappear?",
+      "options": [
+        "Choosing what deserves full attention and protecting time for it.",
+        "Using time well partly depends on managing repeated interruptions and attention.",
+        "Many repeated small interruptions."
+      ],
+      "correctIndex": 2,
+      "answer": "Many repeated small interruptions.",
+      "explanation": "本文第2段落では、メッセージや通知など一つ一つは小さくても、何度も繰り返されると深い作業に戻りにくくなると説明されています。つまり、多くの小さな中断が時間を奪います。"
+    },
+    {
+      "question": "What does managing attention mean?",
+      "options": [
+        "Using time well partly depends on managing repeated interruptions and attention.",
+        "Choosing what deserves full attention and protecting time for it.",
+        "Many repeated small interruptions."
+      ],
+      "correctIndex": 1,
+      "answer": "Choosing what deserves full attention and protecting time for it.",
+      "explanation": "本文最終段落では、すべての活動を予定で埋めるのではなく、『どの活動に十分な注意を向ける価値があるかを決め、その時間を守る』ことだと説明されています。"
+    },
+    {
+      "question": "What is the main point?",
+      "options": [
+        "Using time well partly depends on managing repeated interruptions and attention.",
+        "Many repeated small interruptions.",
+        "Choosing what deserves full attention and protecting time for it."
+      ],
+      "correctIndex": 0,
+      "answer": "Using time well partly depends on managing repeated interruptions and attention.",
+      "explanation": "本文は、時間そのものの量だけでなく、注意力が細かい中断によって分散されることが問題だと述べています。したがって、時間管理には注意力の管理も含まれるというのが主題です。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "People often say that they do not have enough time. Sometimes this is true. However, the problem is not always the number of hours we have. It can also be the way our attention is divided."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "A day can disappear through many small interruptions. A message, a notification, or a quick search may seem harmless. But when these interruptions happen again and again, they can make it difficult to return to deeper work."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "Managing time, therefore, is partly about managing attention. Instead of trying to fill every hour with activity, it may be better to decide which activities deserve our full attention and protect time for them."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "People often say that they do not have enough time.",
+      "structure_items": [
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "Sometimes this is true.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "However, the problem is not always the number of hours we have.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "It can also be the way our attention is divided.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "A day can disappear through many small interruptions.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "A message, a notification, or a quick search may seem harmless.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "But when these interruptions happen again and again, they can make it difficult to return to deeper work.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "Managing time, therefore, is partly about managing attention.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 9,
+      "sentence": "Instead of trying to fill every hour with activity, it may be better to decide which activities deserve our full attention and protect time for them.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "People often say / that they do not have enough time. / Sometimes this is true. / However, / the problem is not always / the number of hours we have. / It can also be / the way our attention is divided.\n\nA day can disappear / through many small interruptions. / A message, a notification, / or a quick search / may seem harmless. / But when these interruptions happen again and again, / they can make it difficult / to return to deeper work.\n\nManaging time, therefore, / is partly about managing attention. / Instead of trying to fill every hour with activity, / it may be better to decide / which activities deserve our full attention / and protect time for them.",
+  "translation": "人々はしばしば、十分な時間がないと言います。時々これは本当です。しかし、問題は常に私たちが持っている時間数ではありません。私たちの注意がどのように分割されているかということもあります。一日は、多くの小さな中断によって消えてしまうことがあります。メッセージ、通知、または簡単な検索は無害に見えるかもしれません。しかし、これらの中断が何度も起こると、より深い作業に戻るのが難しくなる可能性があります。したがって、時間を管理することは、ある意味で注意を管理することでもあります。毎時間を活動で埋めようとする代わりに、どの活動が私たちの完全な注意に値するかを決定し、そのための時間を確保する方が良いかもしれません。",
+  "vocab": [
+    "divide: 分ける",
+    "interruption: 中断",
+    "notification: 通知",
+    "deserve: 値する",
+    "protect: 確保する"
+  ]
+}

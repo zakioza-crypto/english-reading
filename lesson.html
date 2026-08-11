@@ -1,25 +1,667 @@
 <!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lesson | READ ALOUD LAB</title><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="wrap topbar"><a class="brand" href="./">READ ALOUD LAB</a><a href="./">← Lessons</a></div></header><main class="wrap lesson" id="app"></main>
-<script>
-const id=new URLSearchParams(location.search).get('id');
-const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
-fetch('data.json').then(r=>r.json()).then(d=>render(d.lessons.find(x=>x.id===id)||d.lessons[0]));
-function render(x){
-window.currentLesson=x; document.title=x.title+' | READ ALOUD LAB';
-app.innerHTML=`<p class="eyebrow">LESSON ${x.id} · ${esc(x.theme)}</p><h1>${esc(x.title)}</h1>
-<section class="panel"><h2>01 · English</h2><div class="english">${x.english.split('\n\n').map(p=>'<p>'+esc(p)+'</p>').join('')}</div></section>
-<section class="panel audio"><h2>Listen & Read Aloud</h2><p>ブラウザの英語音声を利用します。</p><select id="voice"></select><input id="rate" type="range" min=".65" max="1.15" value=".85" step=".05"><span id="rv">0.85</span><button id="play">▶ 再生</button><button id="stop">■ 停止</button></section>
-<section class="panel"><h2>02 · Reading Questions</h2><p class="lead">選択肢を選ぶと、正解・不正解と解説が表示されます。</p>${x.questions.map((q,qi)=>`<article class="quiz" id="quiz-${qi}"><h3>Q${qi+1}. ${esc(q.question)}</h3><div class="options">${q.options.map((o,oi)=>`<button class="option" onclick="answer(${qi},${oi})">${String.fromCharCode(65+oi)}. ${esc(o)}</button>`).join('')}</div><div class="result" id="result-${qi}"></div></article>`).join('')}</section>
-<section class="panel"><h2>03 · 段落ごとの読解</h2>${x.paragraphs.map(p=>`<article class="guide"><h3>Paragraph ${p.paragraph}</h3><p><b>役割：</b>${esc(p.role)}</p><p>${esc(p.text)}</p></article>`).join('')}</section>
-<section class="panel"><h2>04 · Important Grammar</h2>${x.grammar.map(g=>`<article class="guide"><h3>${esc(g.title)}</h3><p>${esc(g.text)}</p></article>`).join('')}</section>
-<section class="panel"><h2>05 · 1文ずつの構文解説</h2><p class="lead">スラッシュはここでは使いません。文の構造を確認するためのページです。</p>${x.sentences.map(s=>`<details class="sentence"><summary><b>${s.no}.</b> ${esc(s.sentence)}</summary><div class="inside">${s.structure_items.map(z=>`<div class="note"><b>${esc(z[0])}</b><br>${esc(z[1])}</div>`).join('')}</div></details>`).join('')}</section>
-<section class="panel slash-panel"><h2>06 · 全文スラッシュリーディング</h2><p class="lead">構文を確認したあと、ここだけを見ながら繰り返し音読してください。</p><div class="slash-text">${esc(x.slash_reading).replace(/\n/g,'<br>')}</div></section>
-<section class="panel"><h2>07 · 日本語訳・内容</h2><p>${esc(x.translation)}</p></section>
-<section class="panel"><h2>08 · Vocabulary</h2><div class="vocab">${x.vocab.map(v=>'<div>'+esc(v)+'</div>').join('')}</div></section>`;
-setupVoice(x.english);
-}
-function answer(qi,oi){const q=currentLesson.questions[qi],box=document.querySelector('#quiz-'+qi),r=document.querySelector('#result-'+qi);box.querySelectorAll('.option').forEach((b,i)=>{b.disabled=true;if(i===q.correctIndex)b.classList.add('correct');if(i===oi&&i!==q.correctIndex)b.classList.add('wrong')});const ok=oi===q.correctIndex;r.className='result '+(ok?'ok':'ng');r.innerHTML=`<h4>${ok?'✓ 正解です！':'✕ 不正解です'}</h4>${ok?'':`<p><b>正解：</b>${String.fromCharCode(65+q.correctIndex)}. ${esc(q.answer)}</p>`}<p><b>解説：</b>${esc(q.explanation)}</p>`}
-function setupVoice(text){let voices=[],sel=document.querySelector('#voice');function load(){voices=speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang));sel.innerHTML=voices.map((v,i)=>`<option value="${i}">${v.name} (${v.lang})</option>`).join('')}load();speechSynthesis.onvoiceschanged=load;rate.oninput=()=>rv.textContent=rate.value;play.onclick=()=>{speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(text);u.voice=voices[sel.value];u.lang='en-US';u.rate=+rate.value;speechSynthesis.speak(u)};stop.onclick=()=>speechSynthesis.cancel()}
-</script></body></html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson | READ ALOUD LAB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="./">READ ALOUD LAB</a>
+      <a href="./">← Lessons</a>
+    </div>
+  </header>
+
+  <main class="wrap lesson" id="app">
+    <!-- Lesson content will be inserted here -->
+  </main>
+
+  <script>
+
+    /*
+     * URLからLesson IDを取得
+     *
+     * 例：
+     * lesson.html?id=01
+     */
+    const id = new URLSearchParams(location.search).get('id');
+
+
+    /*
+     * HTMLに安全に文字列を表示するためのエスケープ処理
+     */
+    function esc(value) {
+      return String(value).replace(/[&<>"]/g, character => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;'
+      }[character]));
+    }
+
+
+    /*
+     * Lessonを読み込む
+     *
+     * ① data/lessons.json からLessonの管理情報を取得
+     * ② URLのidに対応するLessonを探す
+     * ③ lesson01.jsonなど、該当するLesson JSONを取得
+     * ④ render()で画面に表示
+     */
+    async function loadLesson() {
+
+      try {
+
+        // Lesson管理JSONを読み込む
+        const response = await fetch('data/lessons.json');
+
+        if (!response.ok) {
+          throw new Error('lessons.json could not be loaded.');
+        }
+
+        const lessons = await response.json();
+
+
+        // URLのidに対応するLessonを探す
+        const lessonInfo = lessons.find(
+          lesson => lesson.id === id
+        );
+
+
+        // Lessonが存在しない場合
+        if (!lessonInfo) {
+
+          document.querySelector('#app').innerHTML = `
+            <div class="panel">
+              <h2>Lesson not found</h2>
+              <p>指定されたLessonが見つかりません。</p>
+              <p>
+                <a href="./">← Lesson一覧に戻る</a>
+              </p>
+            </div>
+          `;
+
+          return;
+        }
+
+
+        /*
+         * Lesson本体のJSONを読み込む
+         *
+         * 例：
+         * data/lessons/lesson01.json
+         */
+        const lessonResponse = await fetch(
+          `data/lessons/${lessonInfo.file}`
+        );
+
+        if (!lessonResponse.ok) {
+          throw new Error(
+            `${lessonInfo.file} could not be loaded.`
+          );
+        }
+
+        const lesson = await lessonResponse.json();
+
+
+        // Lessonを画面に表示
+        render(lesson);
+
+      } catch (error) {
+
+        console.error(error);
+
+        document.querySelector('#app').innerHTML = `
+          <div class="panel">
+            <h2>Lessonを読み込めませんでした</h2>
+            <p>
+              Lessonデータの読み込み中にエラーが発生しました。
+            </p>
+            <p>
+              <a href="./">← Lesson一覧に戻る</a>
+            </p>
+          </div>
+        `;
+      }
+    }
+
+
+    /*
+     * Lesson本体をHTMLとして表示
+     */
+    function render(x) {
+
+      // 現在表示しているLessonを保存
+      window.currentLesson = x;
+
+      // ブラウザのタイトルを変更
+      document.title = `${x.title} | READ ALOUD LAB`;
+
+
+      /*
+       * Lessonページ本体
+       */
+      const app = document.querySelector('#app');
+
+      app.innerHTML = `
+
+        <!-- Lesson Header -->
+        <p class="eyebrow">
+          LESSON ${esc(x.id)} · ${esc(x.theme)}
+        </p>
+
+        <h1>
+          ${esc(x.title)}
+        </h1>
+
+
+        <!-- 01 English -->
+        <section class="panel">
+
+          <h2>01 · English</h2>
+
+          <div class="english">
+
+            ${x.english
+              .split('\\n\\n')
+              .map(paragraph => `
+                <p>${esc(paragraph)}</p>
+              `)
+              .join('')
+            }
+
+          </div>
+
+        </section>
+
+
+        <!-- Audio -->
+        <section class="panel audio">
+
+          <h2>Listen & Read Aloud</h2>
+
+          <p>
+            ブラウザの英語音声を利用します。
+          </p>
+
+          <select id="voice"></select>
+
+          <input
+            id="rate"
+            type="range"
+            min="0.65"
+            max="1.15"
+            value="0.85"
+            step="0.05"
+          >
+
+          <span id="rv">0.85</span>
+
+          <button id="play">
+            ▶ 再生
+          </button>
+
+          <button id="stop">
+            ■ 停止
+          </button>
+
+        </section>
+
+
+        <!-- 02 Reading Questions -->
+        <section class="panel">
+
+          <h2>02 · Reading Questions</h2>
+
+          <p class="lead">
+            選択肢を選ぶと、正解・不正解と解説が表示されます。
+          </p>
+
+          ${x.questions
+            .map((question, questionIndex) => `
+
+              <article
+                class="quiz"
+                id="quiz-${questionIndex}"
+              >
+
+                <h3>
+                  Q${questionIndex + 1}.
+                  ${esc(question.question)}
+                </h3>
+
+
+                <div class="options">
+
+                  ${question.options
+                    .map((option, optionIndex) => `
+
+                      <button
+                        class="option"
+                        onclick="answer(
+                          ${questionIndex},
+                          ${optionIndex}
+                        )"
+                      >
+
+                        ${String.fromCharCode(65 + optionIndex)}.
+                        ${esc(option)}
+
+                      </button>
+
+                    `)
+                    .join('')
+                  }
+
+                </div>
+
+
+                <div
+                  class="result"
+                  id="result-${questionIndex}"
+                ></div>
+
+              </article>
+
+            `)
+            .join('')
+          }
+
+        </section>
+
+
+        <!-- 03 Paragraph Reading -->
+        <section class="panel">
+
+          <h2>03 · 段落ごとの読解</h2>
+
+          ${x.paragraphs
+            .map(paragraph => `
+
+              <article class="guide">
+
+                <h3>
+                  Paragraph ${paragraph.paragraph}
+                </h3>
+
+                <p>
+                  <b>役割：</b>
+                  ${esc(paragraph.role)}
+                </p>
+
+                <p>
+                  ${esc(paragraph.text)}
+                </p>
+
+              </article>
+
+            `)
+            .join('')
+          }
+
+        </section>
+
+
+        <!-- 04 Important Grammar -->
+        <section class="panel">
+
+          <h2>04 · Important Grammar</h2>
+
+          ${x.grammar
+            .map(grammar => `
+
+              <article class="guide">
+
+                <h3>
+                  ${esc(grammar.title)}
+                </h3>
+
+                <p>
+                  ${esc(grammar.text)}
+                </p>
+
+              </article>
+
+            `)
+            .join('')
+          }
+
+        </section>
+
+
+        <!-- 05 Sentence Structure -->
+        <section class="panel">
+
+          <h2>05 · 1文ずつの構文解説</h2>
+
+          <p class="lead">
+            スラッシュはここでは使いません。
+            文の構造を確認するためのページです。
+          </p>
+
+
+          ${x.sentences
+            .map(sentence => `
+
+              <details class="sentence">
+
+                <summary>
+                  <b>${sentence.no}.</b>
+                  ${esc(sentence.sentence)}
+                </summary>
+
+
+                <div class="inside">
+
+                  ${sentence.structure_items
+                    .map(item => `
+
+                      <div class="note">
+
+                        <b>
+                          ${esc(item[0])}
+                        </b>
+
+                        <br>
+
+                        ${esc(item[1])}
+
+                      </div>
+
+                    `)
+                    .join('')
+                  }
+
+                </div>
+
+              </details>
+
+            `)
+            .join('')
+          }
+
+        </section>
+
+
+        <!-- 06 Slash Reading -->
+        <section class="panel slash-panel">
+
+          <h2>
+            06 · 全文スラッシュリーディング
+          </h2>
+
+          <p class="lead">
+            構文を確認したあと、
+            ここだけを見ながら繰り返し音読してください。
+          </p>
+
+
+          <div class="slash-text">
+
+            ${esc(x.slash_reading)
+              .replace(/\n/g, '<br>')
+            }
+
+          </div>
+
+        </section>
+
+
+        <!-- 07 Translation -->
+        <section class="panel">
+
+          <h2>07 · 日本語訳</h2>
+
+          <div class="translation">
+
+            ${esc(x.translation)
+              .replace(/\n\n/g, '</p><p>')
+              .replace(/^/, '<p>')
+              .replace(/$/, '</p>')
+            }
+
+          </div>
+
+        </section>
+
+
+        <!-- 08 Vocabulary -->
+        <section class="panel">
+
+          <h2>08 · Vocabulary</h2>
+
+          <div class="vocab">
+
+            ${x.vocab
+              .map(word => `
+                <div>
+                  ${esc(word)}
+                </div>
+              `)
+              .join('')
+            }
+
+          </div>
+
+        </section>
+
+      `;
+
+
+      /*
+       * 音声機能を初期化
+       */
+      setupVoice(x.english);
+
+    }
+
+
+    /*
+     * 読解問題の回答処理
+     */
+    function answer(questionIndex, selectedIndex) {
+
+      const question =
+        window.currentLesson.questions[questionIndex];
+
+      const quiz =
+        document.querySelector(
+          `#quiz-${questionIndex}`
+        );
+
+      const result =
+        document.querySelector(
+          `#result-${questionIndex}`
+        );
+
+
+      /*
+       * 選択肢を無効化
+       */
+      quiz
+        .querySelectorAll('.option')
+        .forEach((button, index) => {
+
+          button.disabled = true;
+
+
+          // 正解
+          if (index === question.correctIndex) {
+            button.classList.add('correct');
+          }
+
+
+          // 選択した答えが不正解だった場合
+          if (
+            index === selectedIndex &&
+            index !== question.correctIndex
+          ) {
+            button.classList.add('wrong');
+          }
+
+        });
+
+
+      const isCorrect =
+        selectedIndex === question.correctIndex;
+
+
+      /*
+       * 結果表示
+       */
+      result.className =
+        `result ${isCorrect ? 'ok' : 'ng'}`;
+
+
+      result.innerHTML = `
+
+        <h4>
+          ${isCorrect
+            ? '✓ 正解です！'
+            : '✕ 不正解です'
+          }
+        </h4>
+
+
+        ${isCorrect
+          ? ''
+          : `
+            <p>
+              <b>正解：</b>
+              ${String.fromCharCode(
+                65 + question.correctIndex
+              )}.
+              ${esc(question.answer)}
+            </p>
+          `
+        }
+
+
+        <p>
+          <b>解説：</b>
+          ${esc(question.explanation)}
+        </p>
+
+      `;
+    }
+
+
+    /*
+     * 音声機能
+     */
+    function setupVoice(text) {
+
+      let voices = [];
+
+      const voiceSelect =
+        document.querySelector('#voice');
+
+
+      /*
+       * 英語音声だけ取得
+       */
+      function loadVoices() {
+
+        voices =
+          speechSynthesis
+            .getVoices()
+            .filter(voice => /^en/i.test(voice.lang));
+
+
+        voiceSelect.innerHTML =
+          voices
+            .map((voice, index) => `
+              <option value="${index}">
+                ${voice.name} (${voice.lang})
+              </option>
+            `)
+            .join('');
+      }
+
+
+      loadVoices();
+
+      speechSynthesis.onvoiceschanged =
+        loadVoices;
+
+
+      /*
+       * 再生速度
+       */
+      const rate =
+        document.querySelector('#rate');
+
+      const rateValue =
+        document.querySelector('#rv');
+
+
+      rate.addEventListener('input', () => {
+
+        rateValue.textContent =
+          rate.value;
+
+      });
+
+
+      /*
+       * 再生
+       */
+      document
+        .querySelector('#play')
+        .addEventListener('click', () => {
+
+          speechSynthesis.cancel();
+
+
+          const utterance =
+            new SpeechSynthesisUtterance(text);
+
+
+          if (voices.length > 0) {
+            utterance.voice =
+              voices[voiceSelect.value];
+          }
+
+
+          utterance.lang = 'en-US';
+
+          utterance.rate =
+            Number(rate.value);
+
+
+          speechSynthesis.speak(
+            utterance
+          );
+
+        });
+
+
+      /*
+       * 停止
+       */
+      document
+        .querySelector('#stop')
+        .addEventListener('click', () => {
+
+          speechSynthesis.cancel();
+
+        });
+
+    }
+
+
+    /*
+     * Lesson読み込み開始
+     */
+    loadLesson();
+
+  </script>
+
+</body>
+
+</html>

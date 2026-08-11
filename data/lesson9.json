@@ -1,0 +1,195 @@
+{
+  "id": "09",
+  "title": "The Difference Between Cheap and Valuable",
+  "theme": "Value",
+  "english": "A low price does not always mean good value, and a high price does not always mean poor value. Price tells us how much we pay, but value depends on what we receive in return.\n\nSuppose two products have different prices. The cheaper one may save money today, but it may break quickly and need to be replaced. The more expensive one may last longer and save both time and money over several years.\n\nThis idea applies to more than products. We can also think about the value of books, tools, services, and even experiences. Asking 'How much does it cost?' is useful, but asking 'What do I receive for the cost?' can lead to a better decision.",
+  "questions": [
+    {
+      "question": "Why might the cheaper product not provide better value?",
+      "options": [
+        "What we receive in return for what we pay.",
+        "What do I receive for the cost?",
+        "It may break quickly and need to be replaced."
+      ],
+      "correctIndex": 2,
+      "answer": "It may break quickly and need to be replaced.",
+      "explanation": "本文第2段落では、安い製品でもすぐ壊れて買い替えが必要になることがあると説明されています。その場合、最初の価格は安くても、長期的には価値が高いとは限りません。"
+    },
+    {
+      "question": "What does value depend on?",
+      "options": [
+        "What do I receive for the cost?",
+        "What we receive in return for what we pay.",
+        "It may break quickly and need to be replaced."
+      ],
+      "correctIndex": 1,
+      "answer": "What we receive in return for what we pay.",
+      "explanation": "本文第1段落が直接の根拠です。価格は『支払う金額』ですが、価値は『その支払いに対して何を受け取るか』によって決まります。"
+    },
+    {
+      "question": "What question can lead to a better decision?",
+      "options": [
+        "What do I receive for the cost?",
+        "It may break quickly and need to be replaced.",
+        "What we receive in return for what we pay."
+      ],
+      "correctIndex": 0,
+      "answer": "What do I receive for the cost?",
+      "explanation": "本文最後で、単に『いくらかかるか』だけでなく、『その費用に対して何を得られるか』を考えると、より良い判断につながると述べています。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "A low price does not always mean good value, and a high price does not always mean poor value. Price tells us how much we pay, but value depends on what we receive in return."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "Suppose two products have different prices. The cheaper one may save money today, but it may break quickly and need to be replaced. The more expensive one may last longer and save both time and money over several years."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "This idea applies to more than products. We can also think about the value of books, tools, services, and even experiences. Asking 'How much does it cost?' is useful, but asking 'What do I receive for the cost?' can lead to a better decision."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "A low price does not always mean good value, and a high price does not always mean poor value.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "Price tells us how much we pay, but value depends on what we receive in return.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "Suppose two products have different prices.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "The cheaper one may save money today, but it may break quickly and need to be replaced.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "The more expensive one may last longer and save both time and money over several years.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "This idea applies to more than products.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "We can also think about the value of books, tools, services, and even experiences.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "Asking 'How much does it cost?",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 9,
+      "sentence": "' is useful, but asking 'What do I receive for the cost?",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 10,
+      "sentence": "' can lead to a better decision.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "A low price does not always mean good value, / and a high price does not always mean poor value. / Price tells us how much we pay, / but value depends on / what we receive in return.\n\nSuppose two products / have different prices. / The cheaper one may save money today, / but it may break quickly / and need to be replaced. / The more expensive one may last longer / and save both time and money / over several years.\n\nThis idea applies / to more than products. / We can also think about / the value of books, tools, services, / and even experiences. / Asking 'How much does it cost?' / is useful, / but asking 'What do I receive for the cost?' / can lead to a better decision.",
+  "translation": "低価格が必ずしも良い価値を意味するとは限らず、高価格が必ずしも悪い価値を意味するとは限りません。価格は私たちがいくら支払うかを教えてくれますが、価値は代わりに見返りとして何を受け取るかによって決まります。2つの製品の価格が異なると仮定してください。安い方は今日は節約になるかもしれませんが、すぐに壊れて交換する必要があるかもしれません。高価な方は長持ちし、数年にわたって時間とお金の両方を節約できるかもしれません。この考え方は製品以上のものに当てはまります。本、道具、サービス、さらには経験の価値についても考えることができます。「いくらかかりますか？」と尋ねることは役に立ちますが、「その費用に対して何を受け取りますか？」と尋ねることは、より良い決定につながる可能性があります。",
+  "vocab": [
+    "value: 価値",
+    "in return: その代わりに",
+    "suppose: 仮に〜とする",
+    "replace: 取り替える",
+    "apply to: 当てはまる"
+  ]
+}

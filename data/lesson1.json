@@ -1,0 +1,193 @@
+{
+  "id": "01",
+  "title": "The Value of Boredom",
+  "theme": "Focus and creativity",
+  "english": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, they look at their phones or search for something to watch. However, a little boredom may actually be useful.\n\nWhen we have nothing to focus on, our minds begin to wander. During this time, we may remember old experiences, connect different ideas, or think about problems in a new way. This kind of mental wandering can support creativity.\n\nOf course, boredom is not always pleasant. Still, we do not need to escape from every quiet moment. The next time you feel bored, try waiting for a few minutes before reaching for your phone.",
+  "questions": [
+    {
+      "question": "Why can boredom be useful?",
+      "options": [
+        "Wait before immediately using a phone.",
+        "A small amount of boredom can sometimes create useful time for thought.",
+        "It can give the mind time to wander and connect ideas."
+      ],
+      "correctIndex": 2,
+      "answer": "It can give the mind time to wander and connect ideas.",
+      "explanation": "本文第2段落が根拠です。何かに集中するものがないとき、頭の中では自由な思考が始まり、過去の経験を思い出したり、別々のアイデアを結びつけたりできると説明されています。したがって、退屈には「思考や創造性を働かせる時間を与える」という利点があります。"
+    },
+    {
+      "question": "What does the writer suggest we do?",
+      "options": [
+        "A small amount of boredom can sometimes create useful time for thought.",
+        "Wait before immediately using a phone.",
+        "It can give the mind time to wander and connect ideas."
+      ],
+      "correctIndex": 1,
+      "answer": "Wait before immediately using a phone.",
+      "explanation": "本文最終段落で、退屈を感じたらすぐにスマートフォンへ手を伸ばすのではなく、「数分待ってみる」ことが勧められています。したがって、正解は『すぐにスマホを使わず少し待つ』です。"
+    },
+    {
+      "question": "What is the main idea?",
+      "options": [
+        "A small amount of boredom can sometimes create useful time for thought.",
+        "It can give the mind time to wander and connect ideas.",
+        "Wait before immediately using a phone."
+      ],
+      "correctIndex": 0,
+      "answer": "A small amount of boredom can sometimes create useful time for thought.",
+      "explanation": "本文全体では、退屈を単に悪いものとして避けるのではなく、少しの退屈が思考や創造性につながる可能性を説明しています。各段落の主張をまとめると、『少しの退屈には考えるための価値がある』が最も適切です。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "Many people feel uncomfortable when they have nothing to do. The moment they become bored, they look at their phones or search for something to watch. However, a little boredom may actually be useful."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "When we have nothing to focus on, our minds begin to wander. During this time, we may remember old experiences, connect different ideas, or think about problems in a new way. This kind of mental wandering can support creativity."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "Of course, boredom is not always pleasant. Still, we do not need to escape from every quiet moment. The next time you feel bored, try waiting for a few minutes before reaching for your phone."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "Many people feel uncomfortable when they have nothing to do.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "The moment they become bored, they look at their phones or search for something to watch.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "However, a little boredom may actually be useful.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "When we have nothing to focus on, our minds begin to wander.",
+      "structure_items": [
+        [
+          "副詞節",
+          "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
+        ],
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "During this time, we may remember old experiences, connect different ideas, or think about problems in a new way.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "This kind of mental wandering can support creativity.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "Of course, boredom is not always pleasant.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "Still, we do not need to escape from every quiet moment.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 9,
+      "sentence": "The next time you feel bored, try waiting for a few minutes before reaching for your phone.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "Many people feel uncomfortable / when they have nothing to do. / The moment they become bored, / they look at their phones / or search for something to watch. / However, / a little boredom may actually be useful.\n\nWhen we have nothing to focus on, / our minds begin to wander. / During this time, / we may remember old experiences, / connect different ideas, / or think about problems in a new way. / This kind of mental wandering / can support creativity.\n\nOf course, / boredom is not always pleasant. / Still, / we do not need to escape / from every quiet moment. / The next time you feel bored, / try waiting for a few minutes / before reaching for your phone.",
+  "translation": "多くの人は、何もすることがないと落ち着かない気分になります。退屈を感じた途端、スマートフォンを手に取ったり、何か見るものを探したりしがちです。しかし、実は「退屈」な時間も役に立つことがあるのです。何かに集中していないとき、私たちの心はあちこちへとさまよい始めます。その間に、過去の経験を思い出したり、異なるアイデアを結びつけたり、あるいは問題について新しい視点から考えたりすることがあります。こうした心の「さまよい」が、創造性を高める助けになるのです。もちろん、退屈な時間が常に快適なわけではありません。それでも、静かな時間をすべて避けようとする必要はないのです。次に退屈だと感じたら、すぐにスマートフォンに手を伸ばすのではなく、数分間そのまま待ってみてください。",
+  "vocab": [
+    "boredom: 退屈",
+    "wander: さまよう",
+    "creativity: 創造性",
+    "reach for: 手を伸ばす",
+    "on its own: 自然に"
+  ]
+}

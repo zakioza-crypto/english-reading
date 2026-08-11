@@ -1,0 +1,185 @@
+{
+  "id": "04",
+  "title": "Learning from Mistakes",
+  "theme": "Growth",
+  "english": "Most people dislike making mistakes because mistakes can be embarrassing or costly. However, avoiding every mistake is impossible, especially when we are learning something new.\n\nA useful response is to ask what the mistake can teach us. Was the problem caused by a lack of knowledge, poor preparation, or an incorrect assumption? The answer matters because different causes require different changes.\n\nThe goal is not to celebrate every failure. Some mistakes have serious consequences. The goal is to avoid repeating the same mistake without understanding it. A mistake becomes more useful when it changes what we do next.",
+  "questions": [
+    {
+      "question": "Why examine the cause of a mistake?",
+      "options": [
+        "Different causes require different changes.",
+        "No. Some mistakes have serious consequences.",
+        "When it changes what we do next."
+      ],
+      "correctIndex": 0,
+      "answer": "Different causes require different changes.",
+      "explanation": "本文第2段落では、失敗の原因が知識不足・準備不足・誤った思い込みのどれなのかによって、必要な改善策が変わると説明されています。だから原因を調べる必要があります。"
+    },
+    {
+      "question": "Should every failure be celebrated?",
+      "options": [
+        "Different causes require different changes.",
+        "When it changes what we do next.",
+        "No. Some mistakes have serious consequences."
+      ],
+      "correctIndex": 2,
+      "answer": "No. Some mistakes have serious consequences.",
+      "explanation": "本文最終段落は『すべての失敗を祝うことが目的ではない』と述べています。失敗の中には重大な結果を生むものもあるためです。"
+    },
+    {
+      "question": "When does a mistake become useful?",
+      "options": [
+        "No. Some mistakes have serious consequences.",
+        "When it changes what we do next.",
+        "Different causes require different changes."
+      ],
+      "correctIndex": 1,
+      "answer": "When it changes what we do next.",
+      "explanation": "最後の文が直接の根拠です。同じ失敗を繰り返さず、その失敗によって次の行動を変えられたとき、失敗は学びとして役立つものになります。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "Most people dislike making mistakes because mistakes can be embarrassing or costly. However, avoiding every mistake is impossible, especially when we are learning something new."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "A useful response is to ask what the mistake can teach us. Was the problem caused by a lack of knowledge, poor preparation, or an incorrect assumption? The answer matters because different causes require different changes."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "The goal is not to celebrate every failure. Some mistakes have serious consequences. The goal is to avoid repeating the same mistake without understanding it. A mistake becomes more useful when it changes what we do next."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "Most people dislike making mistakes because mistakes can be embarrassing or costly.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "However, avoiding every mistake is impossible, especially when we are learning something new.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "A useful response is to ask what the mistake can teach us.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "Was the problem caused by a lack of knowledge, poor preparation, or an incorrect assumption?",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "The answer matters because different causes require different changes.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "The goal is not to celebrate every failure.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "Some mistakes have serious consequences.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "The goal is to avoid repeating the same mistake without understanding it.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 9,
+      "sentence": "A mistake becomes more useful when it changes what we do next.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "Most people dislike making mistakes / because mistakes can be embarrassing / or costly. / However, / avoiding every mistake is impossible, / especially when we are learning something new.\n\nA useful response is / to ask what the mistake can teach us. / Was the problem caused / by a lack of knowledge, / poor preparation, / or an incorrect assumption? / The answer matters / because different causes require different changes.\n\nThe goal is not / to celebrate every failure. / Some mistakes have serious consequences. / The goal is / to avoid repeating the same mistake / without understanding it. / A mistake becomes more useful / when it changes what we do next.",
+  "translation": "ほとんどの人は、間違いが恥ずかしいものであったり、代償が大きかったりするため、間違いを犯すことを嫌います。しかし、すべての間違いを避けることは、特に私たちが何か新しいことを学んでいるときには不可能です。役に立つ対応は、その間違いが私たちに何を教えてくれるかを尋ねることです。問題の原因は、知識の不足、準備不足、あるいは誤った思い込みだったのでしょうか？ 異なる原因には異なる変化が必要となるため、この答えは重要です。目標は、すべての失敗を祝うことではありません。間違いの中には重大な結果をもたらすものもあります。目標は、同じ間違いを理解せずに繰り返すのを避けることです。間違いは、私たちが次にする行動を変えたときに、より役に立つものになります。",
+  "vocab": [
+    "embarrassing: 恥ずかしい",
+    "costly: 代償の大きい",
+    "assumption: 思い込み",
+    "consequence: 結果",
+    "failure: 失敗"
+  ]
+}

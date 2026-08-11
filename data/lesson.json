@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01",
+    "title": "The Value of Boredom",
+    "theme": "Focus and creativity",
+    "level": "Basic",
+    "category": "Thinking",
+    "file": "lesson01.json"
+  },
+  {
+    "id": "02",
+    "title": "Why Small Habits Matter",
+    "theme": "Change and consistency",
+    "level": "Basic",
+    "category": "Life",
+    "file": "lesson02.json"
+  },
+  {
+    "id": "03",
+    "title": "The Skill of Listening",
+    "theme": "Communication",
+    "level": "Basic",
+    "category": "Communication",
+    "file": "lesson03.json"
+  },
+  {
+    "id": "04",
+    "title": "Learning from Mistakes",
+    "theme": "Growth",
+    "level": "Basic",
+    "category": "Thinking",
+    "file": "lesson04.json"
+  },
+  {
+    "id": "05",
+    "title": "A Better Way to Use Time",
+    "theme": "Attention and priorities",
+    "level": "Basic",
+    "category": "Life",
+    "file": "lesson05.json"
+  },
+  {
+    "id": "06",
+    "title": "Why We Change Our Minds",
+    "theme": "Thinking",
+    "level": "Basic",
+    "category": "Psychology",
+    "file": "lesson06.json"
+  },
+  {
+    "id": "07",
+    "title": "The Power of Explaining",
+    "theme": "Learning",
+    "level": "Basic",
+    "category": "Education",
+    "file": "lesson07.json"
+  },
+  {
+    "id": "08",
+    "title": "Why Sleep Helps Memory",
+    "theme": "Memory",
+    "level": "Basic",
+    "category": "Science",
+    "file": "lesson08.json"
+  },
+  {
+    "id": "09",
+    "title": "The Difference Between Cheap and Valuable",
+    "theme": "Value",
+    "level": "Basic",
+    "category": "Life",
+    "file": "lesson09.json"
+  },
+  {
+    "id": "10",
+    "title": "A Question Worth Asking",
+    "theme": "Life and choices",
+    "level": "Basic",
+    "category": "Life",
+    "file": "lesson10.json"
+  }
+]

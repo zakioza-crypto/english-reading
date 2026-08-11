@@ -1,0 +1,191 @@
+{
+  "id": "07",
+  "title": "The Power of Explaining",
+  "theme": "Learning",
+  "english": "We often think that we understand something because it feels familiar. However, familiarity is not the same as understanding.\n\nOne simple test is to explain the idea to someone else in clear language. When we try to explain, gaps in our knowledge often become visible. We may discover that we know a definition but cannot explain why it matters or how it works.\n\nFor this reason, teaching can improve the teacher's own learning. Explaining forces us to organize information, choose examples, and connect separate ideas. If we cannot explain something simply, we may need to understand it more deeply.",
+  "questions": [
+    {
+      "question": "Why can explaining reveal gaps?",
+      "options": [
+        "Because explaining requires more than recognizing familiar information.",
+        "It forces the teacher to organize information and understand it more deeply.",
+        "Explaining clearly is a useful test and method of understanding."
+      ],
+      "correctIndex": 0,
+      "answer": "Because explaining requires more than recognizing familiar information.",
+      "explanation": "本文第2段落では、人に説明しようとすると、知識の『空白』が見えてくると説明されています。知っているつもりでも、なぜ重要なのか・どう働くのかを説明できない場合があるからです。"
+    },
+    {
+      "question": "How can teaching help the teacher?",
+      "options": [
+        "It forces the teacher to organize information and understand it more deeply.",
+        "Because explaining requires more than recognizing familiar information.",
+        "Explaining clearly is a useful test and method of understanding."
+      ],
+      "correctIndex": 0,
+      "answer": "It forces the teacher to organize information and understand it more deeply.",
+      "explanation": "本文第3段落では、教えるためには情報を整理し、例を選び、別々のアイデアを結びつける必要があると述べています。その過程で教える側の理解も深まります。"
+    },
+    {
+      "question": "What is the main lesson?",
+      "options": [
+        "Because explaining requires more than recognizing familiar information.",
+        "It forces the teacher to organize information and understand it more deeply.",
+        "Explaining clearly is a useful test and method of understanding."
+      ],
+      "correctIndex": 2,
+      "answer": "Explaining clearly is a useful test and method of understanding.",
+      "explanation": "本文全体では、『説明できること』を本当の理解の確認方法として扱っています。単に見覚えがあるだけではなく、他人に分かる形で説明できることが理解の証拠になります。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "We often think that we understand something because it feels familiar. However, familiarity is not the same as understanding."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "One simple test is to explain the idea to someone else in clear language. When we try to explain, gaps in our knowledge often become visible. We may discover that we know a definition but cannot explain why it matters or how it works."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "For this reason, teaching can improve the teacher's own learning. Explaining forces us to organize information, choose examples, and connect separate ideas. If we cannot explain something simply, we may need to understand it more deeply."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "We often think that we understand something because it feels familiar.",
+      "structure_items": [
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "However, familiarity is not the same as understanding.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "One simple test is to explain the idea to someone else in clear language.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "When we try to explain, gaps in our knowledge often become visible.",
+      "structure_items": [
+        [
+          "副詞節",
+          "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
+        ],
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "We may discover that we know a definition but cannot explain why it matters or how it works.",
+      "structure_items": [
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "For this reason, teaching can improve the teacher's own learning.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "Explaining forces us to organize information, choose examples, and connect separate ideas.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "If we cannot explain something simply, we may need to understand it more deeply.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "We often think / that we understand something / because it feels familiar. / However, / familiarity is not the same as understanding.\n\nOne simple test is / to explain the idea to someone else / in clear language. / When we try to explain, / gaps in our knowledge / often become visible. / We may discover / that we know a definition / but cannot explain / why it matters or how it works.\n\nFor this reason, / teaching can improve / the teacher's own learning. / Explaining forces us / to organize information, / choose examples, / and connect separate ideas. / If we cannot explain something simply, / we may need to understand it more deeply.",
+  "translation": "私たちは、何かが馴染みがあると感じるため、それを理解していると考えがちです。しかし、馴染みがあることは、理解していることと同じではありません。一つの簡単なテストは、明確な言葉で他の誰かにそのアイデアを説明してみることです。説明しようとすると、しばしば知識の空白が見えてきます。私たちは、定義は知っていても、なぜそれが重要なのか、あるいはどのように機能するのかを説明できないことに気づくかもしれません。この理由から、教えることは教える人自身の学習を向上させることができます。説明することで、私たちは情報を整理し、例を選び、別々のアイデアを結びつけることを余儀なくされます。何かを簡単に説明できない場合は、それをより深く理解する必要があるかもしれません。",
+  "vocab": [
+    "familiarity: 親しみ",
+    "definition: 定義",
+    "gap: 欠けている部分",
+    "organize: 整理する",
+    "deeply: 深く"
+  ]
+}

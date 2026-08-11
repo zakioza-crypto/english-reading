@@ -1,0 +1,199 @@
+{
+  "id": "08",
+  "title": "Why Sleep Helps Memory",
+  "theme": "Memory",
+  "english": "Studying does not end when we close a book. What happens after learning can also affect how well we remember.\n\nSleep appears to play an important role in memory. During sleep, the brain is not simply inactive. It continues to process information in ways that can help new learning become more stable.\n\nThis does not mean that sleep can replace study. We still need to pay attention and practice before we sleep. But cutting sleep in order to study longer may sometimes reduce the benefit of the extra study time.",
+  "questions": [
+    {
+      "question": "What happens during sleep?",
+      "options": [
+        "The brain continues to process information that can help stabilize new learning.",
+        "No. Attention and practice are still necessary.",
+        "Losing sleep may reduce the benefit of the extra study time."
+      ],
+      "correctIndex": 0,
+      "answer": "The brain continues to process information that can help stabilize new learning.",
+      "explanation": "本文第2段落では、睡眠中の脳は単に停止しているのではなく、新しく学んだ情報を処理し、より安定した記憶になるのを助けると説明されています。"
+    },
+    {
+      "question": "Can sleep replace studying?",
+      "options": [
+        "The brain continues to process information that can help stabilize new learning.",
+        "Losing sleep may reduce the benefit of the extra study time.",
+        "No. Attention and practice are still necessary."
+      ],
+      "correctIndex": 2,
+      "answer": "No. Attention and practice are still necessary.",
+      "explanation": "本文最終段落の冒頭で『これは睡眠が勉強の代わりになるという意味ではない』と明確に否定されています。寝る前に注意して学び、練習することも必要です。"
+    },
+    {
+      "question": "Why might cutting sleep be a bad strategy?",
+      "options": [
+        "No. Attention and practice are still necessary.",
+        "Losing sleep may reduce the benefit of the extra study time.",
+        "The brain continues to process information that can help stabilize new learning."
+      ],
+      "correctIndex": 1,
+      "answer": "Losing sleep may reduce the benefit of the extra study time.",
+      "explanation": "本文最後の文では、睡眠を削って勉強時間を増やしても、その追加した勉強時間の効果自体が下がる可能性があると説明されています。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "Studying does not end when we close a book. What happens after learning can also affect how well we remember."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "Sleep appears to play an important role in memory. During sleep, the brain is not simply inactive. It continues to process information in ways that can help new learning become more stable."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "This does not mean that sleep can replace study. We still need to pay attention and practice before we sleep. But cutting sleep in order to study longer may sometimes reduce the benefit of the extra study time."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "Studying does not end when we close a book.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "What happens after learning can also affect how well we remember.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "Sleep appears to play an important role in memory.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "During sleep, the brain is not simply inactive.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "It continues to process information in ways that can help new learning become more stable.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "This does not mean that sleep can replace study.",
+      "structure_items": [
+        [
+          "S",
+          "This"
+        ],
+        [
+          "V",
+          "does not mean"
+        ],
+        [
+          "内容",
+          "that 以下や後ろの内容。「これが〜を意味するわけではない」と読みます。"
+        ],
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "We still need to pay attention and practice before we sleep.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "But cutting sleep in order to study longer may sometimes reduce the benefit of the extra study time.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "Studying does not end / when we close a book. / What happens after learning / can also affect / how well we remember.\n\nSleep appears to play / an important role in memory. / During sleep, / the brain is not simply inactive. / It continues to process information / in ways that can help / new learning become more stable.\n\nThis does not mean / that sleep can replace study. / We still need to pay attention and practice / before we sleep. / But cutting sleep / in order to study longer / may sometimes reduce / the benefit of the extra study time.",
+  "translation": "私たちが本を閉じたときに勉強が終わるわけではありません。学習の後に何が起こるかも、私たちがどれだけよく覚えているかに影響を与える可能性があります。睡眠は記憶において重要な役割を果たしているようです。睡眠中、脳は単に活動を停止しているわけではありません。新しい学習がより安定するのを助ける方法で、情報を処理し続けています。これは、睡眠が勉強の代わりになるという意味ではありません。私たちは依然として、眠る前に注意を払い、練習する必要があります。しかし、長く勉強するために睡眠を削ることは、時として余分な勉強時間の恩恵を減らしてしまうかもしれません。",
+  "vocab": [
+    "affect: 影響する",
+    "appear to: 〜のように見える",
+    "inactive: 活動していない",
+    "process: 処理する",
+    "replace: 置き換える"
+  ]
+}

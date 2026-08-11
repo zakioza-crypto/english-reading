@@ -1,0 +1,187 @@
+{
+  "id": "06",
+  "title": "Why We Change Our Minds",
+  "theme": "Thinking",
+  "english": "Changing your mind is sometimes treated as a sign of weakness. People may think that a strong person should always remain consistent. Yet consistency is valuable only when it is connected to good reasons.\n\nNew information can reveal that an old belief was incomplete or mistaken. In such cases, refusing to change may protect our pride, but it does not protect us from being wrong.\n\nOf course, we should not change our minds whenever we hear a new opinion. The important question is whether the new evidence is strong enough to change our judgment. A willingness to update our beliefs can be a form of intellectual strength.",
+  "questions": [
+    {
+      "question": "When is consistency valuable?",
+      "options": [
+        "Judge new evidence carefully and update beliefs when it is strong enough.",
+        "When it is supported by good reasons.",
+        "To protect pride, even when the opinion may be wrong."
+      ],
+      "correctIndex": 1,
+      "answer": "When it is supported by good reasons.",
+      "explanation": "本文第1段落では、一貫性そのものが常に良いのではなく、『良い理由と結びついているときにだけ価値がある』と説明されています。"
+    },
+    {
+      "question": "Why might someone refuse to change?",
+      "options": [
+        "To protect pride, even when the opinion may be wrong.",
+        "When it is supported by good reasons.",
+        "Judge new evidence carefully and update beliefs when it is strong enough."
+      ],
+      "correctIndex": 0,
+      "answer": "To protect pride, even when the opinion may be wrong.",
+      "explanation": "本文第2段落では、古い考えを変えないことは『自尊心を守るかもしれないが、間違っていることから守ってくれるわけではない』とあります。つまり、プライドを守るために考えを変えない場合があります。"
+    },
+    {
+      "question": "What does the writer recommend?",
+      "options": [
+        "Judge new evidence carefully and update beliefs when it is strong enough.",
+        "When it is supported by good reasons.",
+        "To protect pride, even when the opinion may be wrong."
+      ],
+      "correctIndex": 0,
+      "answer": "Judge new evidence carefully and update beliefs when it is strong enough.",
+      "explanation": "本文最終段落は、何でもすぐ考え直すのもよくないが、十分に強い新しい証拠があれば判断を更新すべきだと述べています。極端な二択ではなく、証拠に基づいて考えを変える姿勢が推奨されています。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "Changing your mind is sometimes treated as a sign of weakness. People may think that a strong person should always remain consistent. Yet consistency is valuable only when it is connected to good reasons."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "New information can reveal that an old belief was incomplete or mistaken. In such cases, refusing to change may protect our pride, but it does not protect us from being wrong."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "Of course, we should not change our minds whenever we hear a new opinion. The important question is whether the new evidence is strong enough to change our judgment. A willingness to update our beliefs can be a form of intellectual strength."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "Changing your mind is sometimes treated as a sign of weakness.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "People may think that a strong person should always remain consistent.",
+      "structure_items": [
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "Yet consistency is valuable only when it is connected to good reasons.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "New information can reveal that an old belief was incomplete or mistaken.",
+      "structure_items": [
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "In such cases, refusing to change may protect our pride, but it does not protect us from being wrong.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "Of course, we should not change our minds whenever we hear a new opinion.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "The important question is whether the new evidence is strong enough to change our judgment.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "A willingness to update our beliefs can be a form of intellectual strength.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "Changing your mind / is sometimes treated / as a sign of weakness. / People may think / that a strong person should always remain consistent. / Yet consistency is valuable only / when it is connected to good reasons.\n\nNew information can reveal / that an old belief was incomplete or mistaken. / In such cases, / refusing to change may protect our pride, / but it does not protect us / from being wrong.\n\nOf course, / we should not change our minds / whenever we hear a new opinion. / The important question is / whether the new evidence is strong enough / to change our judgment. / A willingness to update our beliefs / can be a form of intellectual strength.",
+  "translation": "考えを変えることは、弱さの表れとして扱われることがあります。人々は、強い人は常に一貫しているべきだと考えるかもしれません。しかし、一貫性は、それが正当な理由と結びついている場合にのみ価値があります。新しい情報は、古い信念が不完全であったり間違っていたりすることを明らかにする可能性があります。そのような場合、変化を拒むことは私たちのプライドを守るかもしれませんが、私たちが間違っていることから守ってくれるわけではありません。もちろん、新しい意見を聞くたびに考えを変えるべきではありません。重要な問題は、新しい証拠が私たちの判断を変えるのに十分に強力かどうかです。信念を更新しようとする意欲は、知的な強さの一形態になり得ます。",
+  "vocab": [
+    "consistency: 一貫性",
+    "reveal: 明らかにする",
+    "pride: 自尊心",
+    "evidence: 根拠",
+    "judgment: 判断"
+  ]
+}

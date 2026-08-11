@@ -1,0 +1,197 @@
+{
+  "id": "10",
+  "title": "A Question Worth Asking",
+  "theme": "Life and choices",
+  "english": "Many decisions are easier when we know what we are trying to become. Without a direction, even a large number of choices can leave us feeling uncertain.\n\nOne useful question is not only 'What do I want to do?' but also 'What kind of person do I want to be?' The second question can guide everyday decisions. For example, a person who wants to become reliable may think differently about keeping promises.\n\nWe do not need to know the complete answer immediately. Our goals and values can change as we gain experience. Still, a clear direction can help us choose between opportunities that look equally attractive in the moment.",
+  "questions": [
+    {
+      "question": "Why can knowing what kind of person we want to be help?",
+      "options": [
+        "A general direction can help choices even if it changes over time.",
+        "Because it can guide everyday decisions.",
+        "No. Goals and values can change as we gain experience."
+      ],
+      "correctIndex": 1,
+      "answer": "Because it can guide everyday decisions.",
+      "explanation": "本文第2段落では、『何をしたいか』だけでなく『どんな人になりたいか』を考えると、日常の小さな判断にも方向性が生まれると説明されています。"
+    },
+    {
+      "question": "Must we know our complete direction immediately?",
+      "options": [
+        "No. Goals and values can change as we gain experience.",
+        "Because it can guide everyday decisions.",
+        "A general direction can help choices even if it changes over time."
+      ],
+      "correctIndex": 0,
+      "answer": "No. Goals and values can change as we gain experience.",
+      "explanation": "本文最終段落は『完全な答えをすぐ知る必要はない』と明確に述べています。経験を積むにつれて、目標や価値観が変わることもあります。"
+    },
+    {
+      "question": "What is the main idea?",
+      "options": [
+        "A general direction can help choices even if it changes over time.",
+        "Because it can guide everyday decisions.",
+        "No. Goals and values can change as we gain experience."
+      ],
+      "correctIndex": 0,
+      "answer": "A general direction can help choices even if it changes over time.",
+      "explanation": "本文は、人生の方向性を完全に固定する必要はない一方で、ある程度の方向性があると、魅力的な選択肢の中から選ぶ助けになると説明しています。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "Many decisions are easier when we know what we are trying to become. Without a direction, even a large number of choices can leave us feeling uncertain."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "One useful question is not only 'What do I want to do?' but also 'What kind of person do I want to be?' The second question can guide everyday decisions. For example, a person who wants to become reliable may think differently about keeping promises."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "We do not need to know the complete answer immediately. Our goals and values can change as we gain experience. Still, a clear direction can help us choose between opportunities that look equally attractive in the moment."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "文の骨格",
+      "text": "英文はまず S（主語）+ V（動詞）を探します。その後に O（目的語）・C（補語）や修飾語を加えて意味を広げます。"
+    },
+    {
+      "title": "節の読み方",
+      "text": "when / if / because / although などで始まる節は、主節に時間・条件・理由・譲歩などの情報を加えます。"
+    },
+    {
+      "title": "音読の準備",
+      "text": "構造を理解してから意味のまとまりごとに読むと、英文を左から自然に処理しやすくなります。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "Many decisions are easier when we know what we are trying to become.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "Without a direction, even a large number of choices can leave us feeling uncertain.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "One useful question is not only 'What do I want to do?",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "' but also 'What kind of person do I want to be?",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "' The second question can guide everyday decisions.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "For example, a person who wants to become reliable may think differently about keeping promises.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "We do not need to know the complete answer immediately.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "Our goals and values can change as we gain experience.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 9,
+      "sentence": "Still, a clear direction can help us choose between opportunities that look equally attractive in the moment.",
+      "structure_items": [
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "Many decisions are easier / when we know / what we are trying to become. / Without a direction, / even a large number of choices / can leave us feeling uncertain.\n\nOne useful question is / not only 'What do I want to do?' / but also 'What kind of person do I want to be?' / The second question can guide / everyday decisions. / For example, / a person who wants to become reliable / may think differently / about keeping promises.\n\nWe do not need to know / the complete answer immediately. / Our goals and values can change / as we gain experience. / Still, / a clear direction can help us choose / between opportunities / that look equally attractive in the moment.",
+  "translation": "私たちがどうなろうとしているのかを知っていると、多くの決断はより簡単になります。方向性がなければ、たくさんの選択肢があっても、私たちは不安な気持ちのままになる可能性があります。一つの有用な質問は、「私は何をしたいのか？」だけでなく、「私はどんな人になりたいのか？」というものです。2つ目の質問は、日々の決断を導くことができます。例えば、信頼される人になりたい人は、約束を守ることについて違った考え方をするかもしれません。私たちはすぐに完全な答えを知る必要はありません。私たちの目標や価値観は、経験を積むにつれて変わる可能性があります。それでも、明確な方向性は、その瞬間には同じように魅力的に見える機会の間で選択するのを助けてくれます。",
+  "vocab": [
+    "direction: 方向性",
+    "uncertain: 確信が持てない",
+    "reliable: 信頼できる",
+    "promise: 約束",
+    "equally: 同じように"
+  ]
+}

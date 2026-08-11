@@ -1,0 +1,219 @@
+{
+  "id": "02",
+  "title": "Why Small Habits Matter",
+  "theme": "Change and consistency",
+  "english": "People often believe that meaningful change requires a big decision. In reality, many important changes begin with actions that are almost too small to notice.\n\nReading ten pages a day may not seem impressive. Neither does taking a short walk or learning five new words. Yet small actions are easier to repeat. When an action becomes part of a daily routine, we no longer need to make the same difficult decision every day.\n\nThe results may remain invisible for a while. This is why many people stop too early. But small habits work by adding one ordinary day to another. Over time, the difference can become much larger than we expected.",
+  "questions": [
+    {
+      "question": "Why are small habits easier to continue?",
+      "options": [
+        "Repeated small actions can create large changes over time.",
+        "They can become part of a routine and require less repeated decision-making.",
+        "Because results may not be visible immediately."
+      ],
+      "correctIndex": 1,
+      "answer": "They can become part of a routine and require less repeated decision-making.",
+      "explanation": "本文第2段落では、小さな行動は繰り返しやすく、毎日の習慣になると『毎日同じ難しい決断をしなくてよくなる』と説明されています。そのため、小さな習慣のほうが続けやすいのです。"
+    },
+    {
+      "question": "Why do people sometimes stop too early?",
+      "options": [
+        "Because results may not be visible immediately.",
+        "They can become part of a routine and require less repeated decision-making.",
+        "Repeated small actions can create large changes over time."
+      ],
+      "correctIndex": 0,
+      "answer": "Because results may not be visible immediately.",
+      "explanation": "本文第3段落の『結果はしばらく見えないかもしれない。だから多くの人は早くやめてしまう』が直接の根拠です。効果が出ていないように見えることが、継続をやめる理由になっています。"
+    },
+    {
+      "question": "What is the main message?",
+      "options": [
+        "Repeated small actions can create large changes over time.",
+        "They can become part of a routine and require less repeated decision-making.",
+        "Because results may not be visible immediately."
+      ],
+      "correctIndex": 0,
+      "answer": "Repeated small actions can create large changes over time.",
+      "explanation": "本文は、読書・散歩・単語学習のような小さな行動でも、毎日積み重ねれば大きな変化につながると述べています。したがって、中心的なメッセージは『小さな行動の継続が時間をかけて大きな変化を生む』です。"
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "role": "導入：テーマや問題を提示します。",
+      "text": "People often believe that meaningful change requires a big decision. In reality, many important changes begin with actions that are almost too small to notice."
+    },
+    {
+      "paragraph": 2,
+      "role": "展開：理由・具体例・仕組みを説明します。",
+      "text": "Reading ten pages a day may not seem impressive. Neither does taking a short walk or learning five new words. Yet small actions are easier to repeat. When an action becomes part of a daily routine, we no longer need to make the same difficult decision every day."
+    },
+    {
+      "paragraph": 3,
+      "role": "まとめ：結論や実践的な考えを示します。",
+      "text": "The results may remain invisible for a while. This is why many people stop too early. But small habits work by adding one ordinary day to another. Over time, the difference can become much larger than we expected."
+    }
+  ],
+  "grammar": [
+    {
+      "title": "that節",
+      "text": "that meaningful change requires a big decision は believe の目的語です。「意味のある変化には大きな決断が必要だ」という内容全体を表します。"
+    },
+    {
+      "title": "Neither does ... の倒置",
+      "text": "Neither does taking a short walk ... は「短い散歩もそうではない」という意味です。Neither が文頭に来るため、does が主語の前に出ます。"
+    },
+    {
+      "title": "when節",
+      "text": "When an action becomes part of a daily routine は「ある行動が毎日の習慣の一部になるとき」という副詞節で、後ろの we no longer need ... を修飾します。"
+    },
+    {
+      "title": "比較級 + than",
+      "text": "much larger than we expected は「私たちが予想したよりもずっと大きい」。much が比較級 larger を強め、than 以下が比較の基準です。"
+    }
+  ],
+  "sentences": [
+    {
+      "no": 1,
+      "sentence": "People often believe that meaningful change requires a big decision.",
+      "structure_items": [
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "sentence": "In reality, many important changes begin with actions that are almost too small to notice.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "that節",
+          "that 以下は「〜ということ」という内容を表す名詞節、または名詞を説明する関係詞節の可能性があります。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 3,
+      "sentence": "Reading ten pages a day may not seem impressive.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 4,
+      "sentence": "Neither does taking a short walk or learning five new words.",
+      "structure_items": [
+        [
+          "倒置",
+          "Neither does + S + V = 「Sもまた〜しない」。Neither が文頭に出るため助動詞が主語の前に出ます。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 5,
+      "sentence": "Yet small actions are easier to repeat.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 6,
+      "sentence": "When an action becomes part of a daily routine, we no longer need to make the same difficult decision every day.",
+      "structure_items": [
+        [
+          "副詞節",
+          "When 〜 は「〜するとき」。文頭の節が後ろの主節全体を修飾します。"
+        ],
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 7,
+      "sentence": "The results may remain invisible for a while.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 8,
+      "sentence": "This is why many people stop too early.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 9,
+      "sentence": "But small habits work by adding one ordinary day to another.",
+      "structure_items": [
+        [
+          "to不定詞",
+          "to + 動詞の原形は、目的・内容・名詞の説明などを表します。前後の語との関係で役割を判断します。"
+        ],
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    },
+    {
+      "no": 10,
+      "sentence": "Over time, the difference can become much larger than we expected.",
+      "structure_items": [
+        [
+          "読み方",
+          "まず中心となる S と V を探し、その後に O・C・前置詞句・副詞節などを付け足して意味を組み立てます。"
+        ]
+      ]
+    }
+  ],
+  "slash_reading": "People often believe / that meaningful change requires a big decision. / In reality, / many important changes begin / with actions that are almost too small to notice.\n\nReading ten pages a day / may not seem impressive. / Neither does taking a short walk / or learning five new words. / Yet / small actions are easier to repeat. / When an action becomes part of a daily routine, / we no longer need to make / the same difficult decision every day.\n\nThe results may remain invisible / for a while. / This is why / many people stop too early. / But small habits work / by adding one ordinary day to another. / Over time, / the difference can become / much larger than we expected.",
+  "translation": "有意義な変化には大きな決断が必要だと、多くの人は考えがちです。しかし実際には、重要な変化の多くは、気づかないほど些細な行動から始まります。1日に10ページ本を読むことは、大したことではないように思えるかもしれません。短い散歩をしたり、新しい単語を5つ覚えたりすることも同様です。それでも、小さな行動は繰り返しやすいものです。ある行動が日課になれば、毎日同じ難しい決断を下す必要はなくなります。その成果は、しばらくの間目に見えないかもしれません。だからこそ、多くの人が途中でやめてしまうのです。しかし、小さな習慣というものは、ありふれた一日を別の一日に積み重ねることで効果を発揮します。やがて、その違いは私たちが予想していたよりもはるかに大きなものになるのです。",
+  "vocab": [
+    "meaningful: 意味のある",
+    "routine: 日課、習慣",
+    "invisible: 目に見えない",
+    "repeat: 繰り返す",
+    "over time: 時間をかけて"
+  ]
+}
