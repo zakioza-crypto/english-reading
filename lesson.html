@@ -730,6 +730,152 @@
 
         </section>
 
+        <!-- =================================================
+             Audio
+        ================================================== -->
+
+        <section class="panel audio">
+
+          <h2>
+            Listen & Read Aloud
+          </h2>
+
+
+          <!--
+            iPhone / iPad用
+          -->
+
+          <div
+            id="ios-audio"
+            style="display: none;"
+          >
+
+            <h3>
+              🍎 iPhone / iPadで音読する
+            </h3>
+
+
+            <p>
+              iPhoneで設定した音声を使う場合は、
+              下のボタンを押してください。
+            </p>
+
+
+            <button
+              id="ios-speak"
+              type="button"
+            >
+              🍎 iPhoneの声で読む
+            </button>
+
+
+            <div
+              id="ios-guide"
+              class="ios-guide"
+              style="display: none;"
+            >
+
+              <p>
+                <strong>
+                  英文を選択しました。
+                </strong>
+              </p>
+
+
+              <p>
+                表示されたメニューから
+                <strong>「読み上げ」</strong>
+                をタップしてください。
+              </p>
+
+
+              <p>
+                iPhoneの
+                「設定 → アクセシビリティ →
+                読み上げコンテンツ → 声」
+                で設定した音声が使用されます。
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!--
+            PC / Androidなど通常のWeb Speech API
+          -->
+
+          <div
+            id="web-audio"
+          >
+
+            <p>
+              ブラウザの英語音声を利用します。
+            </p>
+
+
+            <label for="voice">
+              Voice
+            </label>
+
+
+            <select id="voice">
+
+              <option>
+                音声を読み込んでいます...
+              </option>
+
+            </select>
+
+
+            <div class="speed-control">
+
+              <label for="rate">
+                Speed
+              </label>
+
+
+              <input
+                id="rate"
+                type="range"
+                min="0.65"
+                max="1.15"
+                value="0.85"
+                step="0.05"
+              >
+
+
+              <span id="rv">
+                0.85
+              </span>
+
+            </div>
+
+
+            <div class="audio-buttons">
+
+              <button
+                id="play"
+                type="button"
+              >
+                ▶ 再生
+              </button>
+
+
+              <button
+                id="stop"
+                type="button"
+              >
+                ■ 停止
+              </button>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
 
         <!-- =================================================
              07 · Translation
