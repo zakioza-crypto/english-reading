@@ -68,6 +68,27 @@
     }
 
 
+    /*
+     * =========================================================
+     * iPhone / iPad 判定
+     * =========================================================
+     */
+
+    function isIOS() {
+
+      /*
+       * 通常のiPhone / iPad
+       */
+
+      if (
+        /iPhone|iPad|iPod/i.test(
+          navigator.userAgent
+        )
+      ) {
+        return true;
+      }
+
+
       /*
        * iPadOSではMacとして
        * userAgentを返す場合があるため、
@@ -317,9 +338,65 @@
             Listen & Read Aloud
           </h2>
 
-          <!-- 共通のWeb Speech API -->
 
-          <div id="web-audio-english"
+          <!--
+            iPhone / iPad用
+          -->
+
+          <div
+            id="ios-audio-english"
+            style="display: none;"
+          >
+
+            <h3>
+              🍎 iPhone / iPadで音読する
+            </h3>
+
+
+            <p>
+              iPhoneで設定した音声を使う場合は、
+              下のボタンを押してください。
+            </p>
+
+
+            <button
+              id="ios-speak-english"
+              type="button"
+            >
+              🍎 iPhoneの声で読む
+            </button>
+
+
+            <div
+              id="ios-guide-english"
+              class="ios-guide"
+              style="display: none;"
+            >
+
+              <p>
+                <strong>
+                  英文を選択しました。
+                </strong>
+              </p>
+
+
+              <p>
+                表示されたメニューから
+                <strong>「読み上げ」</strong>
+                をタップしてください。
+              </p>
+
+
+              <p>
+                iPhoneの
+                「設定 → アクセシビリティ →
+                読み上げコンテンツ → 声」
+                で設定した音声が使用されます。
+              </p>
+
+            </div>
+
+          </div>
 
 
           <!--
@@ -663,9 +740,65 @@
             Listen & Read Aloud · Slash Reading
           </h2>
 
-          <!-- 共通のWeb Speech API -->
 
-          <div id="web-audio-slash"
+          <!--
+            iPhone / iPad用
+          -->
+
+          <div
+            id="ios-audio-slash"
+            style="display: none;"
+          >
+
+            <h3>
+              🍎 iPhone / iPadで音読する
+            </h3>
+
+
+            <p>
+              iPhoneで設定した音声を使う場合は、
+              下のボタンを押してください。
+            </p>
+
+
+            <button
+              id="ios-speak-slash"
+              type="button"
+            >
+              🍎 iPhoneの声で読む
+            </button>
+
+
+            <div
+              id="ios-guide-slash"
+              class="ios-guide"
+              style="display: none;"
+            >
+
+              <p>
+                <strong>
+                  英文を選択しました。
+                </strong>
+              </p>
+
+
+              <p>
+                表示されたメニューから
+                <strong>「読み上げ」</strong>
+                をタップしてください。
+              </p>
+
+
+              <p>
+                iPhoneの
+                「設定 → アクセシビリティ →
+                読み上げコンテンツ → 声」
+                で設定した音声が使用されます。
+              </p>
+
+            </div>
+
+          </div>
 
 
           <!--
@@ -808,7 +941,24 @@
         </section>
 
       `;
-/*
+
+
+      /*
+       * iOSならiOS専用UIを表示
+       */
+
+      if (isIOS()) {
+
+        setupIOSReading(
+          x.english,
+          'english-text',
+          'english'
+        );
+
+      }
+
+
+      /*
        * Web Speech API
        */
 
@@ -816,12 +966,211 @@
         x.english,
         'english'
       );
-setupVoice(
+
+      if (isIOS()) {
+
+        setupIOSReading(
+          x.slash_reading,
+          'slash-text',
+          'slash'
+        );
+
+      }
+
+      setupVoice(
         x.slash_reading,
         'slash'
       );
 
     }
+
+
+    /*
+     * =========================================================
+     * iOS「選択して読み上げ」対応
+     * =========================================================
+     *
+     * 重要：
+     *
+     * JavaScriptからiOSの
+     * 「選択項目の読み上げ」を直接起動する
+     * 公開Web APIはありません。
+     *
+     * そのため、
+     *
+     * ① 英文を自動選択
+     * ② ユーザーに「読み上げ」をタップしてもらう
+     *
+     * という方式にします。
+     *
+     */
+
+
+    function setupIOSReading(text, targetId, suffix) {
+
+      const iosAudio =
+        document.querySelector(
+          `#ios-audio-${suffix}`
+        );
+
+
+      const webAudio =
+        document.querySelector(
+          `#web-audio-${suffix}`
+        );
+
+
+      const iosButton =
+        document.querySelector(
+          `#ios-speak-${suffix}`
+        );
+
+
+      const iosGuide =
+        document.querySelector(
+          `#ios-guide-${suffix}`
+        );
+
+
+      /*
+       * iOSではWeb Speech APIのUIを隠す
+       */
+
+      iosAudio.style.display =
+        'block';
+
+
+      webAudio.style.display =
+        'none';
+
+
+      /*
+       * iPhone用ボタン
+       */
+
+      iosButton.addEventListener(
+        'click',
+        () => {
+
+          selectText(targetId);
+
+
+          /*
+           * 説明を表示
+           */
+
+          iosGuide.style.display =
+            'block';
+
+
+          /*
+           * 選択された英文が
+           * 見える位置に移動
+           */
+
+          const targetText =
+            document.querySelector(
+              `#${targetId}`
+            );
+
+
+          targetText.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+          });
+
+
+        }
+      );
+
+    }
+
+
+    /*
+     * =========================================================
+     * 英文本文を自動選択
+     * =========================================================
+     */
+
+    function selectText(targetId) {
+
+      const targetText =
+        document.querySelector(
+          `#${targetId}`
+        );
+
+
+      if (!targetText) {
+        return;
+      }
+
+
+      /*
+       * Selection API
+       */
+
+      const selection =
+        window.getSelection();
+
+
+      selection.removeAllRanges();
+
+
+      const range =
+        document.createRange();
+
+
+      range.selectNodeContents(
+        targetText
+      );
+
+
+      selection.addRange(
+        range
+      );
+
+
+      /*
+       * 少し遅れてもう一度選択する。
+       *
+       * iOS Safariでは、
+       * スクロールなどによって
+       * 選択状態が消えるケースへの対策。
+       */
+
+      setTimeout(
+        () => {
+
+          const currentSelection =
+            window.getSelection();
+
+
+          if (
+            currentSelection &&
+            currentSelection.rangeCount === 0
+          ) {
+
+            const retryRange =
+              document.createRange();
+
+
+            retryRange.selectNodeContents(
+              targetText
+            );
+
+
+            currentSelection.addRange(
+              retryRange
+            );
+
+          }
+
+        },
+        100
+      );
+
+    }
+
 
     /*
      * =========================================================
@@ -978,12 +1327,23 @@ setupVoice(
      * Web Speech API
      * =========================================================
      *
-     * すべての対応ブラウザで共通の音声UIを使用する。
+     * iPhoneでは使用しない。
+     * PC / Androidなどで使用する。
      *
      */
 
     function setupVoice(text, suffix) {
-/*
+
+      /*
+       * iOSの場合は不要
+       */
+
+      if (isIOS()) {
+        return;
+      }
+
+
+      /*
        * Speech Synthesisが
        * 利用できない環境
        */
