@@ -10,10 +10,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
   <header>
     <div class="wrap topbar">
+
       <a class="brand" href="./">
         READ ALOUD LAB
       </a>
@@ -21,6 +23,7 @@
       <a href="./">
         ← Lessons
       </a>
+
     </div>
   </header>
 
@@ -45,7 +48,9 @@
 
 
     /*
-     * HTMLに安全に文字列を表示するためのエスケープ処理
+     * =========================================================
+     * HTMLエスケープ
+     * =========================================================
      */
 
     function esc(value) {
@@ -65,14 +70,48 @@
 
     /*
      * =========================================================
+     * iPhone / iPad 判定
+     * =========================================================
+     */
+
+    function isIOS() {
+
+      /*
+       * 通常のiPhone / iPad
+       */
+
+      if (
+        /iPhone|iPad|iPod/i.test(
+          navigator.userAgent
+        )
+      ) {
+        return true;
+      }
+
+
+      /*
+       * iPadOSではMacとして
+       * userAgentを返す場合があるため、
+       * タッチポイントも確認する。
+       */
+
+      if (
+        navigator.platform === 'MacIntel' &&
+        navigator.maxTouchPoints > 1
+      ) {
+        return true;
+      }
+
+
+      return false;
+
+    }
+
+
+    /*
+     * =========================================================
      * Lesson読み込み
      * =========================================================
-     *
-     * ① lessons.jsonを読み込む
-     * ② URLのidに対応するLessonを探す
-     * ③ lesson01.jsonなどのLesson本体を読み込む
-     * ④ render()で表示
-     *
      */
 
     async function loadLesson() {
@@ -84,13 +123,17 @@
          */
 
         const response =
-          await fetch('data/lessons.json');
+          await fetch(
+            'data/lessons.json'
+          );
 
 
         if (!response.ok) {
+
           throw new Error(
             'lessons.json could not be loaded.'
           );
+
         }
 
 
@@ -114,11 +157,15 @@
 
         if (!lessonInfo) {
 
-          document.querySelector('#app').innerHTML = `
+          document.querySelector(
+            '#app'
+          ).innerHTML = `
 
             <div class="panel">
 
-              <h2>Lesson not found</h2>
+              <h2>
+                Lesson not found
+              </h2>
 
               <p>
                 指定されたLessonが見つかりません。
@@ -140,10 +187,7 @@
 
 
         /*
-         * Lesson本体JSON
-         *
-         * 例：
-         * data/lessons/lesson01.json
+         * Lesson本体
          */
 
         const lessonResponse =
@@ -166,7 +210,7 @@
 
 
         /*
-         * Lessonを表示
+         * Lesson表示
          */
 
         render(lesson);
@@ -179,7 +223,9 @@
         console.error(error);
 
 
-        document.querySelector('#app').innerHTML = `
+        document.querySelector(
+          '#app'
+        ).innerHTML = `
 
           <div class="panel">
 
@@ -223,7 +269,7 @@
 
 
       /*
-       * ブラウザのタイトル
+       * タイトル
        */
 
       document.title =
@@ -259,14 +305,20 @@
             01 · English
           </h2>
 
-          <div class="english">
+
+          <div
+            class="english"
+            id="english-text"
+          >
 
             ${x.english
               .split('\\n\\n')
               .map(paragraph => `
+
                 <p>
                   ${esc(paragraph)}
                 </p>
+
               `)
               .join('')
             }
@@ -286,53 +338,136 @@
             Listen & Read Aloud
           </h2>
 
-          <p>
-            英語音声を選択して、英文を音読してみましょう。
-          </p>
+
+          <!--
+            iPhone / iPad用
+          -->
+
+          <div
+            id="ios-audio"
+            style="display: none;"
+          >
+
+            <h3>
+              🍎 iPhone / iPadで音読する
+            </h3>
 
 
-          <label for="voice">
-            Voice
-          </label>
-
-          <select id="voice">
-            <option>
-              音声を読み込んでいます...
-            </option>
-          </select>
+            <p>
+              iPhoneで設定した音声を使う場合は、
+              下のボタンを押してください。
+            </p>
 
 
-          <div class="speed-control">
+            <button
+              id="ios-speak"
+              type="button"
+            >
+              🍎 iPhoneの声で読む
+            </button>
 
-            <label for="rate">
-              Speed
-            </label>
 
-            <input
-              id="rate"
-              type="range"
-              min="0.65"
-              max="1.15"
-              value="0.85"
-              step="0.05"
+            <div
+              id="ios-guide"
+              class="ios-guide"
+              style="display: none;"
             >
 
-            <span id="rv">
-              0.85
-            </span>
+              <p>
+                <strong>
+                  英文を選択しました。
+                </strong>
+              </p>
+
+
+              <p>
+                表示されたメニューから
+                <strong>「読み上げ」</strong>
+                をタップしてください。
+              </p>
+
+
+              <p>
+                iPhoneの
+                「設定 → アクセシビリティ →
+                読み上げコンテンツ → 声」
+                で設定した音声が使用されます。
+              </p>
+
+            </div>
 
           </div>
 
 
-          <div class="audio-buttons">
+          <!--
+            PC / Androidなど通常のWeb Speech API
+          -->
 
-            <button id="play">
-              ▶ 再生
-            </button>
+          <div
+            id="web-audio"
+          >
 
-            <button id="stop">
-              ■ 停止
-            </button>
+            <p>
+              ブラウザの英語音声を利用します。
+            </p>
+
+
+            <label for="voice">
+              Voice
+            </label>
+
+
+            <select id="voice">
+
+              <option>
+                音声を読み込んでいます...
+              </option>
+
+            </select>
+
+
+            <div class="speed-control">
+
+              <label for="rate">
+                Speed
+              </label>
+
+
+              <input
+                id="rate"
+                type="range"
+                min="0.65"
+                max="1.15"
+                value="0.85"
+                step="0.05"
+              >
+
+
+              <span id="rv">
+                0.85
+              </span>
+
+            </div>
+
+
+            <div class="audio-buttons">
+
+              <button
+                id="play"
+                type="button"
+              >
+                ▶ 再生
+              </button>
+
+
+              <button
+                id="stop"
+                type="button"
+              >
+                ■ 停止
+              </button>
+
+            </div>
 
           </div>
 
@@ -349,62 +484,69 @@
             02 · Reading Questions
           </h2>
 
+
           <p class="lead">
-            選択肢を選ぶと、正解・不正解と解説が表示されます。
+            選択肢を選ぶと、
+            正解・不正解と解説が表示されます。
           </p>
 
 
           ${x.questions
-            .map((question, questionIndex) => `
+            .map(
+              (question, questionIndex) => `
 
-              <article
-                class="quiz"
-                id="quiz-${questionIndex}"
-              >
+                <article
+                  class="quiz"
+                  id="quiz-${questionIndex}"
+                >
 
-                <h3>
-                  Q${questionIndex + 1}.
-                  ${esc(question.question)}
-                </h3>
-
-
-                <div class="options">
-
-                  ${question.options
-                    .map((option, optionIndex) => `
-
-                      <button
-                        class="option"
-                        onclick="
-                          answer(
-                            ${questionIndex},
-                            ${optionIndex}
-                          )
-                        "
-                      >
-
-                        ${String.fromCharCode(
-                          65 + optionIndex
-                        )}.
-                        ${esc(option)}
-
-                      </button>
-
-                    `)
-                    .join('')
-                  }
-
-                </div>
+                  <h3>
+                    Q${questionIndex + 1}.
+                    ${esc(question.question)}
+                  </h3>
 
 
-                <div
-                  class="result"
-                  id="result-${questionIndex}"
-                ></div>
+                  <div class="options">
 
-              </article>
+                    ${question.options
+                      .map(
+                        (option, optionIndex) => `
 
-            `)
+                          <button
+                            class="option"
+                            type="button"
+                            onclick="
+                              answer(
+                                ${questionIndex},
+                                ${optionIndex}
+                              )
+                            "
+                          >
+
+                            ${String.fromCharCode(
+                              65 + optionIndex
+                            )}.
+                            ${esc(option)}
+
+                          </button>
+
+                        `
+                      )
+                      .join('')
+                    }
+
+                  </div>
+
+
+                  <div
+                    class="result"
+                    id="result-${questionIndex}"
+                  ></div>
+
+                </article>
+
+              `
+            )
             .join('')
           }
 
@@ -423,26 +565,31 @@
 
 
           ${x.paragraphs
-            .map(paragraph => `
+            .map(
+              paragraph => `
 
-              <article class="guide">
+                <article class="guide">
 
-                <h3>
-                  Paragraph ${paragraph.paragraph}
-                </h3>
+                  <h3>
+                    Paragraph
+                    ${paragraph.paragraph}
+                  </h3>
 
-                <p>
-                  <b>役割：</b>
-                  ${esc(paragraph.role)}
-                </p>
 
-                <p>
-                  ${esc(paragraph.text)}
-                </p>
+                  <p>
+                    <b>役割：</b>
+                    ${esc(paragraph.role)}
+                  </p>
 
-              </article>
 
-            `)
+                  <p>
+                    ${esc(paragraph.text)}
+                  </p>
+
+                </article>
+
+              `
+            )
             .join('')
           }
 
@@ -461,21 +608,24 @@
 
 
           ${x.grammar
-            .map(grammar => `
+            .map(
+              grammar => `
 
-              <article class="guide">
+                <article class="guide">
 
-                <h3>
-                  ${esc(grammar.title)}
-                </h3>
+                  <h3>
+                    ${esc(grammar.title)}
+                  </h3>
 
-                <p>
-                  ${esc(grammar.text)}
-                </p>
 
-              </article>
+                  <p>
+                    ${esc(grammar.text)}
+                  </p>
 
-            `)
+                </article>
+
+              `
+            )
             .join('')
           }
 
@@ -492,6 +642,7 @@
             05 · 1文ずつの構文解説
           </h2>
 
+
           <p class="lead">
             スラッシュはここでは使いません。
             文の構造を確認するためのページです。
@@ -499,47 +650,53 @@
 
 
           ${x.sentences
-            .map(sentence => `
+            .map(
+              sentence => `
 
-              <details class="sentence">
+                <details class="sentence">
 
-                <summary>
+                  <summary>
 
-                  <b>
-                    ${sentence.no}.
-                  </b>
+                    <b>
+                      ${sentence.no}.
+                    </b>
 
-                  ${esc(sentence.sentence)}
+                    ${esc(sentence.sentence)}
 
-                </summary>
+                  </summary>
 
 
-                <div class="inside">
+                  <div class="inside">
 
-                  ${sentence.structure_items
-                    .map(item => `
+                    ${sentence.structure_items
+                      .map(
+                        item => `
 
-                      <div class="note">
+                          <div class="note">
 
-                        <b>
-                          ${esc(item[0])}
-                        </b>
+                            <b>
+                              ${esc(item[0])}
+                            </b>
 
-                        <br>
 
-                        ${esc(item[1])}
+                            <br>
 
-                      </div>
 
-                    `)
-                    .join('')
-                  }
+                            ${esc(item[1])}
 
-                </div>
+                          </div>
 
-              </details>
+                        `
+                      )
+                      .join('')
+                    }
 
-            `)
+                  </div>
+
+                </details>
+
+              `
+            )
             .join('')
           }
 
@@ -555,6 +712,7 @@
           <h2>
             06 · 全文スラッシュリーディング
           </h2>
+
 
           <p class="lead">
             構文を確認したあと、
@@ -620,11 +778,15 @@
           <div class="vocab">
 
             ${x.vocab
-              .map(word => `
-                <div>
-                  ${esc(word)}
-                </div>
-              `)
+              .map(
+                word => `
+
+                  <div>
+                    ${esc(word)}
+                  </div>
+
+                `
+              )
               .join('')
             }
 
@@ -636,10 +798,212 @@
 
 
       /*
-       * 音声機能を初期化
+       * iOSならiOS専用UIを表示
        */
 
-      setupVoice(x.english);
+      if (isIOS()) {
+
+        setupIOSReading(
+          x.english
+        );
+
+      }
+
+
+      /*
+       * Web Speech API
+       */
+
+      setupVoice(
+        x.english
+      );
+
+    }
+
+
+    /*
+     * =========================================================
+     * iOS「選択して読み上げ」対応
+     * =========================================================
+     *
+     * 重要：
+     *
+     * JavaScriptからiOSの
+     * 「選択項目の読み上げ」を直接起動する
+     * 公開Web APIはありません。
+     *
+     * そのため、
+     *
+     * ① 英文を自動選択
+     * ② ユーザーに「読み上げ」をタップしてもらう
+     *
+     * という方式にします。
+     *
+     */
+
+
+    function setupIOSReading(text) {
+
+      const iosAudio =
+        document.querySelector(
+          '#ios-audio'
+        );
+
+
+      const webAudio =
+        document.querySelector(
+          '#web-audio'
+        );
+
+
+      const iosButton =
+        document.querySelector(
+          '#ios-speak'
+        );
+
+
+      const iosGuide =
+        document.querySelector(
+          '#ios-guide'
+        );
+
+
+      /*
+       * iOSではWeb Speech APIのUIを隠す
+       */
+
+      iosAudio.style.display =
+        'block';
+
+
+      webAudio.style.display =
+        'none';
+
+
+      /*
+       * iPhone用ボタン
+       */
+
+      iosButton.addEventListener(
+        'click',
+        () => {
+
+          selectEnglishText();
+
+
+          /*
+           * 説明を表示
+           */
+
+          iosGuide.style.display =
+            'block';
+
+
+          /*
+           * 選択された英文が
+           * 見える位置に移動
+           */
+
+          const englishText =
+            document.querySelector(
+              '#english-text'
+            );
+
+
+          englishText.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+          });
+
+
+        }
+      );
+
+    }
+
+
+    /*
+     * =========================================================
+     * 英文本文を自動選択
+     * =========================================================
+     */
+
+    function selectEnglishText() {
+
+      const englishText =
+        document.querySelector(
+          '#english-text'
+        );
+
+
+      if (!englishText) {
+        return;
+      }
+
+
+      /*
+       * Selection API
+       */
+
+      const selection =
+        window.getSelection();
+
+
+      selection.removeAllRanges();
+
+
+      const range =
+        document.createRange();
+
+
+      range.selectNodeContents(
+        englishText
+      );
+
+
+      selection.addRange(
+        range
+      );
+
+
+      /*
+       * 少し遅れてもう一度選択する。
+       *
+       * iOS Safariでは、
+       * スクロールなどによって
+       * 選択状態が消えるケースへの対策。
+       */
+
+      setTimeout(
+        () => {
+
+          const currentSelection =
+            window.getSelection();
+
+
+          if (
+            currentSelection &&
+            currentSelection.rangeCount === 0
+          ) {
+
+            const retryRange =
+              document.createRange();
+
+
+            retryRange.selectNodeContents(
+              englishText
+            );
+
+
+            currentSelection.addRange(
+              retryRange
+            );
+
+          }
+
+        },
+        100
+      );
 
     }
 
@@ -682,7 +1046,8 @@
         .forEach(
           (button, index) => {
 
-            button.disabled = true;
+            button.disabled =
+              true;
 
 
             /*
@@ -690,7 +1055,8 @@
              */
 
             if (
-              index === question.correctIndex
+              index ===
+              question.correctIndex
             ) {
 
               button.classList.add(
@@ -706,7 +1072,8 @@
 
             if (
               index === selectedIndex &&
-              index !== question.correctIndex
+              index !==
+              question.correctIndex
             ) {
 
               button.classList.add(
@@ -749,6 +1116,7 @@
           isCorrect
             ? ''
             : `
+
               <p>
 
                 <b>
@@ -756,7 +1124,8 @@
                 </b>
 
                 ${String.fromCharCode(
-                  65 + question.correctIndex
+                  65 +
+                  question.correctIndex
                 )}.
 
                 ${esc(
@@ -767,6 +1136,7 @@
                 )}
 
               </p>
+
             `
         }
 
@@ -790,49 +1160,81 @@
 
     /*
      * =========================================================
-     * 音声機能
+     * Web Speech API
      * =========================================================
      *
-     * 英語音声を品質順・おすすめ順に取得して選べるようにする
+     * iPhoneでは使用しない。
+     * PC / Androidなどで使用する。
      *
      */
 
     function setupVoice(text) {
 
       /*
-       * 現在利用可能なVoice
+       * iOSの場合は不要
        */
+
+      if (isIOS()) {
+        return;
+      }
+
+
+      /*
+       * Speech Synthesisが
+       * 利用できない環境
+       */
+
+      if (
+        !('speechSynthesis' in window)
+      ) {
+
+        return;
+
+      }
+
 
       let voices = [];
 
 
       const voiceSelect =
-        document.querySelector('#voice');
+        document.querySelector(
+          '#voice'
+        );
 
 
       const playButton =
-        document.querySelector('#play');
+        document.querySelector(
+          '#play'
+        );
 
 
       const stopButton =
-        document.querySelector('#stop');
+        document.querySelector(
+          '#stop'
+        );
 
 
       const rate =
-        document.querySelector('#rate');
+        document.querySelector(
+          '#rate'
+        );
 
 
       const rateValue =
-        document.querySelector('#rv');
+        document.querySelector(
+          '#rv'
+        );
 
 
       /*
        * ---------------------------------------------------------
-       * Voiceのスコアリング
+       * Voiceスコア
        * ---------------------------------------------------------
        */
 
-      function getVoiceScore(voice) {
+      function getVoiceScore(
+        voice
+      ) {
 
         let score = 0;
 
@@ -846,7 +1248,7 @@
 
 
         /*
-         * 高品質系キーワード
+         * 高品質系
          */
 
         if (
@@ -861,7 +1263,7 @@
 
 
         /*
-         * 英語圏の主要言語
+         * US / GB
          */
 
         if (
@@ -883,10 +1285,7 @@
 
 
         /*
-         * ローカル音声
-         *
-         * localServiceがtrueなら、
-         * 端末にインストールされた音声。
+         * Local
          */
 
         if (
@@ -899,7 +1298,7 @@
 
 
         /*
-         * デフォルト音声
+         * Default
          */
 
         if (
@@ -918,7 +1317,7 @@
 
       /*
        * ---------------------------------------------------------
-       * Voice一覧を読み込む
+       * Voice一覧
        * ---------------------------------------------------------
        */
 
@@ -927,16 +1326,6 @@
         const rawVoices =
           speechSynthesis.getVoices();
 
-
-        /*
-         * 英語音声のみ抽出
-         *
-         * en-US
-         * en-GB
-         * en-AU
-         * en-IN
-         * etc.
-         */
 
         let englishVoices =
           rawVoices.filter(
@@ -951,7 +1340,7 @@
 
 
         /*
-         * 品質・おすすめ順に並び替え
+         * おすすめ順
          */
 
         englishVoices.sort(
@@ -966,9 +1355,7 @@
 
 
         /*
-         * 英語音声が取得できなかった場合
-         *
-         * 念のため全Voiceへフォールバック
+         * フォールバック
          */
 
         if (
@@ -982,7 +1369,7 @@
 
 
         /*
-         * Voice一覧を画面に表示
+         * Voice一覧表示
          */
 
         voiceSelect.innerHTML =
@@ -993,11 +1380,6 @@
                 let displayName =
                   voice.name;
 
-
-                /*
-                 * 高品質系Voiceには
-                 * ⭐を付ける
-                 */
 
                 if (
                   /enhanced|premium|natural|siri/i.test(
@@ -1010,13 +1392,6 @@
 
                 }
 
-
-                /*
-                 * local / remoteを表示
-                 *
-                 * Voiceの違いを確認するための
-                 * 情報として表示
-                 */
 
                 if (
                   voice.localService
@@ -1036,7 +1411,9 @@
 
                 return `
 
-                  <option value="${index}">
+                  <option
+                    value="${index}"
+                  >
 
                     ${esc(displayName)}
                     (${esc(voice.lang)})
@@ -1049,48 +1426,28 @@
             )
             .join('');
 
-
-        /*
-         * Voiceが存在する場合、
-         * 最初のVoiceを選択
-         */
-
-        if (
-          voices.length > 0
-        ) {
-
-          voiceSelect.value = '0';
-
-        }
-
       }
 
 
       /*
-       * Voice読み込み
+       * 初回読み込み
        */
 
       loadVoices();
 
 
       /*
-       * iPhone / Safariなどでは
-       * 非同期でVoiceが追加される場合がある。
+       * iPhoneなどではVoiceが
+       * 非同期で取得される場合がある。
        */
 
-      if (
-        'onvoiceschanged' in speechSynthesis
-      ) {
-
-        speechSynthesis.onvoiceschanged =
-          loadVoices;
-
-      }
+      speechSynthesis.onvoiceschanged =
+        loadVoices;
 
 
       /*
        * ---------------------------------------------------------
-       * 再生速度
+       * 速度
        * ---------------------------------------------------------
        */
 
@@ -1115,16 +1472,11 @@
         'click',
         () => {
 
-          /*
-           * 現在の読み上げを停止
-           */
-
           speechSynthesis.cancel();
 
 
           /*
-           * Voice一覧がまだ取得できていない場合、
-           * もう一度取得する
+           * Voiceがまだ取得できていない場合
            */
 
           if (
@@ -1136,19 +1488,11 @@
           }
 
 
-          /*
-           * 読み上げオブジェクト
-           */
-
           const utterance =
             new SpeechSynthesisUtterance(
               text
             );
 
-
-          /*
-           * 選択されたVoice
-           */
 
           const selectedVoice =
             voices[
@@ -1162,17 +1506,9 @@
             selectedVoice
           ) {
 
-            /*
-             * 選択されたVoiceを指定
-             */
-
             utterance.voice =
               selectedVoice;
 
-
-            /*
-             * Voiceの言語コードを使用
-             */
 
             utterance.lang =
               selectedVoice.lang;
@@ -1180,19 +1516,11 @@
           }
           else {
 
-            /*
-             * フォールバック
-             */
-
             utterance.lang =
               'en-US';
 
           }
 
-
-          /*
-           * 再生速度
-           */
 
           utterance.rate =
             Number(
@@ -1200,16 +1528,9 @@
             );
 
 
-          /*
-           * 英語音声として読み上げ
-           */
+          utterance.pitch =
+            1.0;
 
-          utterance.pitch = 1.0;
-
-
-          /*
-           * 読み上げ開始
-           */
 
           speechSynthesis.speak(
             utterance
@@ -1239,7 +1560,7 @@
 
     /*
      * =========================================================
-     * Lesson読み込み開始
+     * Lesson開始
      * =========================================================
      */
 
