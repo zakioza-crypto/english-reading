@@ -344,7 +344,7 @@
           -->
 
           <div
-            id="ios-audio"
+            id="ios-audio-english"
             style="display: none;"
           >
 
@@ -360,7 +360,7 @@
 
 
             <button
-              id="ios-speak"
+              id="ios-speak-english"
               type="button"
             >
               🍎 iPhoneの声で読む
@@ -368,7 +368,7 @@
 
 
             <div
-              id="ios-guide"
+              id="ios-guide-english"
               class="ios-guide"
               style="display: none;"
             >
@@ -404,7 +404,7 @@
           -->
 
           <div
-            id="web-audio"
+            id="web-audio-english"
           >
 
             <p>
@@ -412,12 +412,12 @@
             </p>
 
 
-            <label for="voice">
+            <label for="voice-english">
               Voice
             </label>
 
 
-            <select id="voice">
+            <select id="voice-english">
 
               <option>
                 音声を読み込んでいます...
@@ -428,13 +428,13 @@
 
             <div class="speed-control">
 
-              <label for="rate">
+              <label for="rate-english">
                 Speed
               </label>
 
 
               <input
-                id="rate"
+                id="rate-english"
                 type="range"
                 min="0.65"
                 max="1.15"
@@ -443,7 +443,7 @@
               >
 
 
-              <span id="rv">
+              <span id="rv-english">
                 0.85
               </span>
 
@@ -453,7 +453,7 @@
             <div class="audio-buttons">
 
               <button
-                id="play"
+                id="play-english"
                 type="button"
               >
                 ▶ 再生
@@ -461,7 +461,7 @@
 
 
               <button
-                id="stop"
+                id="stop-english"
                 type="button"
               >
                 ■ 停止
@@ -737,7 +737,7 @@
         <section class="panel audio">
 
           <h2>
-            Listen & Read Aloud
+            Listen & Read Aloud · Slash Reading
           </h2>
 
 
@@ -746,7 +746,7 @@
           -->
 
           <div
-            id="ios-audio"
+            id="ios-audio-slash"
             style="display: none;"
           >
 
@@ -762,7 +762,7 @@
 
 
             <button
-              id="ios-speak"
+              id="ios-speak-slash"
               type="button"
             >
               🍎 iPhoneの声で読む
@@ -770,7 +770,7 @@
 
 
             <div
-              id="ios-guide"
+              id="ios-guide-slash"
               class="ios-guide"
               style="display: none;"
             >
@@ -806,7 +806,7 @@
           -->
 
           <div
-            id="web-audio"
+            id="web-audio-slash"
           >
 
             <p>
@@ -814,12 +814,12 @@
             </p>
 
 
-            <label for="voice">
+            <label for="voice-slash">
               Voice
             </label>
 
 
-            <select id="voice">
+            <select id="voice-slash">
 
               <option>
                 音声を読み込んでいます...
@@ -830,13 +830,13 @@
 
             <div class="speed-control">
 
-              <label for="rate">
+              <label for="rate-slash">
                 Speed
               </label>
 
 
               <input
-                id="rate"
+                id="rate-slash"
                 type="range"
                 min="0.65"
                 max="1.15"
@@ -845,7 +845,7 @@
               >
 
 
-              <span id="rv">
+              <span id="rv-slash">
                 0.85
               </span>
 
@@ -855,7 +855,7 @@
             <div class="audio-buttons">
 
               <button
-                id="play"
+                id="play-slash"
                 type="button"
               >
                 ▶ 再生
@@ -863,7 +863,7 @@
 
 
               <button
-                id="stop"
+                id="stop-slash"
                 type="button"
               >
                 ■ 停止
@@ -950,7 +950,9 @@
       if (isIOS()) {
 
         setupIOSReading(
-          x.english
+          x.english,
+          'english-text',
+          'english'
         );
 
       }
@@ -961,7 +963,23 @@
        */
 
       setupVoice(
-        x.english
+        x.english,
+        'english'
+      );
+
+      if (isIOS()) {
+
+        setupIOSReading(
+          x.slash_reading,
+          'slash-text',
+          'slash'
+        );
+
+      }
+
+      setupVoice(
+        x.slash_reading,
+        'slash'
       );
 
     }
@@ -988,29 +1006,29 @@
      */
 
 
-    function setupIOSReading(text) {
+    function setupIOSReading(text, targetId, suffix) {
 
       const iosAudio =
         document.querySelector(
-          '#ios-audio'
+          `#ios-audio-${suffix}`
         );
 
 
       const webAudio =
         document.querySelector(
-          '#web-audio'
+          `#web-audio-${suffix}`
         );
 
 
       const iosButton =
         document.querySelector(
-          '#ios-speak'
+          `#ios-speak-${suffix}`
         );
 
 
       const iosGuide =
         document.querySelector(
-          '#ios-guide'
+          `#ios-guide-${suffix}`
         );
 
 
@@ -1034,7 +1052,7 @@
         'click',
         () => {
 
-          selectEnglishText();
+          selectText(targetId);
 
 
           /*
@@ -1050,13 +1068,13 @@
            * 見える位置に移動
            */
 
-          const englishText =
+          const targetText =
             document.querySelector(
-              '#english-text'
+              `#${targetId}`
             );
 
 
-          englishText.scrollIntoView({
+          targetText.scrollIntoView({
             behavior: 'smooth',
             block: 'center'
           });
@@ -1074,15 +1092,15 @@
      * =========================================================
      */
 
-    function selectEnglishText() {
+    function selectText(targetId) {
 
-      const englishText =
+      const targetText =
         document.querySelector(
-          '#english-text'
+          `#${targetId}`
         );
 
 
-      if (!englishText) {
+      if (!targetText) {
         return;
       }
 
@@ -1103,7 +1121,7 @@
 
 
       range.selectNodeContents(
-        englishText
+        targetText
       );
 
 
@@ -1137,7 +1155,7 @@
 
 
             retryRange.selectNodeContents(
-              englishText
+              targetText
             );
 
 
@@ -1314,7 +1332,7 @@
      *
      */
 
-    function setupVoice(text) {
+    function setupVoice(text, suffix) {
 
       /*
        * iOSの場合は不要
@@ -1344,31 +1362,31 @@
 
       const voiceSelect =
         document.querySelector(
-          '#voice'
+          `#voice-${suffix}`
         );
 
 
       const playButton =
         document.querySelector(
-          '#play'
+          `#play-${suffix}`
         );
 
 
       const stopButton =
         document.querySelector(
-          '#stop'
+          `#stop-${suffix}`
         );
 
 
       const rate =
         document.querySelector(
-          '#rate'
+          `#rate-${suffix}`
         );
 
 
       const rateValue =
         document.querySelector(
-          '#rv'
+          `#rv-${suffix}`
         );
 
 
