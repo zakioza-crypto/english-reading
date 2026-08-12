@@ -4,3 +4,46 @@
   max-width: 100%;
   box-sizing: border-box;
 }
+
+/* 本文のそばで音声を操作できる読書レイアウト */
+.reading-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+  align-items: start;
+  gap: 18px;
+  margin: 18px 0;
+}
+
+.reading-layout .panel {
+  margin: 0;
+}
+
+.reading-audio-panel {
+  position: sticky;
+  top: 16px;
+}
+
+.reading-audio-panel h2 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.reading-audio-panel .voice-select {
+  width: 100%;
+}
+
+.reading-audio-panel .audio-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .reading-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .reading-audio-panel {
+    top: 8px;
+    order: -1;
+  }
+}
