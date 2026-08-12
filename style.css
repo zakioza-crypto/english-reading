@@ -119,7 +119,54 @@
   }
 
   .reading-audio-panel {
+    position: static;
+    display: contents;
+  }
+
+  .reading-audio-panel > #web-audio-english,
+  .reading-audio-panel > #web-audio-slash {
+    display: contents;
+  }
+
+  .reading-layout .audio-quick-controls {
+    position: sticky;
+    z-index: 2;
     top: 8px;
-    order: -1;
+    order: -3;
+    padding: 12px 14px;
+    border: 1px solid #e2e6e2;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 6px 18px #1a2b1a18;
+  }
+
+  .audio-quick-controls label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: .85rem;
+  }
+
+  .audio-quick-controls .audio-buttons {
+    margin-top: 8px;
+  }
+
+  .reading-text-panel {
+    order: -2;
+  }
+
+  .reading-layout .audio-static,
+  .reading-layout .audio-secondary {
+    padding: 18px;
+    border: 1px solid #e2e6e2;
+    border-radius: 16px;
+    background: #fff;
+  }
+
+  .reading-layout .audio-static {
+    order: 0;
+  }
+
+  .reading-layout .audio-secondary {
+    order: 1;
   }
 }
