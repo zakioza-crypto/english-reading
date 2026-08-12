@@ -347,17 +347,18 @@
 
           <div
             id="ios-audio-english"
+            class="ios-system-reading"
             style="display: none;"
           >
 
             <h3>
-              🍎 iPhone / iPadで音読する
+              ✨ iPhoneの高品質な声で聞く
             </h3>
 
 
             <p>
-              iPhoneで設定した音声を使う場合は、
-              下のボタンを押してください。
+              iPhoneの「画面の読み上げ」を使います。
+              端末で設定した声と速度で再生できます。
             </p>
 
 
@@ -365,35 +366,28 @@
               id="ios-speak-english"
               type="button"
             >
-              🍎 iPhoneの声で読む
+              高音質モードを開く
             </button>
 
 
             <div
               id="ios-guide-english"
               class="ios-guide"
-              style="display: none;"
             >
 
               <p>
                 <strong>
-                  英文を選択しました。
+                  初回のみ：
                 </strong>
+                「設定 → アクセシビリティ → 読み上げコンテンツ」から
+                「画面の読み上げ」をオンにしてください。
               </p>
 
 
               <p>
-                表示されたメニューから
-                <strong>「読み上げ」</strong>
-                をタップしてください。
-              </p>
-
-
-              <p>
-                iPhoneの
-                「設定 → アクセシビリティ →
-                読み上げコンテンツ → 声」
-                で設定した音声が使用されます。
+                高音質モードを開いたら、
+                <strong>画面上端から二本指で下へスワイプ</strong>
+                して読み上げを開始します。
               </p>
 
             </div>
@@ -410,7 +404,7 @@
           >
 
             <p>
-              ブラウザの英語音声を利用します。
+              今すぐ再生したいときは、ブラウザの音声を利用できます。
             </p>
 
 
@@ -458,7 +452,7 @@
                 id="play-english"
                 type="button"
               >
-                ▶ 再生
+                ▶ 今すぐ再生
               </button>
 
 
@@ -753,17 +747,18 @@
 
           <div
             id="ios-audio-slash"
+            class="ios-system-reading"
             style="display: none;"
           >
 
             <h3>
-              🍎 iPhone / iPadで音読する
+              ✨ iPhoneの高品質な声で聞く
             </h3>
 
 
             <p>
-              iPhoneで設定した音声を使う場合は、
-              下のボタンを押してください。
+              iPhoneの「画面の読み上げ」を使います。
+              端末で設定した声と速度で再生できます。
             </p>
 
 
@@ -771,35 +766,28 @@
               id="ios-speak-slash"
               type="button"
             >
-              🍎 iPhoneの声で読む
+              高音質モードを開く
             </button>
 
 
             <div
               id="ios-guide-slash"
               class="ios-guide"
-              style="display: none;"
             >
 
               <p>
                 <strong>
-                  英文を選択しました。
+                  初回のみ：
                 </strong>
+                「設定 → アクセシビリティ → 読み上げコンテンツ」から
+                「画面の読み上げ」をオンにしてください。
               </p>
 
 
               <p>
-                表示されたメニューから
-                <strong>「読み上げ」</strong>
-                をタップしてください。
-              </p>
-
-
-              <p>
-                iPhoneの
-                「設定 → アクセシビリティ →
-                読み上げコンテンツ → 声」
-                で設定した音声が使用されます。
+                高音質モードを開いたら、
+                <strong>画面上端から二本指で下へスワイプ</strong>
+                して読み上げを開始します。
               </p>
 
             </div>
@@ -816,7 +804,7 @@
           >
 
             <p>
-              ブラウザの英語音声を利用します。
+              今すぐ再生したいときは、ブラウザの音声を利用できます。
             </p>
 
 
@@ -864,7 +852,7 @@
                 id="play-slash"
                 type="button"
               >
-                ▶ 再生
+                ▶ 今すぐ再生
               </button>
 
 
@@ -948,7 +936,53 @@
 
         </section>
 
+
+        <section
+          id="ios-reading-mode"
+          class="ios-reading-mode"
+          aria-label="高音質読み上げモード"
+          hidden
+        >
+
+          <div class="ios-reading-toolbar">
+
+            <button
+              id="ios-reading-mode-close"
+              type="button"
+            >
+              × 閉じる
+            </button>
+
+          </div>
+
+
+          <div class="ios-reading-sheet">
+
+            <p class="ios-reading-instruction">
+              画面上端から二本指で下へスワイプすると、
+              iPhoneで設定した高品質な声で英文を読めます。
+            </p>
+
+
+            <div id="ios-reading-content"></div>
+
+          </div>
+
+        </section>
+
       `;
+
+
+      const iosReadingModeClose =
+        document.querySelector(
+          '#ios-reading-mode-close'
+        );
+
+
+      iosReadingModeClose.addEventListener(
+        'click',
+        closeIOSReadingMode
+      );
 
 
       /*
@@ -1022,70 +1056,21 @@
         );
 
 
-      const webAudio =
-        document.querySelector(
-          `#web-audio-${suffix}`
-        );
-
-
       const iosButton =
         document.querySelector(
           `#ios-speak-${suffix}`
         );
 
 
-      const iosGuide =
-        document.querySelector(
-          `#ios-guide-${suffix}`
-        );
-
-
-      /*
-       * iOSではWeb Speech APIのUIを隠す
-       */
-
       iosAudio.style.display =
         'block';
 
-
-      webAudio.style.display =
-        'none';
-
-
-      /*
-       * iPhone用ボタン
-       */
 
       iosButton.addEventListener(
         'click',
         () => {
 
-          selectText(targetId);
-
-
-          /*
-           * 説明を表示
-           */
-
-          iosGuide.style.display =
-            'block';
-
-
-          /*
-           * 選択された英文が
-           * 見える位置に移動
-           */
-
-          const targetText =
-            document.querySelector(
-              `#${targetId}`
-            );
-
-
-          targetText.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center'
-          });
+          openIOSReadingMode(targetId);
 
 
         }
@@ -1094,88 +1079,34 @@
     }
 
 
-    /*
-     * =========================================================
-     * 英文本文を自動選択
-     * =========================================================
-     */
+    function openIOSReadingMode(targetId) {
 
-    function selectText(targetId) {
+      const targetText = document.querySelector(`#${targetId}`);
+      const readingMode = document.querySelector('#ios-reading-mode');
+      const readingContent = document.querySelector('#ios-reading-content');
 
-      const targetText =
-        document.querySelector(
-          `#${targetId}`
-        );
-
-
-      if (!targetText) {
+      if (!targetText || !readingMode || !readingContent) {
         return;
       }
 
+      readingContent.innerHTML = targetText.innerHTML;
+      readingMode.hidden = false;
+      document.body.classList.add('ios-reading-mode-open');
+      readingMode.scrollTop = 0;
 
-      /*
-       * Selection API
-       */
-
-      const selection =
-        window.getSelection();
-
-
-      selection.removeAllRanges();
+    }
 
 
-      const range =
-        document.createRange();
+    function closeIOSReadingMode() {
 
+      const readingMode = document.querySelector('#ios-reading-mode');
 
-      range.selectNodeContents(
-        targetText
-      );
+      if (!readingMode) {
+        return;
+      }
 
-
-      selection.addRange(
-        range
-      );
-
-
-      /*
-       * 少し遅れてもう一度選択する。
-       *
-       * iOS Safariでは、
-       * スクロールなどによって
-       * 選択状態が消えるケースへの対策。
-       */
-
-      setTimeout(
-        () => {
-
-          const currentSelection =
-            window.getSelection();
-
-
-          if (
-            currentSelection &&
-            currentSelection.rangeCount === 0
-          ) {
-
-            const retryRange =
-              document.createRange();
-
-
-            retryRange.selectNodeContents(
-              targetText
-            );
-
-
-            currentSelection.addRange(
-              retryRange
-            );
-
-          }
-
-        },
-        100
-      );
+      readingMode.hidden = true;
+      document.body.classList.remove('ios-reading-mode-open');
 
     }
 
@@ -1341,15 +1272,6 @@
      */
 
     function setupVoice(text, suffix) {
-
-      /*
-       * iOSの場合は不要
-       */
-
-      if (isIOS()) {
-        return;
-      }
-
 
       /*
        * Speech Synthesisが
@@ -1613,8 +1535,10 @@
        * 非同期で取得される場合がある。
        */
 
-      speechSynthesis.onvoiceschanged =
-        loadVoices;
+      speechSynthesis.addEventListener(
+        'voiceschanged',
+        loadVoices
+      );
 
 
       /*

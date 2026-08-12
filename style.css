@@ -37,6 +37,82 @@
   flex-wrap: wrap;
 }
 
+.ios-system-reading {
+  margin-bottom: 20px;
+  padding: 14px;
+  border: 1px solid #b9d3bd;
+  border-radius: 10px;
+  background: #eef8ef;
+}
+
+.ios-system-reading h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.ios-system-reading p {
+  margin: 8px 0;
+  font-size: .9rem;
+  line-height: 1.65;
+}
+
+.ios-guide {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #cfe1d1;
+}
+
+.ios-reading-mode[hidden] {
+  display: none;
+}
+
+.ios-reading-mode {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  overflow-y: auto;
+  background: #f6f7f5;
+}
+
+.ios-reading-mode-open {
+  overflow: hidden;
+}
+
+.ios-reading-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 12px 18px;
+  text-align: right;
+  border-bottom: 1px solid #e2e6e2;
+  background: #f6f7f5;
+}
+
+.ios-reading-sheet {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 18px 22px 56px;
+}
+
+.ios-reading-instruction {
+  margin: 0 0 22px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #eef5ef;
+  font-size: .95rem;
+}
+
+#ios-reading-content {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+#ios-reading-content .slash-text {
+  padding: 0;
+  background: transparent;
+}
+
 @media (max-width: 720px) {
   .reading-layout {
     grid-template-columns: minmax(0, 1fr);
